@@ -1,13 +1,12 @@
 # Manual Poster Annotation Ground Truth Dataset
 
-This directory contains manually annotated scientific posters that serve as ground truth for machine-actionable poster metadata extraction. Each poster is annotated according to the [posters.science JSON Schema](https://github.com/fairdataihub/posters-science-json-schema).
+This directory contains manually annotated scientific posters that serve as ground truth for machine-actionable poster metadata extraction.
 
 ## Purpose
 
 These annotations provide:
 - **Training data** for automated poster extraction models
 - **Validation benchmarks** for AI extraction quality assessment
-- **Reference implementations** of the posters.science metadata schema
 - **Examples** of complete, machine-actionable poster metadata
 
 ## Directory Structure
@@ -107,16 +106,11 @@ Author Name¹, Co-Author Name²
 [Formatted citations...]
 ```
 
-**Use cases:**
-- Human review and verification
-- Full-text search indexing
-- Training data for section classification models
-
 ---
 
 ### 3. Full Metadata JSON (`{poster_id}.json`)
 
-Complete poster metadata following the posters.science schema, which extends the [DataCite Metadata Schema](https://datacite.org/). This file contains all available metadata including:
+Complete poster metadata including all available information:
 
 - **Identifiers**: DOIs, poster numbers, file names
 - **Creators**: Author names, ORCIDs, affiliations with ROR identifiers
@@ -135,11 +129,6 @@ Complete poster metadata following the posters.science schema, which extends the
 - **Poster Content**: Structured section content
 - **Image/Table Captions**: All figure and table captions
 - **Domain**: Research field classification
-
-**Schema compliance:**
-- `$schema`: `https://posters.science/schema/v0.1/poster_schema.json`
-- Compatible with DataCite 4.6 for DOI registration
-- Includes poster-specific extensions (posterContent, conference, imageCaption, tableCaption)
 
 ---
 
@@ -165,81 +154,6 @@ A subset of the full JSON containing only the poster-derived content. This file 
 
 ---
 
-## Schema Relationship
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    posters.science JSON Schema                   │
-│        https://github.com/fairdataihub/posters-science-json-schema         │
-└─────────────────────────────────────────────────────────────────┘
-                                │
-                                │ extends
-                                ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                    DataCite Metadata Schema 4.6                  │
-│              (Mandatory + Recommended + Optional)                │
-└─────────────────────────────────────────────────────────────────┘
-                                │
-                                │ + poster-specific fields
-                                ▼
-┌─────────────────────────────────────────────────────────────────┐
-│  Poster Extensions:                                              │
-│  • posterContent (sections array)                                │
-│  • conference (conference metadata)                              │
-│  • imageCaption / tableCaption                                   │
-│  • domain / species                                              │
-└─────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## Workflow: From Poster to Machine-Actionable Metadata
-
-```
-┌──────────────────┐
-│  Original Poster │  (.pdf, .jpg, .png, etc.)
-│     Upload       │
-└────────┬─────────┘
-         │
-         ▼
-┌──────────────────┐
-│   OCR / Vision   │  Multimodal AI extraction
-│    Extraction    │
-└────────┬─────────┘
-         │
-         ├──────────────────────────────────────┐
-         ▼                                      ▼
-┌──────────────────┐                  ┌──────────────────┐
-│   Raw Markdown   │                  │   Sub-JSON       │
-│   (_raw.md)      │                  │   (_sub-json)    │
-│                  │                  │                  │
-│ Human-readable   │                  │ AI-extracted     │
-│ structured text  │                  │ poster content   │
-└────────┬─────────┘                  └────────┬─────────┘
-         │                                      │
-         └──────────────┬───────────────────────┘
-                        │
-                        ▼
-         ┌──────────────────────────┐
-         │   Metadata Enrichment    │
-         │   • ORCID lookup         │
-         │   • ROR affiliation IDs  │
-         │   • DOI resolution       │
-         │   • Funder registry      │
-         └────────────┬─────────────┘
-                      │
-                      ▼
-         ┌──────────────────────────┐
-         │     Full JSON            │
-         │     (.json)              │
-         │                          │
-         │  Complete machine-       │
-         │  actionable metadata     │
-         └──────────────────────────┘
-```
-
----
-
 ## Annotated Posters
 
 | ID | Domain | Conference | Year |
@@ -257,36 +171,6 @@ A subset of the full JSON containing only the poster-derived content. This file 
 
 ---
 
-## Usage
-
-### Validating JSON against Schema
-
-```bash
-# Using ajv-cli
-npm install -g ajv-cli
-ajv validate -s ../posters-science-json-schema/poster_schema.json -d 42/42.json
-```
-
-### Python Example
-
-```python
-import json
-from jsonschema import validate
-
-# Load schema
-with open('../poster_schema_manual_annotation.json') as f:
-    schema = json.load(f)
-
-# Load and validate annotation
-with open('42/42.json') as f:
-    poster = json.load(f)
-
-validate(instance=poster, schema=schema)
-print("Valid!")
-```
-
----
-
 ## Contributing
 
 To add a new manual annotation:
@@ -296,20 +180,9 @@ To add a new manual annotation:
 3. Create the structured markdown: `{poster_id}_raw.md`
 4. Create the sub-JSON with poster content: `{poster_id}_sub-json.json`
 5. Create the full JSON with complete metadata: `{poster_id}.json`
-6. Validate against the schema before committing
-
----
-
-## Related Resources
-
-- **Schema Repository**: [github.com/fairdataihub/posters-science-json-schema](https://github.com/fairdataihub/posters-science-json-schema)
-- **DataCite Schema**: [schema.datacite.org](https://schema.datacite.org)
-- **ORCID**: [orcid.org](https://orcid.org)
-- **ROR (Research Organization Registry)**: [ror.org](https://ror.org)
 
 ---
 
 ## License
 
 These annotations are provided for research and development purposes. Individual poster content remains subject to the original authors' rights and conference publication policies.
-
