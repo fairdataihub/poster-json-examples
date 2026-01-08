@@ -1,9 +1,8 @@
 # CarD-T: LLM Automated Literature Review for the Nomination & Analysis of Potential Human Carcinogens
 
-Jamey O'Neill¹⁻², Ludmil Alexandrov², Parag Katira¹
+Jamey O'Neill¹˒², Ludmil Alexandrov², Parag Katira¹
 
-¹Mechanical Engineering Department, San Diego State University  
-²Department of Bioengineering, University of California San Diego
+¹Mechanical Engineering Department, San Diego State University; ²Department of Bioengineering, University of California San Diego
 
 **Poster ID:** #LB108
 
@@ -11,8 +10,7 @@ Jamey O'Neill¹⁻², Ludmil Alexandrov², Parag Katira¹
 
 Jamey ONeill, MSc, PhD Candidate; Bioengineering UCSD-SDSU JDP  
 Computational Active Matter Mechanics Lab; SDSU Research Foundation  
-Mechanical Engineering Department, San Diego State University  
-5500 Campanile Dr., E-323N San Diego, CA 92182-1323  
+Mechanical Engineering Department, San Diego State University 5500 Campanile Dr., E-323N San Diego, CA 92182-1323  
 joneilliii@sdsu.edu  
 619-594-2032
 
@@ -28,12 +26,6 @@ Only 479 carcinogenic entities are officially recognized as carcinogens across r
 
 CarD-T uses a Named Entity Recognition (NER) ELECTRA LLM and is trained on carcinogen-specific contexts from PubMed literature. Novelty of an NER approach over other LLM methods lies in the ability index identified carcinogens to source documents, circumventing hallucinations. Training data consisted of abstracts referencing IARC Group 1 and Group 2A carcinogens. Additionally, we implemented a novel AI-hybridized Context-Derived TF-IDF approach for noise reduction and synonym consolidation. This allowed us to convert implicating publications into evidence counts.
 
-### Workflow Components:
-1. **Biomedical Literature** → Time series accumulation
-2. **CarD-T framework** identifies new potential carcinogenic Entity (or E₁)
-3. **Carcinogen literature accumulating** → Likelihood E₁ is a carcinogen
-4. **Time series analysis** → μ₁, μ₂, μ₃, μ₄ distributions
-
 ## Results
 
 ### Key Findings
@@ -48,50 +40,19 @@ CarD-T uses a Named Entity Recognition (NER) ELECTRA LLM and is trained on carci
 
 ### Figure 2. CarD-T Finds New Carcinogens ~20% higher likelihood than GPT-4
 
-**Performance Comparison:**
-
-| Model | Precision | Recall | F1 |
-|-------|-----------|--------|-----|
-| CarD-T | 0.89 | 0.85 | 0.87 |
-| GPT-4 | 0.90 | 0.76 | 0.82 |
-
 • CarD-T achieves higher recall (0.85 vs. 0.76) at comparable precision (0.89 vs. 0.90).
 
 ### Figure 3. Evidence Count Classification for Examples of Disputed Potential Carcinogens
-
-**Examples shown:**
-- Bright Orange: Entity demonstrating high evidence of Non-Carcinogenicity (IARC)
-- Light Blue: Entity demonstrating high evidence of Carcinogenicity (not in IARC)
-- Multiple bars showing: B1-Evidence, B2-Dispute, B3-Carc, B3'-No Carc
-
-**Case studies displayed:**
-- Single Oxygen
-- Schizophrenia
-- Curcumin
-- Hemolysis
-- nM-1395
 
 • Bayesian Negative Binomial Regression Model distinguishes between established and emerging carcinogens in probability scoring of likelihood accommodating temporal shifts in evidence
 
 ### Figure 1. Probabilistic Carcinogen Denomination of Disputed Potential Carcinogens Over Time
 
-• PCarD module applies Bayesian Negative Binomial Regression to analyze temporal evidence shifts, evaluating potential carcinogens based on changing evidence discourse with respect to time.
-  - **B1** is Evidence Count
-  - **B2** is Evidence of a Dispute with time
-  - **B3** and **B3'** are likelihood of Carcinogen or Non-Carcinogenicity
+• PCarD module applies Bayesian Negative Binomial Regression to analyze temporal evidence shifts, evaluating potential carcinogens based on changing evidence discourse with respect to time. B1 is Evidence Count, B2 is Evidence of a Dispute with time, B3 and B3' are likelihood of Carcinogen or Non-Carcinogenicity.
 
 ### Figure 4. The Shifting Landscape: Carcinogen Research (2000-2024)
 
-**Research focus trends over time:**
-
-- **Chemical Compounds:** 35% (+22.2%)
-- **Biological Agents:** 28% (+40.0%)
-- **Environmental Factors:** 18% (+50.0%)
-- **Radiation:** 2% (-60.0%)
-- **Occupational Hazards:** 2% (-13.3%)
-- **Additional Factors:** 2% (-57.1%)
-
-**Key shift:** Chemical compounds ↓45% to 35%; Biological agents ↑20% to 28%; Environmental factors ↑12% to 18%
+• Chemical compounds ↓45% to 35%; Biological agents ↑20% to 28%; Environmental factors ↑12% to 18%
 
 ## Discussion/Conclusions
 

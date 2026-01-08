@@ -1,7 +1,95 @@
 {
   "$schema": "https://posters.science/schema/v0.1/poster_schema.json",
+  "identifiers": [
+    {
+      "identifier": "4185",
+      "identifierType": "Abstract number"
+    },
+    {
+      "identifier": "734",
+      "identifierType": "Poster number"
+    }
+  ],
+  "creators": [
+    {
+      "name": "van der Zande, Meike",
+      "nameType": "Personal",
+      "affiliation": [
+        {
+          "name": "Wageningen Food Safety Research, Wageningen, The Netherlands"
+        }
+      ]
+    },
+    {
+      "name": "Duivenvoorde, Loes PM",
+      "nameType": "Personal",
+      "affiliation": [
+        {
+          "name": "Wageningen Food Safety Research, Wageningen, The Netherlands"
+        }
+      ]
+    },
+    {
+      "name": "Jansen Holleboom, Wendy",
+      "nameType": "Personal",
+      "affiliation": [
+        {
+          "name": "Wageningen Food Safety Research, Wageningen, The Netherlands"
+        }
+      ]
+    },
+    {
+      "name": "Fabrizi, Benedetta",
+      "nameType": "Personal",
+      "affiliation": [
+        {
+          "name": "Wageningen Food Safety Research, Wageningen, The Netherlands"
+        }
+      ]
+    },
+    {
+      "name": "Vos, A Paul",
+      "nameType": "Personal",
+      "affiliation": [
+        {
+          "name": "Wageningen Food & Biobased Research, Wageningen, The Netherlands"
+        }
+      ]
+    },
+    {
+      "name": "Bastiaan-Net, Shanna",
+      "nameType": "Personal",
+      "affiliation": [
+        {
+          "name": "Wageningen Food & Biobased Research, Wageningen, The Netherlands"
+        }
+      ]
+    },
+    {
+      "name": "Tomassen, Monic MM",
+      "nameType": "Personal",
+      "affiliation": [
+        {
+          "name": "Wageningen Food & Biobased Research, Wageningen, The Netherlands"
+        }
+      ]
+    },
+    {
+      "name": "Janssen, Aafke WF",
+      "nameType": "Personal",
+      "affiliation": [
+        {
+          "name": "Wageningen Food Safety Research, Wageningen, The Netherlands"
+        }
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "title": "Development and application of an immunocompetent human induced pluripotent stem cell-derived intestinal epithelial cell model for hazard assessment of the oral exposure route"
+    }
+  ],
   "posterContent": {
-    "posterTitle": "Development and application of an immunocompetent human induced pluripotent stem cell-derived intestinal epithelial cell model for hazard assessment of the oral exposure route",
     "sections": [
       {
         "sectionTitle": "Background",
@@ -13,23 +101,23 @@
       },
       {
         "sectionTitle": "Study design",
-        "sectionContent": "Characterization IECs (derived from hiPSCs)\nCharacterization DCs (derived from MUTZ-3 cells)\nCo-culture and characterization of IECs and DCs\nCase study micro/nanoplastics\n  - Maturation / differentiation markers, cytokines\n  - Cytotoxicity"
+        "sectionContent": "Characterization IECs (derived from hiPSCs)\nCharacterization DCs (derived from MUTZ-3 cells)\nCo-culture and characterization of IECs and DCs\nCase study micro/nanoplastics\nMaturation / differentiation markers, cytokines\nCytotoxicity"
       },
       {
         "sectionTitle": "Results: characterization hiPSC-derived IECs",
-        "sectionContent": "Figure 1. A) Differentiation protocol hiPSC-derived IECs B) Immunohistochemistry showing the presence of multiple IEC types. Immune responsiveness of IECs after stimulation with a proinflammatory cocktail of INFγ, IL1β and TNFα shown as C) expression of genes in the \"cytokine storm pathway\", as D) barrier integrity (TEER and permeability of lucifer yellow), and as E) IL-8 excretion (ELISA) in comparison with Caco-2 cells.\n\nDifferentiation protocol stages:\niPSC → DE → ISC → IEC\nActivin A + BMP4 (day 0-3) → FGF2 → EGF + Forskolin → EGF + Forskolin + PD0325901 + ROCKi (cryopreserved)\n\nCell type markers:\nLGR5: intestinal stem cells\nGLP-1: enteroendocrine cells\nUEA-1: Paneth cells and goblet cells including secreted mucins\nTFF3: glycosylated mucus proteins present in mature goblet cells"
+        "sectionContent": "LGR5: intestinal stem cells\nGLP-1: enteroendocrine cells\nUEA-1: Paneth cells and goblet cells including secreted mucins\nTFF3: glycosylated mucus proteins present in mature goblet cells"
       },
       {
         "sectionTitle": "Results: characterization MUTZ-3 dendritic cells",
-        "sectionContent": "Figure 2. A) Differentiation protocol of MUTZ-3-derived DCs B) Gene expression of markers for progenitors cells and mature DCs (mDCs) measured at D0, D7 and D9. Expression is relative to the progenitor cells which were set at 1. Expression of progenitor markers decreased whereas expression of mDCs increased in time.\n\nDifferentiation protocol:\nCD34+ progenitor cells → GM-CSF + IL-4 (D0 → D7) → Immature DCs (iDC) → GM-CSF + IL-4 + TNFα + IL1β (D7 → D9) → Mature DCs (mDC)\n\nGene expression markers:\nMarkers progenitor cells:\nCD14: Relative expression vs progenitor (decreased from progenitor to iDC to mDC)\nCD34: Relative expression vs progenitor (decreased from progenitor to iDC to mDC)\n\nMarkers mDCs:\nCD80: Relative expression vs progenitor (increased in mDC)\nCD11c: Relative expression vs progenitor (increased in iDC and mDC)\nDC LAMP: Relative expression vs progenitor (increased in mDC)\nOX40L: Relative expression vs progenitor (increased in mDC)\nCCR7: Relative expression vs progenitor (increased in mDC)"
+        "sectionContent": "Markers progenitor cells\n\nMarkers mDCs"
       },
       {
         "sectionTitle": "Results: characterization co-culture model",
-        "sectionContent": "Figure 3. A) hiPSCs and MUTZ-3 cells were differentiated into IECs and mDCs separately and cocultured when fully differentiated. After 24h of co-culture the differentiation status of the IECs and DCs and the expression of cytokines was evaluated and compared to their respective monocultures before co-culture. B) Barrier integrity of the IEC layer. C) Gene expression of various markers for differentiation and cellular composition and cytokine expression in the IEC layer. D) Gene expression of maturation markers and cytokines in mDCs. In general, co-culturing has little effect on cellular composition, but increases cytokine expression.\n\nCo-culture setup:\nCD34+ cells → iDC → mDC\niPSC → IEC\nCo-culture after 24h\n\nMeasurements:\nB) IEC barrier integrity\n- TEER measurements\n- Permeability (lucifer yellow)\n\nC) IEC differentiation and cellular composition\n- Gene expression markers\n\nD) IEC cytokine expression\n- Various cytokines measured"
+        "sectionContent": ""
       },
       {
         "sectionTitle": "Results: exposure of iDCs to microplastics",
-        "sectionContent": "Table 1. Physicochemical data of the micro/nanoplastics for the cell exposure experiment.\n\nAbbreviation | Main polymer composition | Additives | Particle size distribution | Particle shape\nHDPE269 | High density polyethylene | No | X₁₀;₃ 1.8 μm / X₅₀;₃ 4.9 μm / X₉₀;₃ 8.7 μm | Round\nPET_c000 | Polyethylene terephthalate | No | X₁₀;₃ 57 nm / X₅₀;₃ 90 nm / X₉₀;₃ 144 nm | Round\nPS394Eu | Europium doped polystyrene | No | 300 nm | Round\n\nFigure 4. Gene expression in iDCs after 48h exposure to micro/nano plastics at three different concentrations. A) Effects of the micro/nanoplastics on gene expression of markers for maturation of iDCs into mDCs and B) on cytokine expression. No significant effects were observed after 24h exposure to the micro/nanoplastics and no cytotoxicity was observed (data not shown). After 48h exposure to the PS394Eu plastics mild effects on cytokine expression were observed.\n\nExperimental groups:\nProgenitor cells\n-CTRL (iDC)\n+CTRL (mDC)\nPET_c000 (25, 50, 100 μg/ml)\nHDPE296 (25, 50, 100 μg/ml)\nPS394Eu (25, 50, 100 μg/ml)\n\nA) Maturation markers measured:\nCD14, CD34, CD80, CD83, OX40L, CCR7, DC-LAMP\n\nB) Cytokine expression measured:\nIL-6, IL-8, IL-12β, IL-15, IL-18, IL-23, TNFα"
+        "sectionContent": ""
       },
       {
         "sectionTitle": "Conclusions",
@@ -45,27 +133,27 @@
       }
     ]
   },
-  "tableCaption": [
+  "imageCaption": [
     {
-      "caption1": "Table 1. Physicochemical data of the micro/nanoplastics for the cell exposure experiment",
+      "caption1": "Figure 1. A) Differentiation protocol hiPSC-derived IECs B) Immunohistochemistry showing the presence of multiple IEC types. Immune responsiveness of IECs after stimulation with a proinflammatory cocktail of INFγ, IL1β and TNFα shown as C) expression of genes in the \"cytokine storm pathway\", as D) barrier integrity (TEER and permeability of lucifer yellow), and as E) IL-8 excretion (ELISA) in comparison with Caco-2 cells.",
+      "caption2": ""
+    },
+    {
+      "caption1": "Figure 2. A) Differentiation protocol of MUTZ-3-derived DCs B) Gene expression of markers for progenitors cells and mature DCs (mDCs) measured at D0, D7 and D9. Expression is relative to the progenitor cells which were set at 1. Expression of progenitor markers decreased whereas expression of mDCs increased in time.",
+      "caption2": ""
+    },
+    {
+      "caption1": "Figure 3. A) hiPSCs and MUTZ-3 cells were differentiated into IECs and mDCs separately and cocultured when fully differentiated. After 24h of co-culture the differentiation status of the IECs and DCs and the expression of cytokines was evaluated and compared to their respective monocultures before co-culture. B) Barrier integrity of the IEC layer. C) Gene expression of various markers for differentiation and cellular composition and cytokine expression in the IEC layer. D) Gene expression of maturation markers and cytokines in mDCs. In general, co-culturing has little effect on cellular composition, but increases cytokine expression.",
+      "caption2": ""
+    },
+    {
+      "caption1": "Figure 4. Gene expression in iDCs after 48h exposure to micro/nano plastics at three different concentrations. A) Effects of the micro/nanoplastics on gene expression of markers for maturation of iDCs into mDCs and B) on cytokine expression. No significant effects were observed after 24h exposure to the micro/nanoplastics and no cytotoxicity was observed (data not shown). After 48h exposure to the PS394Eu plastics mild effects on cytokine expression were observed.",
       "caption2": ""
     }
   ],
-  "imageCaption": [
+  "tableCaption": [
     {
-      "caption1": "Figure 1. A) Differentiation protocol hiPSC-derived IECs",
-      "caption2": ""
-    },
-    {
-      "caption1": "Figure 2. A) Differentiation protocol of MUTZ-3-derived DCs",
-      "caption2": ""
-    },
-    {
-      "caption1": "Figure 3. Co-culture characterization",
-      "caption2": ""
-    },
-    {
-      "caption1": "Figure 4. Gene expression in iDCs after 48h exposure to micro/nano plastics",
+      "caption1": "Table 1. Physicochemical data of the micro/nanoplastics for the cell exposure experiment.",
       "caption2": ""
     }
   ]

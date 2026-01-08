@@ -50,7 +50,6 @@
     }
   ],
   "posterContent": {
-    "posterTitle": "CarD-T: LLM Automated Literature Review for the Nomination & Analysis of Potential Human Carcinogens",
     "sections": [
       {
         "sectionTitle": "Abstract",
@@ -62,11 +61,11 @@
       },
       {
         "sectionTitle": "Methodology",
-        "sectionContent": "CarD-T uses a Named Entity Recognition (NER) ELECTRA LLM and is trained on carcinogen-specific contexts from PubMed literature. Novelty of an NER approach over other LLM methods lies in the ability index identified carcinogens to source documents, circumventing hallucinations. Training data consisted of abstracts referencing IARC Group 1 and Group 2A carcinogens. Additionally, we implemented a novel AI-hybridized Context-Derived TF-IDF approach for noise reduction and synonym consolidation. This allowed us to convert implicating publications into evidence counts.\n\nWorkflow Components:\n1. Biomedical Literature → Time series accumulation\n2. CarD-T framework identifies new potential carcinogenic Entity (or E₁)\n3. Carcinogen literature accumulating → Likelihood E₁ is a carcinogen\n4. Time series analysis → μ₁, μ₂, μ₃, μ₄ distributions"
+        "sectionContent": "CarD-T uses a Named Entity Recognition (NER) ELECTRA LLM and is trained on carcinogen-specific contexts from PubMed literature. Novelty of an NER approach over other LLM methods lies in the ability index identified carcinogens to source documents, circumventing hallucinations. Training data consisted of abstracts referencing IARC Group 1 and Group 2A carcinogens. Additionally, we implemented a novel AI-hybridized Context-Derived TF-IDF approach for noise reduction and synonym consolidation. This allowed us to convert implicating publications into evidence counts."
       },
       {
         "sectionTitle": "Results",
-        "sectionContent": "Key Findings:\n✓ CarD-T identifies 100% of IARC carcinogens with just 60% training data\n✓ ~1,600 potential new carcinogens discovered across diverse categories\n✓ Superior recall with comparable precision to GPT-4\n✓ 554 entities with both supporting/opposing evidence analyzed\n✓ Framework runs on standard hardware in ~6 hours\n✓ Novel nominees include COVID-19, microplastics, and schizophrenia\n✓ Resolves 76 disputed entities via temporal evidence modeling\n\nFigure 2. CarD-T Finds New Carcinogens ~20% higher likelihood than GPT-4\n\nPerformance Comparison:\nModel | Precision | Recall | F1\nCarD-T | 0.89 | 0.85 | 0.87\nGPT-4 | 0.90 | 0.76 | 0.82\n\n• CarD-T achieves higher recall (0.85 vs. 0.76) at comparable precision (0.89 vs. 0.90).\n\nFigure 3. Evidence Count Classification for Examples of Disputed Potential Carcinogens\n\nExamples shown:\n- Bright Orange: Entity demonstrating high evidence of Non-Carcinogenicity (IARC)\n- Light Blue: Entity demonstrating high evidence of Carcinogenicity (not in IARC)\n- Multiple bars showing: B1-Evidence, B2-Dispute, B3-Carc, B3'-No Carc\n\nCase studies displayed:\n- Single Oxygen\n- Schizophrenia\n- Curcumin\n- Hemolysis\n- nM-1395\n\n• Bayesian Negative Binomial Regression Model distinguishes between established and emerging carcinogens in probability scoring of likelihood accommodating temporal shifts in evidence\n\nFigure 1. Probabilistic Carcinogen Denomination of Disputed Potential Carcinogens Over Time\n\n• PCarD module applies Bayesian Negative Binomial Regression to analyze temporal evidence shifts, evaluating potential carcinogens based on changing evidence discourse with respect to time.\n  - B1 is Evidence Count\n  - B2 is Evidence of a Dispute with time\n  - B3 and B3' are likelihood of Carcinogen or Non-Carcinogenicity\n\nFigure 4. The Shifting Landscape: Carcinogen Research (2000-2024)\n\nResearch focus trends over time:\n- Chemical Compounds: 35% (+22.2%)\n- Biological Agents: 28% (+40.0%)\n- Environmental Factors: 18% (+50.0%)\n- Radiation: 2% (-60.0%)\n- Occupational Hazards: 2% (-13.3%)\n- Additional Factors: 2% (-57.1%)\n\nKey shift: Chemical compounds ↓45% to 35%; Biological agents ↑20% to 28%; Environmental factors ↑12% to 18%"
+        "sectionContent": "Key Findings:\n✓ CarD-T identifies 100% of IARC carcinogens with just 60% training data\n✓ ~1,600 potential new carcinogens discovered across diverse categories\n✓ Superior recall with comparable precision to GPT-4\n✓ 554 entities with both supporting/opposing evidence analyzed\n✓ Framework runs on standard hardware in ~6 hours\n✓ Novel nominees include COVID-19, microplastics, and schizophrenia\n✓ Resolves 76 disputed entities via temporal evidence modeling\n\nFigure 2. CarD-T Finds New Carcinogens ~20% higher likelihood than GPT-4.\n• CarD-T achieves higher recall (0.85 vs. 0.76) at comparable precision (0.89 vs. 0.90).\n\nFigure 3. Evidence Count Classification for Examples of Disputed Potential Carcinogens.\n• Bayesian Negative Binomial Regression Model distinguishes between established and emerging carcinogens in probability scoring of likelihood accommodating temporal shifts in evidence\n\nFigure 1. Probabilistic Carcinogen Denomination of Disputed Potential Carcinogens Over Time.\n• PCarD module applies Bayesian Negative Binomial Regression to analyze temporal evidence shifts, evaluating potential carcinogens based on changing evidence discourse with respect to time. B1 is Evidence Count, B2 is Evidence of a Dispute with time, B3 and B3' are likelihood of Carcinogen or Non-Carcinogenicity.\n\nFigure 4. The Shifting Landscape: Carcinogen Research (2000-2024)\n• Chemical compounds ↓45% to 35%; Biological agents ↑20% to 28%; Environmental factors ↑12% to 18%"
       },
       {
         "sectionTitle": "Discussion/Conclusions",
@@ -78,32 +77,27 @@
       },
       {
         "sectionTitle": "Contact",
-        "sectionContent": "Jamey ONeill, MSc, PhD Candidate; Bioengineering UCSD-SDSU JDP\nComputational Active Matter Mechanics Lab; SDSU Research Foundation\nMechanical Engineering Department, San Diego State University\n5500 Campanile Dr., E-323N San Diego, CA 92182-1323\njoneilliii@sdsu.edu\n619-594-2032"
+        "sectionContent": "Jamey ONeill, MSc, PhD Candidate; Bioengineering UCSD-SDSU JDP\nComputational Active Matter Mechanics Lab; SDSU Research Foundation\nMechanical Engineering Department, San Diego State University 5500 Campanile Dr., E-323N San Diego, CA 92182-1323\njoneilliii@sdsu.edu\n619-594-2032"
       }
     ]
   },
   "imageCaption": [
     {
-      "caption1": "Figure 1. Probabilistic Carcinogen Denomination of Disputed Potential Carcinogens Over Time",
-      "caption2": ""
+      "caption1": "Figure 1. Probabilistic Carcinogen Denomination of Disputed Potential Carcinogens Over Time.",
+      "caption2": "PCarD module applies Bayesian Negative Binomial Regression to analyze temporal evidence shifts, evaluating potential carcinogens based on changing evidence discourse with respect to time. B1 is Evidence Count, B2 is Evidence of a Dispute with time, B3 and B3' are likelihood of Carcinogen or Non-Carcinogenicity."
     },
     {
-      "caption1": "Figure 2. CarD-T Finds New Carcinogens ~20% higher likelihood than GPT-4",
-      "caption2": ""
+      "caption1": "Figure 2. CarD-T Finds New Carcinogens ~20% higher likelihood than GPT-4.",
+      "caption2": "CarD-T achieves higher recall (0.85 vs. 0.76) at comparable precision (0.89 vs. 0.90)."
     },
     {
-      "caption1": "Figure 3. Evidence Count Classification for Examples of Disputed Potential Carcinogens",
-      "caption2": ""
+      "caption1": "Figure 3. Evidence Count Classification for Examples of Disputed Potential Carcinogens.",
+      "caption2": "Bayesian Negative Binomial Regression Model distinguishes between established and emerging carcinogens in probability scoring of likelihood accommodating temporal shifts in evidence"
     },
     {
       "caption1": "Figure 4. The Shifting Landscape: Carcinogen Research (2000-2024)",
       "caption2": "Chemical compounds ↓45% to 35%; Biological agents ↑20% to 28%; Environmental factors ↑12% to 18%"
     }
   ],
-  "tableCaption": [
-    {
-      "caption1": "Table: Performance Comparison - CarD-T vs GPT-4",
-      "caption2": ""
-    }
-  ]
+  "tableCaption": []
 }
