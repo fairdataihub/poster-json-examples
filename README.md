@@ -159,6 +159,13 @@ A subset of the full JSON containing only the poster-derived content. This file 
 | ID | Domain | Conference | Year |
 |----|--------|------------|------|
 | 42 | Biomedical Informatics | AACR Annual Meeting | 2025 |
+| 4446908 | Altmetrics, Science Communication | - | 2020 |
+| 4448680 | Fuel Cells, Manufacturing | - | 2018 |
+| 4519718 | Bioinformatics, Proteomics | - | 2013 |
+| 4552067 | Research Data Management | - | 2021 |
+| 4560930 | Astronomy, M Dwarf Stars | - | 2021 |
+| 4564017 | Astrophysics, Stellar Atmospheres | - | 2021 |
+| 4607450 | Genetics, Toxicology, Biochemistry | - | 2021 |
 | 4737132 | - | - | - |
 | 5128504 | - | - | - |
 | 6724771 | - | - | - |
@@ -168,6 +175,9 @@ A subset of the full JSON containing only the poster-derived content. This file 
 | 15963941 | - | - | - |
 | 16083265 | - | - | - |
 | 17268692 | - | - | - |
+| AISec2025-poster | Cybersecurity, LLM Safety | - | 2025 |
+| aysaekanger-Fairhurst_Supporting_Poster | Research Infrastructure, Funding | - | 2019 |
+| isporeu2023ee359130949-pdf | Oncology, Health Economics | - | 2023 |
 
 ---
 
