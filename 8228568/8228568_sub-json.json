@@ -17,7 +17,7 @@
       "title": "Revisiting Connotations of Digital Humanists: Exploratory Interviews"
     }
   ],
-  "posterContent": {
+  "content": {
     "sections": [
       {
         "sectionTitle": "Abstract",
@@ -49,15 +49,39 @@
       }
     ]
   },
-  "imageCaption": [],
-  "tableCaption": [
+  "imageCaptions": [],
+  "tableCaptions": [
     {
-      "caption1": "Table 1. Why do researchers self-identify as digital humanists?",
-      "caption2": ""
+      "id": "table1",
+      "caption": "Table 1. Why do researchers self-identify as digital humanists?"
     },
     {
-      "caption1": "Table 2. Why do researchers NOT self-identify as digital humanists?",
-      "caption2": ""
+      "id": "table2",
+      "caption": "Table 2. Why do researchers NOT self-identify as digital humanists?"
     }
+  ],
+  "publicationYear": 2025,
+  "subjects": [
+    {
+      "subject": "scientific poster"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "This ongoing study revisits the connotations of \"digital humanists\" and explores the reasons why a researcher does or does not self-identify as a digital humanist. Building on semi-structured interview data collected from fourteen researchers and practitioners engaging in digital humanities (DH) projects, this poster illustrates researchers' various understandings of \"digital humanist\" as a term and highlights the complexity of \"digital humanists\" as a research community. This study provides insights into the collective imaginations of \"digital humanist\" as a research community.",
+      "descriptionType": "Abstract"
+    }
+  ],
+  "conference": {
+    "conferenceName": "Unknown Conference",
+    "conferenceYear": 2025
+  },
+  "rightsList": [
+    {
+      "rights": "CC-BY-4.0"
+    }
+  ],
+  "formats": [
+    "PDF"
   ]
 }

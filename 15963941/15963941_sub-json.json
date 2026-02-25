@@ -68,7 +68,7 @@
       "title": "OPTIMIZATION AND VALIDATION OF A BIOCHEMICAL FRET ASSAY FOR THE EXONUCLEASE ACTIVITY OF SARS COV-2 NSP14-NSP10 COMPLEX"
     }
   ],
-  "posterContent": {
+  "content": {
     "sections": [
       {
         "sectionTitle": "Introduction",
@@ -96,6 +96,30 @@
       }
     ]
   },
-  "imageCaption": [],
-  "tableCaption": []
+  "imageCaptions": [],
+  "tableCaptions": [],
+  "publicationYear": 2025,
+  "subjects": [
+    {
+      "subject": "scientific poster"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "Scientific poster abstract.",
+      "descriptionType": "Abstract"
+    }
+  ],
+  "conference": {
+    "conferenceName": "Unknown Conference",
+    "conferenceYear": 2025
+  },
+  "rightsList": [
+    {
+      "rights": "CC-BY-4.0"
+    }
+  ],
+  "formats": [
+    "PDF"
+  ]
 }

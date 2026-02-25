@@ -17,7 +17,7 @@
       "title": "Verfahren zur Entdeckung und Charakterisierung von Schlüsselstellen in der Literatur"
     }
   ],
-  "posterContent": {
+  "content": {
     "sections": [
       {
         "sectionTitle": "im Projekt",
@@ -61,6 +61,30 @@
       }
     ]
   },
-  "imageCaption": [],
-  "tableCaption": []
+  "imageCaptions": [],
+  "tableCaptions": [],
+  "publicationYear": 2025,
+  "subjects": [
+    {
+      "subject": "scientific poster"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "Scientific poster abstract.",
+      "descriptionType": "Abstract"
+    }
+  ],
+  "conference": {
+    "conferenceName": "Unknown Conference",
+    "conferenceYear": 2025
+  },
+  "rightsList": [
+    {
+      "rights": "CC-BY-4.0"
+    }
+  ],
+  "formats": [
+    "PDF"
+  ]
 }

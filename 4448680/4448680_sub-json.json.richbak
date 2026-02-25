@@ -1,0 +1,113 @@
+{
+  "$schema": "https://posters.science/schema/v0.1/poster_schema.json",
+  "identifiers": [
+    {
+      "identifier": "10.5281/zenodo.4448680",
+      "identifierType": "DOI"
+    },
+    {
+      "identifier": "zenodo_4448680_Poster_qSOFC_INNOSOFC_20180626.pdf",
+      "identifierType": "Other"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Rautanen, Markus",
+      "nameType": "Personal",
+      "affiliation": [
+        {
+          "name": "VTT Technical Research Centre of Finland Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Himanen, Olli",
+      "nameType": "Personal",
+      "affiliation": [
+        {
+          "name": "VTT Technical Research Centre of Finland Ltd"
+        }
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "title": "Mass-manufacturing and quality assurance solutions in SOFC value chain in FCH JU projects qSOFC and INNO-SOFC"
+    }
+  ],
+  "content": {
+    "sections": [
+      {
+        "sectionTitle": "Cells",
+        "sectionContent": "Targets: Reduce cell manufacturing cost to 400 €/kW at 10 MW/year production; increase production yield >95% by automation and QA. Methods: Automated machine vision inspection for fault detection; optimization for high-speed manufacturing. Results: Higher and more homogeneous cell quality; higher yield and lower scrap rate. Partners: Elcogen, HaikuTech."
+      },
+      {
+        "sectionTitle": "Interconnects",
+        "sectionContent": "Targets: Interconnect manufacturing yield 95%; development and validation of QA procedures. Methods: FMEA; automated laser-scanning of geometries; integrated leak tightness measurement. Results: Improved quality; reduced scrap rate. Partners: MüKo Maschinenbau, ElringKlinger, SANDVIK."
+      },
+      {
+        "sectionTitle": "Stacks",
+        "sectionContent": "Targets: Streamline stack manufacturing; cut cost; manufacture stacks for 60 kW INNO-SOFC system. Methods: Testing and analysis of three manufacturing/conditioning procedures using 30 stacks; statistical analysis. Results: Optimized stack assembly and conditioning processes identified. Partner: Elcogen."
+      },
+      {
+        "sectionTitle": "Systems",
+        "sectionContent": "Targets: Electrical efficiency 60%; total efficiency 85%; system cost 4000 €/kW. Methods: Effective value-chain collaboration; key components specifically designed and optimized. Results: System conceptual design ready, exceeds targets; significant reduction in parts count and assembly time. Partners: Convion, EnergyMatters."
+      }
+    ]
+  },
+  "imageCaptions": [
+    {
+      "id": "fig1",
+      "caption": "Example of 3D defect detection and classification by the automated machine vision system in qSOFC (showing pinhole and hole defects)."
+    },
+    {
+      "id": "fig2",
+      "caption": "Machine vision rig developed by HaikuTech for automated cell inspection."
+    },
+    {
+      "id": "fig3",
+      "caption": "Example of stack assembly robot for automated interconnect assembly."
+    },
+    {
+      "id": "fig4",
+      "caption": "Example of fully automated assembly and testing line."
+    },
+    {
+      "id": "fig5",
+      "caption": "Manufacturing process at Elcogen INNO-SOFC stack."
+    },
+    {
+      "id": "fig6",
+      "caption": "INNO-SOFC stack example."
+    },
+    {
+      "id": "fig7",
+      "caption": "Convion C50 SOFC system and use cases in smart grid, DC data center, and Bio-CHP applications."
+    }
+  ],
+  "tableCaptions": [],
+  "publicationYear": 2018,
+  "subjects": [
+    {
+      "subject": "scientific poster"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "Scientific poster abstract.",
+      "descriptionType": "Abstract"
+    }
+  ],
+  "conference": {
+    "conferenceName": "Unknown Conference",
+    "conferenceYear": 2021
+  },
+  "rightsList": [
+    {
+      "rights": "CC-BY-4.0"
+    }
+  ],
+  "formats": [
+    "PDF"
+  ]
+}

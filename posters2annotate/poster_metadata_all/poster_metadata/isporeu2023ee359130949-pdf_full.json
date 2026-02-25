@@ -1,0 +1,323 @@
+{
+  "$schema": "https://posters.science/schema/v0.1/poster_schema.json",
+  "identifiers": [
+    {
+      "identifier": "isporeu2023ee359130949-pdf.pdf",
+      "identifierType": "Other"
+    },
+    {
+      "identifier": "EE359",
+      "identifierType": "Other"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Ivanyi, Pal",
+      "nameType": "Personal",
+      "givenName": "Pal",
+      "familyName": "Ivanyi",
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0002-2862-7302",
+          "nameIdentifierScheme": "ORCID",
+          "schemeURI": "https://orcid.org"
+        }
+      ],
+      "affiliation": [
+        {
+          "name": "Hannover Medical School, Hannover, Germany",
+          "affiliationIdentifier": "https://ror.org/00f2yqf98",
+          "affiliationIdentifierScheme": "ROR",
+          "schemeURI": "https://ror.org"
+        }
+      ]
+    },
+    {
+      "name": "Bullement, Ash",
+      "nameType": "Personal",
+      "givenName": "Ash",
+      "familyName": "Bullement",
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0001-7091-0972",
+          "nameIdentifierScheme": "ORCID",
+          "schemeURI": "https://orcid.org"
+        }
+      ],
+      "affiliation": [
+        {
+          "name": "Delta Hat Ltd, Nottingham, UK"
+        }
+      ]
+    },
+    {
+      "name": "Ciccarone, Annalisa",
+      "nameType": "Personal",
+      "givenName": "Annalisa",
+      "familyName": "Ciccarone",
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0001-8372-2903",
+          "nameIdentifierScheme": "ORCID",
+          "schemeURI": "https://orcid.org"
+        }
+      ],
+      "affiliation": [
+        {
+          "name": "Studi Analisi Valutazioni Economiche S.r.l., Milan, Italy"
+        }
+      ]
+    },
+    {
+      "name": "Schlichting, Mark",
+      "nameType": "Personal",
+      "givenName": "Mark",
+      "familyName": "Schlichting",
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0002-1649-5867",
+          "nameIdentifierScheme": "ORCID",
+          "schemeURI": "https://orcid.org"
+        }
+      ],
+      "affiliation": [
+        {
+          "name": "Global Biostatistics, Merck Healthcare KGaA, Darmstadt, Germany"
+        }
+      ]
+    },
+    {
+      "name": "Naik, Jignesh",
+      "nameType": "Personal",
+      "givenName": "Jignesh",
+      "familyName": "Naik",
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0002-6581-350X",
+          "nameIdentifierScheme": "ORCID",
+          "schemeURI": "https://orcid.org"
+        }
+      ],
+      "affiliation": [
+        {
+          "name": "Delta Hat Ltd, Nottingham, UK"
+        }
+      ]
+    },
+    {
+      "name": "Colombo, Giorgio L.",
+      "nameType": "Personal",
+      "givenName": "Giorgio L.",
+      "familyName": "Colombo",
+      "affiliation": [
+        {
+          "name": "Studi Analisi Valutazioni Economiche S.r.l., Milan, Italy"
+        },
+        {
+          "name": "Department of Drug Sciences, University of Pavia, Pavia, Italy"
+        }
+      ]
+    },
+    {
+      "name": "Gandola, Andrea",
+      "nameType": "Personal",
+      "givenName": "Andrea",
+      "familyName": "Gandola",
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0003-4854-6718",
+          "nameIdentifierScheme": "ORCID",
+          "schemeURI": "https://orcid.org"
+        }
+      ],
+      "affiliation": [
+        {
+          "name": "Global Value Demonstration, Market Access and Pricing, Merck Healthcare KGaA, Darmstadt, Germany"
+        }
+      ]
+    },
+    {
+      "name": "Pescott, Christopher P.",
+      "nameType": "Personal",
+      "givenName": "Christopher P.",
+      "familyName": "Pescott",
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0002-7763-9326",
+          "nameIdentifierScheme": "ORCID",
+          "schemeURI": "https://orcid.org"
+        },
+        {
+          "nameIdentifier": "chris.pescott@merckgroup.com",
+          "nameIdentifierScheme": "contact"
+        }
+      ],
+      "affiliation": [
+        {
+          "name": "Global Value Demonstration, Market Access and Pricing, Merck Healthcare KGaA, Darmstadt, Germany"
+        }
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "title": "Cost-effectiveness of pembrolizumab + chemotherapy versus cetuximab-containing regimens EXTREME and TPEx, for R/M SCCHN patients with a CPS between 1 and 19, in Italy"
+    }
+  ],
+  "publisher": {
+    "name": "ISPOR - The Professional Society for Health Economics and Outcomes Research"
+  },
+  "publicationYear": 2023,
+  "subjects": [
+    {
+      "subject": "Health Economics"
+    },
+    {
+      "subject": "Cost-effectiveness Analysis"
+    },
+    {
+      "subject": "Head and Neck Cancer"
+    },
+    {
+      "subject": "SCCHN"
+    },
+    {
+      "subject": "Pembrolizumab"
+    },
+    {
+      "subject": "Cetuximab"
+    },
+    {
+      "subject": "QALY"
+    },
+    {
+      "subject": "Italy"
+    },
+    {
+      "subject": "Oncology"
+    },
+    {
+      "subject": "KEYNOTE-048"
+    }
+  ],
+  "dates": [
+    {
+      "date": "2023-11-12/2023-11-15",
+      "dateType": "Presented",
+      "dateInformation": "Presented at ISPOR Europe 2023, Copenhagen, Denmark"
+    }
+  ],
+  "language": "en",
+  "types": {
+    "resourceType": "Conference Poster",
+    "resourceTypeGeneral": "Image"
+  },
+  "relatedIdentifiers": [
+    {
+      "relatedIdentifier": "10.1056/NEJMoa0802656",
+      "relatedIdentifierType": "DOI",
+      "relationType": "References",
+      "resourceTypeGeneral": "JournalArticle"
+    },
+    {
+      "relatedIdentifier": "10.1016/S0140-6736(19)32591-7",
+      "relatedIdentifierType": "DOI",
+      "relationType": "References",
+      "resourceTypeGeneral": "JournalArticle"
+    },
+    {
+      "relatedIdentifier": "10.1200/JCO.21.02712",
+      "relatedIdentifierType": "DOI",
+      "relationType": "References",
+      "resourceTypeGeneral": "JournalArticle"
+    }
+  ],
+  "formats": [
+    "application/pdf"
+  ],
+  "rightsList": [
+    {
+      "rights": "All rights reserved"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "This health economics poster presents a cost-effectiveness analysis comparing pembrolizumab + chemotherapy (P+CT) versus cetuximab-containing regimens (EXTREME and TPEx) for recurrent/metastatic squamous cell carcinoma of the head and neck (R/M SCCHN) patients with a combined positive score (CPS) of 1\u201319, from an Italian National Health Service perspective. A three-state partitioned-survival model was developed using data from multiple clinical trials. Base case results show P+CT is dominated by both EXTREME and TPEx (fewer QALYs at higher cost). Across all scenario analyses, CCRs demonstrated cost savings.",
+      "descriptionType": "Abstract"
+    },
+    {
+      "description": "Three-state partitioned-survival model (progression-free, progressed, dead). Efficacy from EXTREME, TPExtreme, GORTEC 2008-03, CheckMate-651, and KEYNOTE-048 trials. Survival extrapolation using AIC/BIC-selected parametric models. Italian NHS cost perspective including pharmaceutical (Farmadati), administration (National Tariff Nomenclator), and adverse event (DRG) costs. Probabilistic sensitivity analysis performed.",
+      "descriptionType": "Methods"
+    },
+    {
+      "description": "Presented at the Professional Society for Health Economics and Outcomes Research (ISPOR) Europe 2023, November 12\u201315, 2023, Copenhagen, Denmark. Poster number EE359. Sponsored by Merck (Funder ID: 10.13039/100009945).",
+      "descriptionType": "Other"
+    }
+  ],
+  "fundingReferences": [
+    {
+      "funderName": "Merck Healthcare KGaA",
+      "funderIdentifier": "https://doi.org/10.13039/100009945",
+      "funderIdentifierType": "Crossref Funder ID"
+    }
+  ],
+  "conference": {
+    "conferenceName": "ISPOR Europe 2023",
+    "conferenceLocation": "Copenhagen, Denmark",
+    "conferenceUri": "https://www.ispor.org/conferences-education/conferences/upcoming-conferences/ispor-europe-2023",
+    "conferenceStartDate": "2023-11-12",
+    "conferenceEndDate": "2023-11-15",
+    "conferenceAcronym": "ISPOR Europe 2023",
+    "conferenceSeries": "ISPOR Europe",
+    "conferenceYear": 2023
+  },
+  "researchField": "Health Economics and Outcomes Research",
+  "content": {
+    "sections": [
+      {
+        "sectionTitle": "Introduction & Objectives",
+        "sectionContent": "SCCHN is a group of cancers derived from the mucosal epithelium in the oral cavity, pharynx, and larynx. Treatment options for R/M SCCHN in Italy include cetuximab or pembrolizumab-based regimens in combination with chemotherapy. The EXTREME trial demonstrated improved OS for cetuximab plus platinum/5-FU. KEYNOTE-048 showed improved OS with P+CT vs EXTREME in total population and CPS \u22651 subgroup. Study objective: estimate CE of P+CT vs CCRs for R/M SCCHN patients with CPS 1\u201319 in Italy."
+      },
+      {
+        "sectionTitle": "Methods",
+        "sectionContent": "Three-state partitioned-survival model (progression-free, progressed, dead). Efficacy from EXTREME, TPExtreme, GORTEC 2008-03, CheckMate-651 trials for CCRs; KEYNOTE-048 CPS 1\u201319 data for P+CT. Survival models selected by AIC/BIC. Italian NHS cost perspective. Probabilistic sensitivity analysis performed."
+      },
+      {
+        "sectionTitle": "Results",
+        "sectionContent": "Base case (vs EXTREME): P+CT dominated \u2014 incremental costs +\u20ac25,095, QALYs \u20130.428. Base case (vs TPEx): P+CT dominated \u2014 incremental costs +\u20ac11,993, QALYs \u20130.277. Scenario analyses ICER range: dominated to \u20ac437,830/QALY. KN-048 direct comparison ICER: \u20ac132,359/QALY vs EXTREME (above Italian WTP threshold of \u20ac60,000/QALY)."
+      },
+      {
+        "sectionTitle": "Conclusions",
+        "sectionContent": "For R/M SCCHN patients with CPS 1\u201319, CCRs can represent more effective and cost-effective treatment options in Italy vs P+CT. Across all scenarios, CCRs demonstrated cost savings. Further research could establish more accurate relative effectiveness estimates."
+      }
+    ]
+  },
+  "imageCaptions": [
+    {
+      "id": "fig1",
+      "caption": "Figure 1. Cost-effectiveness model schematic. Three-state partitioned-survival model showing Progression-free (PFS), Progressed (OS\u2013PFS), and Dead (1\u2013OS) states with survival curves over 10-year time horizon."
+    },
+    {
+      "id": "fig2",
+      "caption": "Figure 2. PSA scatterplots for base case analysis. Left: P+CT versus EXTREME; Right: P+CT versus TPEx. Both showing substantial spread with most iterations favoring CCRs on cost and QALY axes."
+    }
+  ],
+  "tableCaptions": [
+    {
+      "id": "tab1",
+      "caption": "Table 1. Base case cost-effectiveness results: P+CT versus EXTREME. EXTREME dominates (more QALYs at lower cost)."
+    },
+    {
+      "id": "tab2",
+      "caption": "Table 2. Base case cost-effectiveness results: P+CT versus TPEx. TPEx dominates (more QALYs at lower cost)."
+    },
+    {
+      "id": "tab3",
+      "caption": "Table 3. Scenario analysis results for P+CT versus EXTREME and TPEx across alternative clinical trial data sources for CCR efficacy."
+    }
+  ],
+  "sizes": [
+    "A0 landscape"
+  ],
+  "version": "1.0.0"
+}

@@ -188,9 +188,10 @@
     "conferenceStartDate": "2023-07-10",
     "conferenceEndDate": "2023-07-14",
     "conferenceAcronym": "DH2023",
-    "conferenceSeries": "ADHO Digital Humanities Conference"
+    "conferenceSeries": "ADHO Digital Humanities Conference",
+    "conferenceYear": 2023
   },
-  "posterContent": {
+  "content": {
     "sections": [
       {
         "sectionTitle": "Abstract",
@@ -222,15 +223,16 @@
       }
     ]
   },
-  "tableCaption": [
+  "researchField": "Information Science",
+  "imageCaptions": [],
+  "tableCaptions": [
     {
-      "caption1": "Table 1. Why do researchers self-identify as digital humanists?",
-      "caption2": "Shows reasons from 8 participants including competence in digital methods (programming and coding) with examples from P2, P6, P7, P9, P11, and active working, teaching, or supervising students in DH with examples from P4, P10, P14."
+      "id": "table1",
+      "caption": "Table 1. Why do researchers self-identify as digital humanists? Shows reasons from 8 participants including competence in digital methods (programming and coding) with examples from P2, P6, P7, P9, P11, and active working, teaching, or supervising students in DH with examples from P4, P10, P14."
     },
     {
-      "caption1": "Table 2. Why do researchers NOT self-identify as digital humanists?",
-      "caption2": "Shows reasons from 6 participants including not being a humanist (P12, P13), concerns with technical skills particularly programming (P8), belief that DH does not raise new research questions (P3), and view that digital methods are not necessary (P1, P5)."
+      "id": "table2",
+      "caption": "Table 2. Why do researchers NOT self-identify as digital humanists? Shows reasons from 6 participants including not being a humanist (P12, P13), concerns with technical skills particularly programming (P8), belief that DH does not raise new research questions (P3), and view that digital methods are not necessary (P1, P5)."
     }
-  ],
-  "domain": "Information Science"
+  ]
 }

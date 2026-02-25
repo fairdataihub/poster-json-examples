@@ -1,0 +1,89 @@
+{
+  "$schema": "https://posters.science/schema/v0.1/poster_schema.json",
+  "identifiers": [
+    {
+      "identifier": "AISec2025-poster.pdf",
+      "identifierType": "Other"
+    }
+  ],
+  "creators": [
+    {
+      "name": "ElZemity, Adel",
+      "nameType": "Personal",
+      "affiliation": [
+        {
+          "name": "University of Kent, Canterbury, UK"
+        }
+      ]
+    },
+    {
+      "name": "Arief, Budi",
+      "nameType": "Personal",
+      "affiliation": [
+        {
+          "name": "University of Kent, Canterbury, UK"
+        }
+      ]
+    },
+    {
+      "name": "Li, Shujun",
+      "nameType": "Personal",
+      "affiliation": [
+        {
+          "name": "University of Kent, Canterbury, UK"
+        }
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "title": "CyberLLMInstruct: A Pseudo-malicious Dataset Revealing Safety-performance Trade-offs in Cyber Security LLM Fine-tuning"
+    }
+  ],
+  "content": {
+    "sections": [
+      {
+        "sectionTitle": "Introduction",
+        "sectionContent": "Problem Statement: LLMs are being integrated into cyber security for tasks like malware analysis and threat detection. However, fine-tuning them for these specific tasks may introduce critical safety vulnerabilities.\n\nResearch Gap: There is a lack of comprehensive datasets and evaluations that expose the trade-off between task performance and safety resilience in LLMs fine-tuned for cyber security.\n\nObjective: To introduce the CyberLLMInstruct dataset and evaluate how fine-tuning impacts both the performance and safety of LLMs in a cyber security context.\n\nOur research introduces CyberLLMInstruct, a dataset of 54,928 pseudo-malicious instruction-response pairs."
+      },
+      {
+        "sectionTitle": "Methodology",
+        "sectionContent": "Dataset Creation: compiled from diverse sources, including Capture the Flag (CTF) challenges, academic papers, industry reports, and Common Vulnerabilities and Exposures (CVE) databases, covering a wide range of cyber security tasks.\n\nEvaluation: comprehensive evaluation using seven open-source LLMs, measuring performance with CyberMetric and safety with DeepEval.\n\nDataset categories: Malware, Social Engineering, DoS/DDoS, MITM, Zero-Day, Password, IoT, Injection."
+      },
+      {
+        "sectionTitle": "Results",
+        "sectionContent": "Significant performance gains, with models achieving up to 92.50% accuracy on the CyberMetric benchmark.\n\nFine-tuning an LLM to be highly proficient in cyber security tasks consistently led to decreased security scores across all vulnerability categories. For example, Llama 3.1 8B's security score dropped from 0.95 to 0.15 against prompt injection.\n\nFine-tuning also reduced the inference efficiency for all models.\n\nModel size and architecture affect safety resilience following fine-tuning, with the effect varying across attack categories."
+      },
+      {
+        "sectionTitle": "Conclusion",
+        "sectionContent": "There is a clear, quantifiable trade-off between performance and safety.\n\nFuture Work: Develop new fine-tuning methodologies that can effectively balance performance gains with the preservation of safety and resilience. Ablation analysis on different categories of cyber security data to understand how specific types of content affect model safety."
+      }
+    ]
+  },
+  "imageCaptions": [],
+  "tableCaptions": [],
+  "publicationYear": 2025,
+  "subjects": [
+    {
+      "subject": "scientific poster"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "Scientific poster abstract.",
+      "descriptionType": "Abstract"
+    }
+  ],
+  "conference": {
+    "conferenceName": "Unknown Conference",
+    "conferenceYear": 2025
+  },
+  "rightsList": [
+    {
+      "rights": "CC-BY-4.0"
+    }
+  ],
+  "formats": [
+    "PDF"
+  ]
+}

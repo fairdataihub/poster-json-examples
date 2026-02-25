@@ -1,0 +1,171 @@
+{
+  "$schema": "https://posters.science/schema/v0.1/poster_schema.json",
+  "identifiers": [
+    {
+      "identifier": "10.5281/zenodo.4607450",
+      "identifierType": "DOI"
+    },
+    {
+      "identifier": "zenodo_4607450_Biochemical-genetic.pdf",
+      "identifierType": "Other"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Stoyanov, Ivan Y.",
+      "nameType": "Personal",
+      "givenName": "Ivan Y.",
+      "familyName": "Stoyanov",
+      "affiliation": [
+        {
+          "name": "Section of Genetics, Department of Developmental Biology, Plovdiv University \"Paisii Hilendarski\", 4000 Plovdiv, Bulgaria",
+          "affiliationIdentifier": "https://ror.org/01x2nt596",
+          "affiliationIdentifierScheme": "ROR",
+          "schemeURI": "https://ror.org"
+        }
+      ]
+    },
+    {
+      "name": "Staykova, Teodora A.",
+      "nameType": "Personal",
+      "givenName": "Teodora A.",
+      "familyName": "Staykova",
+      "affiliation": [
+        {
+          "name": "Section of Genetics, Department of Developmental Biology, Plovdiv University \"Paisii Hilendarski\", 4000 Plovdiv, Bulgaria"
+        }
+      ]
+    },
+    {
+      "name": "Vasileva, Penka L.",
+      "nameType": "Personal",
+      "givenName": "Penka L.",
+      "familyName": "Vasileva",
+      "affiliation": [
+        {
+          "name": "Section of Genetics, Department of Developmental Biology, Plovdiv University \"Paisii Hilendarski\", 4000 Plovdiv, Bulgaria"
+        }
+      ]
+    },
+    {
+      "name": "Ivanova, Evgeniya N.",
+      "nameType": "Personal",
+      "givenName": "Evgeniya N.",
+      "familyName": "Ivanova",
+      "affiliation": [
+        {
+          "name": "Section of Genetics, Department of Developmental Biology, Plovdiv University \"Paisii Hilendarski\", 4000 Plovdiv, Bulgaria"
+        }
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "title": "Biochemical-genetic analysis of the effects of Chlorpyrifos and Cypermethrin insecticides on zebra mussels (Dressena polymorpha Pallas, 1771)"
+    }
+  ],
+  "publicationYear": 2021,
+  "subjects": [
+    {
+      "subject": "Ecotoxicology"
+    },
+    {
+      "subject": "Dressena polymorpha"
+    },
+    {
+      "subject": "Isoenzyme Analysis"
+    },
+    {
+      "subject": "Insecticides"
+    },
+    {
+      "subject": "Chlorpyrifos"
+    },
+    {
+      "subject": "Cypermethrin"
+    },
+    {
+      "subject": "Biomarkers"
+    },
+    {
+      "subject": "Electrophoresis"
+    },
+    {
+      "subject": "Genetic Polymorphism"
+    },
+    {
+      "subject": "Aquatic Toxicology"
+    }
+  ],
+  "language": "en",
+  "types": {
+    "resourceType": "Conference Poster",
+    "resourceTypeGeneral": "Image"
+  },
+  "formats": [
+    "application/pdf"
+  ],
+  "rightsList": [
+    {
+      "rights": "Creative Commons Attribution 4.0 International",
+      "rightsUri": "https://creativecommons.org/licenses/by/4.0/",
+      "rightsIdentifier": "CC-BY-4.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeURI": "https://spdx.org/licenses/"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "This poster presents a biochemical-genetic analysis of the effects of the pesticides Chlorpyrifos and Cypermethrin on zebra mussels (Dressena polymorpha). Individuals were exposed to short-term (96 hours) and long-term (30 days) exposure at MRL concentrations per EU Directive 2013/39/EU, as well as 50% and 30% of MRLs. Polyacrylamide gel electrophoresis was used to analyze four enzyme/protein systems: malate dehydrogenase (MDH), malate enzyme (ME), superoxide dismutase (SOD), and soluble proteins (SP). Nine variable loci were identified. Variability in SOD, MDH, and soluble proteins serves as markers for reporting the negative impact of pesticides. Increased expression in experimental vs. control samples is associated with anthropogenic stress.",
+      "descriptionType": "Abstract"
+    },
+    {
+      "description": "Individuals of Dressena polymorpha exposed to Cypermethrin and Chlorpyrifos at MRL (EU Directive 2013/39/EU), 50% MRL, and 30% MRL for 96 hours (short-term) and 30 days (long-term). Polyacrylamide gel electrophoresis using Maurer (1971) method modified per Ivanova (1996). Analysis of MDH (EC 1.1.1.37), ME (EC 1.1.1.40), SOD (EC 1.6.4.3), and soluble proteins (SP).",
+      "descriptionType": "Methods"
+    }
+  ],
+  "conference": {
+    "conferenceName": "5th Balkan Scientific Conference on Biology",
+    "conferenceYear": 2021
+  },
+  "researchField": "Biology",
+  "content": {
+    "sections": [
+      {
+        "sectionTitle": "Introduction",
+        "sectionContent": "Electrophoretic studies of genetically determined biochemical polymorphism of proteins are used to study the relationship between the level of protein variability and the peculiarities of habitat conditions. Isoenzymes are indicators of gene expression. Study objective: determine the relationship between isoenzyme polymorphism and the zebra mussel Dressena polymorpha body's response to the harmful effects of Cypermethrin and Chlorpyrifos."
+      },
+      {
+        "sectionTitle": "Materials & Methods",
+        "sectionContent": "Individuals of Dressena polymorpha exposed to short-term (96 hours) and long-term (30 days) exposure at MRL concentrations per EU Directive 2013/39/EU, plus 50% and 30% of MRLs. Polyacrylamide gel electrophoresis (Maurer 1971, modified by Ivanova 1996) of MDH, ME, SOD, and soluble proteins."
+      },
+      {
+        "sectionTitle": "Results",
+        "sectionContent": "MDH: Four fractions; genetic control by Mdh-1, Mdh-2, Mdh-3 loci. ME: Two polymorphic loci Me-1 (alleles Me-1^100, Me-1^90) and Me-2 (alleles Me-2^100, Me-2^72). SOD: Four zones; genetic control by Sod-1, Sod-2, Sod-3, Sod-4 loci; two-allele polymorphism at Sod-1, Sod-2, Sod-3. SP: Six zones (SP-1 to SP-6); polymorphism at Sp-3, Sp-4, Sp-5. Nine variable loci identified in total."
+      },
+      {
+        "sectionTitle": "Discussion",
+        "sectionContent": "Different intensity of expression of allelic products reported in short- and long-term pesticide exposure. SOD, MDH, and soluble proteins accepted as markers for reporting negative impact of tested pesticides. Increased expression in experimental vs. control samples associated with anthropogenic stress and protective response."
+      }
+    ]
+  },
+  "imageCaptions": [
+    {
+      "id": "fig1",
+      "caption": "Figure 1. Spectrum of MDH in Dressena polymorpha showing MDH-1, MDH-2, MDH-3 fractions."
+    },
+    {
+      "id": "fig2",
+      "caption": "Figure 2. Spectrum of ME in Dressena polymorpha showing ME-1^90, ME-1^100, ME-2^72, ME-2^100 bands."
+    },
+    {
+      "id": "fig3",
+      "caption": "Figure 3. Spectrum of SOD in Dressena polymorpha showing SOD-1^92, SOD-1^100, SOD-2^84, SOD-2^100, SOD-3^94, SOD-3^100, SOD-4 zones."
+    },
+    {
+      "id": "fig4",
+      "caption": "Figure 4. Spectrum of soluble proteins in Dressena polymorpha showing SP-1 through SP-6 zones with polymorphic SP-3, SP-4, SP-5 loci."
+    }
+  ],
+  "tableCaptions": []
+}

@@ -227,7 +227,13 @@
     "application/pdf"
   ],
   "version": "v2",
-  "rightsList": [],
+  "rightsList": [
+    {
+      "rights": "Creative Commons Attribution 4.0 International",
+      "rightsIdentifier": "CC-BY-4.0",
+      "rightsUri": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
   "descriptions": [
     {
       "description": "Carcinogenic Determination via Transformers (CarD-T) is an automated pipeline that combines transformer-based machine learning with probabilistic analysis to identify potential carcinogens from biomedical literature. Only 479 carcinogenic entities are officially recognized as carcinogens across regulatory databases (IARC, NTP, EPA, ECHA, and OSHA). Regulatory agencies rely on manual curation and are burdened by exponential growth of biomedical literature. CarD-T addresses these limitations by using a Named Entity Recognition (NER) ELECTRA LLM trained on carcinogen-specific contexts from PubMed literature to automate literature review of carcinogen curation with probabilistic analysis of likely carcinogenicity. The framework processes accumulating scientific publications, applies a trained NER model to extract potential carcinogenic entities, and uses Probabilistic Carcinogen Denomination (PCarD) to analyze temporal trends in evidence shifts. This approach enables classification of candidates through Bayesian temporal analysis, overcoming limitations of traditional manual literature review methods.",
@@ -272,9 +278,10 @@
     "conferenceUri": "https://www.aacr.org/meeting/aacr-annual-meeting-2025/",
     "conferenceStartDate": "2025-04-25",
     "conferenceEndDate": "2025-04-30",
-    "conferenceAcronym": "AACR 2025"
+    "conferenceAcronym": "AACR 2025",
+    "conferenceYear": 2025
   },
-  "posterContent": {
+  "content": {
     "sections": [
       {
         "sectionTitle": "Abstract",
@@ -306,29 +313,29 @@
       }
     ]
   },
-  "imageCaption": [
+  "researchField": "Biomedical Informatics",
+  "imageCaptions": [
     {
-      "caption1": "Figure 1. Probabilistic Carcinogen Denomination of Disputed Potential Carcinogens Over Time",
-      "caption2": "PCarD module applies Bayesian Negative Binomial Regression to analyze temporal evidence shifts, evaluating potential carcinogens based on changing evidence discourse with respect to time. B1 is Evidence Count, B2 is Evidence of a Dispute with time, B3 and B3' are likelihood of Carcinogen or Non-Carcinogenicity."
+      "id": "fig1",
+      "caption": "Figure 1. Probabilistic Carcinogen Denomination of Disputed Potential Carcinogens Over Time PCarD module applies Bayesian Negative Binomial Regression to analyze temporal evidence shifts, evaluating potential carcinogens based on changing evidence discourse with respect to time. B1 is Evidence Count, B2 is Evidence of a Dispute with time, B3 and B3' are likelihood of Carcinogen or Non-Carcinogenicity."
     },
     {
-      "caption1": "Figure 2. CarD-T Finds New Carcinogens ~20% higher likelihood than GPT-4",
-      "caption2": "CarD-T achieves higher recall (0.85 vs. 0.76) at comparable precision (0.89 vs. 0.90) compared to GPT-4 for carcinogen identification."
+      "id": "fig2",
+      "caption": "Figure 2. CarD-T Finds New Carcinogens ~20% higher likelihood than GPT-4 CarD-T achieves higher recall (0.85 vs. 0.76) at comparable precision (0.89 vs. 0.90) compared to GPT-4 for carcinogen identification."
     },
     {
-      "caption1": "Figure 3. Evidence Count Classification for Examples of Disputed Potential Carcinogens",
-      "caption2": "Bayesian Negative Binomial Regression Model distinguishes between established and emerging carcinogens in probability scoring of likelihood accommodating temporal shifts in evidence. Examples include Single Oxygen, Schizophrenia, Curcumin, Hemolysis, and nM-1395 with B1-Evidence, B2-Dispute, B3-Carc, and B3'-No Carc classifications."
+      "id": "fig3",
+      "caption": "Figure 3. Evidence Count Classification for Examples of Disputed Potential Carcinogens Bayesian Negative Binomial Regression Model distinguishes between established and emerging carcinogens in probability scoring of likelihood accommodating temporal shifts in evidence. Examples include Single Oxygen, Schizophrenia, Curcumin, Hemolysis, and nM-1395 with B1-Evidence, B2-Dispute, B3-Carc, and B3'-No Carc classifications."
     },
     {
-      "caption1": "Figure 4. The Shifting Landscape: Carcinogen Research (2000-2024)",
-      "caption2": "Chemical compounds decreased 45% to 35%; Biological agents increased 20% to 28%; Environmental factors increased 12% to 18%. Shows fundamental research paradigm shift from chemical to biological and environmental carcinogenesis over 25 years."
+      "id": "fig4",
+      "caption": "Figure 4. The Shifting Landscape: Carcinogen Research (2000-2024) Chemical compounds decreased 45% to 35%; Biological agents increased 20% to 28%; Environmental factors increased 12% to 18%. Shows fundamental research paradigm shift from chemical to biological and environmental carcinogenesis over 25 years."
     }
   ],
-  "tableCaption": [
+  "tableCaptions": [
     {
-      "caption1": "Table: Performance Comparison - CarD-T vs GPT-4",
-      "caption2": "CarD-T: Precision 0.89, Recall 0.85, F1 0.87. GPT-4: Precision 0.90, Recall 0.76, F1 0.82. CarD-T achieves superior recall while maintaining comparable precision."
+      "id": "table1",
+      "caption": "Table: Performance Comparison - CarD-T vs GPT-4 CarD-T: Precision 0.89, Recall 0.85, F1 0.87. GPT-4: Precision 0.90, Recall 0.76, F1 0.82. CarD-T achieves superior recall while maintaining comparable precision."
     }
-  ],
-  "domain": "Biomedical Informatics"
+  ]
 }

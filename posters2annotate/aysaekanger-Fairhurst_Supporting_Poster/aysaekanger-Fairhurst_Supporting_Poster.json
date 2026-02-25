@@ -1,0 +1,201 @@
+{
+  "$schema": "https://posters.science/schema/v0.1/poster_schema.json",
+  "identifiers": [
+    {
+      "identifier": "aysaekanger-Fairhurst_Supporting_Poster.pdf",
+      "identifierType": "Other"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Fairhurst, Vanessa",
+      "nameType": "Personal",
+      "givenName": "Vanessa",
+      "familyName": "Fairhurst",
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "feedback@crossref.org",
+          "nameIdentifierScheme": "contact"
+        }
+      ],
+      "affiliation": [
+        {
+          "name": "Crossref",
+          "affiliationIdentifier": "https://ror.org/02twcfp32",
+          "affiliationIdentifierScheme": "ROR",
+          "schemeURI": "https://ror.org"
+        }
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "title": "Your Funding Infrastructure Wishes: Grant-ID"
+    }
+  ],
+  "publisher": {
+    "name": "Crossref",
+    "publisherIdentifier": "https://ror.org/02twcfp32",
+    "publisherIdentifierScheme": "ROR",
+    "schemeURI": "https://ror.org"
+  },
+  "publicationYear": 2019,
+  "subjects": [
+    {
+      "subject": "Grant Identifiers"
+    },
+    {
+      "subject": "Research Infrastructure"
+    },
+    {
+      "subject": "Persistent Identifiers"
+    },
+    {
+      "subject": "ORCID"
+    },
+    {
+      "subject": "Crossref"
+    },
+    {
+      "subject": "Digital Object Identifier"
+    },
+    {
+      "subject": "Research Organization Registry"
+    },
+    {
+      "subject": "Research Funding"
+    },
+    {
+      "subject": "Open Science"
+    },
+    {
+      "subject": "Scholarly Communication"
+    },
+    {
+      "subject": "Metadata Standards"
+    }
+  ],
+  "language": "en",
+  "types": {
+    "resourceType": "Conference Poster",
+    "resourceTypeGeneral": "Image"
+  },
+  "relatedIdentifiers": [
+    {
+      "relatedIdentifier": "https://github.com/CrossRef/grantID-schema/",
+      "relatedIdentifierType": "URL",
+      "relationType": "IsSupplementedBy",
+      "resourceTypeGeneral": "Software"
+    },
+    {
+      "relatedIdentifier": "https://doi.org/10.23640/07243.9149240.v1",
+      "relatedIdentifierType": "URL",
+      "relationType": "References",
+      "resourceTypeGeneral": "Dataset"
+    },
+    {
+      "relatedIdentifier": "https://doi.org/10.35802/107769",
+      "relatedIdentifierType": "URL",
+      "relationType": "References",
+      "resourceTypeGeneral": "Other"
+    },
+    {
+      "relatedIdentifier": "https://ror.org",
+      "relatedIdentifierType": "URL",
+      "relationType": "References",
+      "resourceTypeGeneral": "Other"
+    },
+    {
+      "relatedIdentifier": "https://www.crossref.org",
+      "relatedIdentifierType": "URL",
+      "relationType": "IsDocumentedBy",
+      "resourceTypeGeneral": "Other"
+    },
+    {
+      "relatedIdentifier": "https://www.orcid.org",
+      "relatedIdentifierType": "URL",
+      "relationType": "References",
+      "resourceTypeGeneral": "Other"
+    }
+  ],
+  "sizes": [
+    "A0 portrait"
+  ],
+  "formats": [
+    "application/pdf"
+  ],
+  "version": "1.0.0",
+  "rightsList": [
+    {
+      "rights": "Creative Commons Attribution 4.0 International",
+      "rightsUri": "https://creativecommons.org/licenses/by/4.0/",
+      "rightsIdentifier": "CC-BY-4.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "This poster from Crossref Community Outreach Manager Vanessa Fairhurst presents the Grant-ID infrastructure for connecting grants to research outputs. It describes the end-to-end workflow for funders, publishers, and researchers to use persistent grant identifiers (DOIs) through Crossref, integrated with ORCID researcher identifiers and ROR organization identifiers. The poster illustrates how grant DOIs streamline research reporting, reduce duplication, and support tracking of funding impact across the research lifecycle.",
+      "descriptionType": "Abstract"
+    },
+    {
+      "description": "Describes integration workflow of Crossref grant DOIs with ORCID iDs and ROR organization identifiers within the scholarly publishing process, from funding application through article publication and ongoing post-publication metadata tracking.",
+      "descriptionType": "Methods"
+    }
+  ],
+  "fundingReferences": [
+    {
+      "funderName": "Crossref"
+    }
+  ],
+  "conference": {
+    "conferenceName": "PIDapalooza 2019",
+    "conferenceYear": 2019,
+    "conferenceAcronym": "PIDapalooza"
+  },
+  "researchField": "Library and Information Science",
+  "content": {
+    "sections": [
+      {
+        "sectionTitle": "Problem Statement",
+        "sectionContent": "\"The primary challenge reported by funders is connecting grants to subsequent research activities and outputs.\"\n\nReference: https://doi.org/10.23640/07243.9149240.v1"
+      },
+      {
+        "sectionTitle": "Grant IDs in the Publishing Workflow",
+        "sectionContent": "Step-by-step workflow:\n1. Publishers and funders join Crossref and promote the use of the DOI\n2. Researcher registers for an ORCID iD at ORCID.org\n3. Funder pulls in career and CV data from ORCID record; researcher authorises access\n4. Researcher applies for funding\n5. Funding application succeeds\n6. Funder registers a DOI for the grant; Crossref pushes info to ORCID if ORCID iD present\n7. Publisher collects author ORCID iDs during submission\n8. Publisher creates automatic funding acknowledgement via Crossref grant metadata\n9. Funding information collected and disseminated; publisher matches funder publication policy\n10. Article is published\n11. Funder keeps grant metadata updated and promotes use of the DOI"
+      },
+      {
+        "sectionTitle": "About Crossref",
+        "sectionContent": "Crossref lets organizations that publish research register identifiers and metadata for their content. This metadata can contain ORCID iDs, funding and licence information and more. This information is made freely available so that it can be integrated into their research information systems to track research outputs."
+      },
+      {
+        "sectionTitle": "About ORCID",
+        "sectionContent": "ORCID provides a persistent digital identifier that distinguishes each researcher from other researchers and, through integration in key workflows such as manuscript and grant submission, supports automated linkages between them and their professional activities ensuring that their work is recognised."
+      },
+      {
+        "sectionTitle": "Heard about ROR?",
+        "sectionContent": "Research Organizations Registry (ROR) is a community-led project to develop an open, sustainable, usable, and unique identifier for every research organization in the world. https://ror.org"
+      },
+      {
+        "sectionTitle": "Benefits of Grant IDs",
+        "sectionContent": "Understand connections between projects and collaborators — Grant IDs can be used to connect multiple research outputs to funding, including mapping linkages between collaborators and future projects.\n\nMaintain a healthier research environment — Less duplication of effort in overlapping grants or repeated projects, easier checks on conflicts of interest, and greater understanding of the impact of funding on career development.\n\nSimplified process of research reporting — Automates the process of matching of outputs to grants, makes search and discovery easier, and aids tracking the impact of funding shared infrastructures and facilities."
+      },
+      {
+        "sectionTitle": "Give Us Your Input!",
+        "sectionContent": "Grant ID Schema information at: https://github.com/CrossRef/grantID-schema/"
+      }
+    ]
+  },
+  "imageCaptions": [
+    {
+      "id": "fig1",
+      "caption": "Grant IDs in the publishing workflow flowchart showing the step-by-step process integrating Crossref grant DOIs, ORCID iDs, and ROR identifiers from funder registration through article publication."
+    },
+    {
+      "id": "fig2",
+      "caption": "Example grant landing page for the Initiative to Develop African Research Leaders (IDeAL), Wellcome Trust grant 107769 (£8,037,752, Jan 2016 – Dec 2020), demonstrating the Crossref grant DOI resolution at https://doi.org/10.35802/107769."
+    }
+  ],
+  "tableCaptions": []
+}

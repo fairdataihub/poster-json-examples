@@ -1,0 +1,113 @@
+{
+  "$schema": "https://posters.science/schema/v0.1/poster_schema.json",
+  "identifiers": [
+    {
+      "identifier": "10.5281/zenodo.4564017",
+      "identifierType": "DOI"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Perdomo García, Andrea",
+      "nameType": "Personal",
+      "affiliation": [
+        {
+          "name": "Instituto de Astrofísica de Canarias, 38205 La Laguna, Tenerife, Spain"
+        },
+        {
+          "name": "Departamento de Astrofísica, Universidad de La Laguna, 38205 La Laguna, Tenerife, Spain"
+        }
+      ]
+    },
+    {
+      "name": "Vitas, Nikola",
+      "nameType": "Personal",
+      "affiliation": [
+        {
+          "name": "Instituto de Astrofísica de Canarias, 38205 La Laguna, Tenerife, Spain"
+        }
+      ]
+    },
+    {
+      "name": "Khomenko, Elena",
+      "nameType": "Personal",
+      "affiliation": [
+        {
+          "name": "Instituto de Astrofísica de Canarias, 38205 La Laguna, Tenerife, Spain"
+        }
+      ]
+    },
+    {
+      "name": "Collados, Manuel",
+      "nameType": "Personal",
+      "affiliation": [
+        {
+          "name": "Instituto de Astrofísica de Canarias, 38205 La Laguna, Tenerife, Spain"
+        }
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "title": "Modeling of 3D Atmospheres of Cool Stars with the MANCHA Code"
+    }
+  ],
+  "content": {
+    "sections": [
+      {
+        "sectionTitle": "Abstract",
+        "sectionContent": "The first results of the application of the MANCHA code to the case of stars beyond the solar case are presented: hydrodynamical simulations of stars of spectral type K0V and M0V compared with the solar case. Hydrodinamical models of the photosphere in 3D are the first step towards more realistic models including magnetic fields and non-ideal effects, and extending to the higher atmosphere."
+      },
+      {
+        "sectionTitle": "Introduction",
+        "sectionContent": "Although 1D models have been proved to be useful to study stellar atmospheres, to fully understand their structure and dynamics, 3D simulations are required: the magnetic and velocity fields or more accurate abundances determinations are some examples of this need. While the 3D-convection had been extensively simulated for the sun, it only has been simulated for other stars recently (Beeck et al., 2013; Magic et al., 2013). This is important not only to study processes that are well-known in the sun in a wider regime of physical parameters typical for other stars, but also as realistic physical models of stellar atmospheres are essential tools for high-precision spectroscopy."
+      },
+      {
+        "sectionTitle": "Initial Models",
+        "sectionContent": "First, 1D models are created by modifying the structure of a gray atmosphere using mixing length theory. Then, the models are replicated into the 3D domain and a small perturbation in density and internal energy is added as a seed to initiate the convection."
+      },
+      {
+        "sectionTitle": "MANCHA Code",
+        "sectionContent": "MANCHA is a numerical code originally written for 3D “box-in-a-star” simulations of the solar atmosphere and near-surface convection (Khomenko et al., 2017). It simultaneously solves, on a regular Cartesian grid, the system of MHD equations, including the non-ideal terms (Ohmic, ambipolar, Biermann's battery), realistic radiative transfer equation and equation of state accounting for partial ionization. The code is highly modular so it has been used in various other setups (propagation of waves, prominences, 2-fluid experiments)."
+      },
+      {
+        "sectionTitle": "Developed Convection",
+        "sectionContent": "We will show the results after 6 hours of stellar time. The effective temperature and gravity are [5780 k; 274 m s -2 ] for the sun, [4855 k; 406 m s -2 ] for the K0V and [3900 k; 670 m s -2 ] for the M0V. The horizontal size and height of the domain is [5760x5760 km; 1568 km] for the sun, [2880x2880 km; 784 km] for the K0V and [1440x1440km; 448 km] for the M0V.\n\nFor earlier spectral types, the granule cell size is larger and the vertical velocities are higher.\n\nThe properties of the convection of the K0V and M0V stars are in general agreement with the results from Beeck et al. (2013)."
+      },
+      {
+        "sectionTitle": "Future Work",
+        "sectionContent": "It is demonstrated that the MANCHA code can be adapted to simulate photospheres of other stars, cooler than the sun. There is an ongoing effort to make the opacities at low temperatures more realistic using the state-of-the-art 1D SYNSPEC code (Hubeny & Lanz, 2017). The hydrodynamical models produced so far will be used as initial 3D models for more complicated setups including magnetic fields and the non-ideal effects due to partial ionization, and, as well, for the setups extending to the chromosphere and above."
+      },
+      {
+        "sectionTitle": "References",
+        "sectionContent": "[1] Beeck et al, 2013. A&A, 558 [2] Magic et al, 2013. A&A, 557 [3] Khomenko et al, 2017. A&A, 604 [4] I. Hubeny and T. Lanz, 2017. arXiv:1706.01859"
+      }
+    ]
+  },
+  "imageCaptions": [],
+  "tableCaptions": [],
+  "publicationYear": 2021,
+  "subjects": [
+    {
+      "subject": "scientific poster"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "Scientific poster abstract.",
+      "descriptionType": "Abstract"
+    }
+  ],
+  "conference": {
+    "conferenceName": "Unknown Conference",
+    "conferenceYear": 2021
+  },
+  "rightsList": [
+    {
+      "rights": "CC-BY-4.0"
+    }
+  ],
+  "formats": [
+    "PDF"
+  ]
+}

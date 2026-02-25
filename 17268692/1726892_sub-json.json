@@ -26,7 +26,7 @@
       "title": "Presenting the Actionable Guidelines for FAIR Research Software Task Force"
     }
   ],
-  "posterContent": {
+  "content": {
     "sections": [
       {
         "sectionTitle": "Background",
@@ -58,19 +58,43 @@
       }
     ]
   },
-  "imageCaption": [
+  "imageCaptions": [
     {
-      "caption1": "Figure 1. Overview of the Task Force.",
-      "caption2": ""
+      "id": "fig1",
+      "caption": "Figure 1. Overview of the Task Force."
     },
     {
-      "caption1": "Figure 2. Illustration of the outcomes of task 1 of the Task Force, which consisted of understanding the requirements of each of the 17 FAIR4RS principles.",
-      "caption2": ""
+      "id": "fig2",
+      "caption": "Figure 2. Illustration of the outcomes of task 1 of the Task Force, which consisted of understanding the requirements of each of the 17 FAIR4RS principles."
     },
     {
-      "caption1": "Figure 3. Progress of the subgroup working on C5 - Metadata for software reuse.",
-      "caption2": ""
+      "id": "fig3",
+      "caption": "Figure 3. Progress of the subgroup working on C5 - Metadata for software reuse."
     }
   ],
-  "tableCaption": []
+  "tableCaptions": [],
+  "publicationYear": 2025,
+  "subjects": [
+    {
+      "subject": "scientific poster"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "Scientific poster abstract.",
+      "descriptionType": "Abstract"
+    }
+  ],
+  "conference": {
+    "conferenceName": "Unknown Conference",
+    "conferenceYear": 2025
+  },
+  "rightsList": [
+    {
+      "rights": "CC-BY-4.0"
+    }
+  ],
+  "formats": [
+    "PDF"
+  ]
 }

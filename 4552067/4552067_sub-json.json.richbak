@@ -1,0 +1,104 @@
+{
+  "$schema": "https://posters.science/schema/v0.1/poster_schema.json",
+  "identifiers": [
+    {
+      "identifier": "10.5281/zenodo.4552067",
+      "identifierType": "DOI"
+    },
+    {
+      "identifier": "zenodo_4552067_Portage_Poster.pdf",
+      "identifierType": "Other"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Portage Network",
+      "nameType": "Organizational",
+      "affiliation": [
+        {
+          "name": "Canadian Association of Research Libraries (CARL)"
+        }
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "title": "Portage: Shared Stewardship of Research Data"
+    }
+  ],
+  "content": {
+    "sections": [
+      {
+        "sectionTitle": "What is Portage?",
+        "sectionContent": "Portage is a national research data management (RDM) initiative to assist researchers and other stakeholders through a library-based network of expertise, and develop national platforms and services for planning, preserving, and discovering research data. Managed by the Canadian Association of Research Libraries."
+      },
+      {
+        "sectionTitle": "What is Research Data Management (RDM)?",
+        "sectionContent": "Practices applied throughout the lifecycle of a research project to guide the collection, documentation, storage, sharing, and preservation of research data. Processes integral to conducting responsible research and helping researchers adhere to institutional and funding agency guidelines."
+      },
+      {
+        "sectionTitle": "Network of Experts",
+        "sectionContent": "Areas of Expertise: Data Management Planning, Data Discovery, Curation, Preservation, Training, Research Intelligence, Institutional Planning, RDM Ethics.\n\nPan-Canadian Representation: Atlantic (10), Quebec (11), Ontario (37), West (39) volunteers. Organizations: CARL University (24), Non-CARL University (7), Other Organization (9)."
+      },
+      {
+        "sectionTitle": "DMP Assistant",
+        "sectionContent": "Online, bilingual data management planning tool (www.assistant.portagenetwork.ca) covering: Data Collection, Documentation and Metadata, Storage and Backup, Preservation, Sharing and Reuse, Responsibilities and Resources, Ethics and Legal Compliance."
+      },
+      {
+        "sectionTitle": "Federated Research Data Repository (FRDR)",
+        "sectionContent": "A scalable, federated platform for digital RDM and discovery of Canadian research data (www.frdr.ca). Indexes Canadian data repositories from a single platform. Storage and preservation for large datasets. Curation and preservation processes to ensure long-term data usability."
+      },
+      {
+        "sectionTitle": "Dataverse North",
+        "sectionContent": "A community of practice for libraries using or interested in using the Dataverse repository platform for research data in Canada."
+      },
+      {
+        "sectionTitle": "Training and Guidance",
+        "sectionContent": "On-demand training assistance available to those organizing RDM training on Canadian academic campuses. Online training modules in French and English in development."
+      }
+    ]
+  },
+  "imageCaptions": [
+    {
+      "id": "fig1",
+      "caption": "The Research Data Lifecycle diagram showing seven stages: Plan, Create, Process, Analyze, Disseminate, Preserve, Reuse."
+    },
+    {
+      "id": "fig2",
+      "caption": "Donut charts showing Pan-Canadian representation by region (volunteers) and organization type."
+    },
+    {
+      "id": "fig3",
+      "caption": "Screenshot of DMP Assistant online data management planning tool interface."
+    },
+    {
+      "id": "fig4",
+      "caption": "Screenshot of FRDR (Federated Research Data Repository) website interface."
+    }
+  ],
+  "tableCaptions": [],
+  "publicationYear": 2021,
+  "subjects": [
+    {
+      "subject": "scientific poster"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "Scientific poster abstract.",
+      "descriptionType": "Abstract"
+    }
+  ],
+  "conference": {
+    "conferenceName": "Unknown Conference",
+    "conferenceYear": 2017
+  },
+  "rightsList": [
+    {
+      "rights": "CC-BY-4.0"
+    }
+  ],
+  "formats": [
+    "PDF"
+  ]
+}

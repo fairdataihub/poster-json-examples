@@ -1,0 +1,137 @@
+{
+  "$schema": "https://posters.science/schema/v0.1/poster_schema.json",
+  "identifiers": [
+    {
+      "identifier": "10.5281/zenodo.4560930",
+      "identifierType": "DOI"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Couperus, Andrew A.",
+      "nameType": "Personal",
+      "affiliation": [
+        {
+          "name": "Georgia State University, Atlanta, GA"
+        },
+        {
+          "name": "RECONS Institute, Chambersburg, PA"
+        }
+      ]
+    },
+    {
+      "name": "Henry, Todd J.",
+      "nameType": "Personal",
+      "affiliation": [
+        {
+          "name": "RECONS Institute, Chambersburg, PA"
+        }
+      ]
+    },
+    {
+      "name": "Osten, Rachel A.",
+      "nameType": "Personal",
+      "affiliation": [
+        {
+          "name": "Space Telescope Science Institute (STScI), Baltimore, MD"
+        }
+      ]
+    },
+    {
+      "name": "Jao, Wei-Chun",
+      "nameType": "Personal",
+      "affiliation": [
+        {
+          "name": "Georgia State University, Atlanta, GA"
+        }
+      ]
+    },
+    {
+      "name": "Vrijmoet, Eliot H.",
+      "nameType": "Personal",
+      "affiliation": [
+        {
+          "name": "Georgia State University, Atlanta, GA"
+        },
+        {
+          "name": "RECONS Institute, Chambersburg, PA"
+        }
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "title": "Twinkle Twinkle Little Star: ET Wonders How You Are"
+    }
+  ],
+  "content": {
+    "sections": [
+      {
+        "sectionTitle": "Abstract",
+        "sectionContent": "M dwarfs comprise three-quarters of all stars (Henry et al. 2006; 2018), and host a plethora of exoplanets that are presently being revealed. In order to inform the overall solar neighborhood, and to explore the viability of these common targets as habitable exoplanet hosts, the REsearch Consortium On Nearby Stars (RECONS: www.recons.org) has spent over two decades studying nearby red dwarfs."
+      },
+      {
+        "sectionTitle": "Introduction",
+        "sectionContent": "The RECONS work presented here focuses on the poorly studied long-term M Dwarf spot activity cycles (SURVEY) — analogous to the 11-year solar cycle — as well as the magnetic activity behavior of 36 M dwarf 'twin' binaries hosting nearly identical component stars (TWINS). Both aspects of this work provide critically valuable results to expand our understanding of M dwarf magnetic dynamos, particularly in fully convective stars."
+      },
+      {
+        "sectionTitle": "SURVEY",
+        "sectionContent": "Our stellar cycle efforts study an effectively volume-complete 'Survey' sample of 463 stars all within 16.7 parsecs and south of 0 declination on the sky. This comprises a robust and statistically representative set of stars, adding significant value and reliability to our results."
+      },
+      {
+        "sectionTitle": "M Dwarf Stellar Cycles - SURVEY",
+        "sectionContent": "Our efforts have so far uncovered about 20 confident stellar cycles in fully convective M dwarfs, the largest such collection, which significantly expands the known cycles in this regime. These results are pending final analysis and publication, including a discussion of their implications for dynamo theory in fully convective stars (Couperus et al. in prep). Several dozen more candidate cycles have also been identified and are being analyzed, containing stars spanning the entire M dwarf sequence."
+      },
+      {
+        "sectionTitle": "M Dwarf Stellar Cycles - SURVEY Examples",
+        "sectionContent": "We show 4 of our detected cycles here as examples. GJ1061 and GJ234AB demonstrate fits produced via a novel Gaussian Process based effective model that combines components for both short-term rotational modulation and long-term stellar cycles. For comparison, WT460AB and GJ358 demonstrate cycle period estimates based on a more traditional Lomb-Scargle periodogram analysis."
+      },
+      {
+        "sectionTitle": "M Dwarf Twin Binaries - TWINS",
+        "sectionContent": "Our twin binary components have similar estimated masses and photometry, and are presumably of the same age and metallicity. Evolutionary models and conventional thinking might suggest that such twin stars should evolve similarly, resulting in similar overall magnetic properties. We are testing this assumption of magnetic predictability by examining magnetically relevant tracers in each of our twin pairs to determine if they show similar or rather different behaviors."
+      },
+      {
+        "sectionTitle": "TWINS",
+        "sectionContent": "We are targeting our twin systems for long-term variability and rotation rates at the CTIO/SMARTS 0.9m, checking Hα activity with CHIRON at the CTIO/SMARTS 1.5m, obtaining speckle imaging at the SOAR 4.1m to check for unresolved companions, and awaiting Chandra X-ray observations scheduled for 4 pairs."
+      },
+      {
+        "sectionTitle": "The RECONS Program",
+        "sectionContent": "The RECONS program obtains differential VRI photometry and astrometry observations using the SMARTS 0.9m at the Cerro Tololo Inter-American Observatory. We routinely acquire new data 4-6 times per year and typically reach a photometric precision limit of about 7 millimagnitudes (mmag). Our ongoing coverage currently spans more than 20 years, offering a unique and growing long-term dataset for examining red dwarfs."
+      },
+      {
+        "sectionTitle": "References",
+        "sectionContent": "Ref: T. J. Henry et al. 2006, AJ, 132, 2360; 2018, AJ, 155, 265."
+      },
+      {
+        "sectionTitle": "Contact",
+        "sectionContent": "andcoup@astro.gsu.edu | www.astro.gsu.edu/~andcoup/"
+      }
+    ]
+  },
+  "imageCaptions": [],
+  "tableCaptions": [],
+  "publicationYear": 2021,
+  "subjects": [
+    {
+      "subject": "scientific poster"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "Scientific poster abstract.",
+      "descriptionType": "Abstract"
+    }
+  ],
+  "conference": {
+    "conferenceName": "Unknown Conference",
+    "conferenceYear": 2021
+  },
+  "rightsList": [
+    {
+      "rights": "CC-BY"
+    }
+  ],
+  "formats": [
+    "PDF"
+  ]
+}
