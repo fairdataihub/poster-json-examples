@@ -1,6 +1,11 @@
 {
   "$schema": "https://posters.science/schema/v0.1/poster_schema.json",
-  "identifiers": [],
+  "identifiers": [
+    {
+      "identifier": "10.5281/zenodo.17268692",
+      "identifierType": "DOI"
+    }
+  ],
   "creators": [
     {
       "name": "Patel, Bhavesh",
@@ -38,11 +43,11 @@
       },
       {
         "sectionTitle": "Solution",
-        "sectionContent": "• To address that, we established the Actionable Guidelines for the FAIR Research Software (Actionable FAIR4RS) Task Force in December 2024 under the Research Software Alliance (ReSA).\n\n• The Task Force is run by a diverse international team of researchers and research software developers from various fields (Fig. 1).\n\n• Goal: Create actionable and domain-agnostic guidelines for implementing the FAIR4RS principles, through a comprehensive, community-driven methodology."
+        "sectionContent": "• To address that, we established the Actionable Guidelines for the FAIR Research Software (Actionable FAIR4RS) Task Force in December 2024 under the Research Software Alliance (ReSA).\n\n• The Task Force is run by a diverse international team of researchers and research software developers from various fields (Fig. 1).\n\n• Goal: Create actionable and domain-agnostic guidelines for implementing the FAIR4RS principles, through a comprehensive, community-driven methodology.\n\nHome of the Task Force\n\n~12 active members\n\nLocation: Germany, Spain, UK, USA, etc.\n\nResearch domains: Biomedical, Data Science, Knowledge Representation, etc."
       },
       {
         "sectionTitle": "Progress",
-        "sectionContent": "• We began by conducting an in-depth analysis of the FAIR4RS principles and identified six key categories where actionable instructions are needed, each with a series of outstanding questions (Fig. 2).\n\n• Six subgroups are now conducting literature reviews and community outreach to answer these questions.\n\n• Fig. 3 illustrates the approach and preliminary findings from the subgroup working on category C5, including a preliminary list of metadata elements we believe are essential for software reuse and ways to include that metadata with software."
+        "sectionContent": "• We began by conducting an in-depth analysis of the FAIR4RS principles and identified six key categories where actionable instructions are needed, each with a series of outstanding questions (Fig. 2).\n\n• Six subgroups are now conducting literature reviews and community outreach to answer these questions.\n\n• Fig. 3 illustrates the approach and preliminary findings from the subgroup working on category C5, including a preliminary list of metadata elements we believe are essential for software reuse and ways to include that metadata with software.\n\n17 FAIR4RS principles → 6 main categories → Many questions!\n\nWe identified 6 categories where actionable guidelines are needed:\n- C1. Identifier\n- C2. Metadata for software publication & discovery\n- C3. Standards for inputs & outputs\n- C4. Qualified references\n- C5. Metadata for software reuse\n- C6. License\n\n2 FAIR4RS principles → 2 main questions\n\n• R1. Software is described with a plurality of accurate and relevant attributes\n\n• R1.2. Software is associated with detailed provenance.\n\nQuestions:\n- What provenance and other metadata are necessary for software reuse?\n- How to provide that metadata?\n\nMethods:\n- Literature review\n- Personal assessment\n- External feedback\n\nPreliminary findings:\n\nProvenance metadata:\n- Authors info\n- Funding details\n\nOther metadata:\n- Software description\n- Required dependencies\n\nHow to provide:\ncodemeta.json"
       },
       {
         "sectionTitle": "Next Steps",
@@ -76,17 +81,24 @@
   "publicationYear": 2025,
   "subjects": [
     {
-      "subject": "scientific poster"
-    }
-  ],
-  "descriptions": [
+      "subject": "FAIR principles"
+    },
     {
-      "description": "Scientific poster abstract.",
-      "descriptionType": "Abstract"
+      "subject": "research software"
+    },
+    {
+      "subject": "FAIR4RS"
+    },
+    {
+      "subject": "software metadata"
+    },
+    {
+      "subject": "reproducibility"
     }
   ],
+  "descriptions": [],
   "conference": {
-    "conferenceName": "Unknown Conference",
+    "conferenceName": "USRSE'25",
     "conferenceYear": 2025
   },
   "rightsList": [

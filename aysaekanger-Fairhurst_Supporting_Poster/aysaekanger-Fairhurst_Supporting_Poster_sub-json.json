@@ -1,6 +1,5 @@
 {
   "$schema": "https://posters.science/schema/v0.1/poster_schema.json",
-  "identifiers": [],
   "creators": [
     {
       "name": "Fairhurst, Vanessa",
@@ -14,30 +13,45 @@
   ],
   "titles": [
     {
-      "title": "Your Funding Infrastructure Wishes: Grant-ID"
+      "title": "Your funding infrastructure wishes Grant-ID"
     }
   ],
+  "publisher": {
+    "name": "Crossref"
+  },
   "content": {
     "sections": [
       {
-        "sectionTitle": "Problem Statement",
+        "sectionContent": "Vanessa Fairhurst, Community Outreach Manager, Crossref"
+      },
+      {
         "sectionContent": "\"The primary challenge reported by funders is connecting grants to subsequent research activities and outputs\" [1]\n\n[1] https://doi.org/10.23640/07243.9149240.v1"
       },
       {
         "sectionTitle": "Grant IDs in the publishing workflow",
-        "sectionContent": "Publishers and funders join Crossref and promote the use of the DOI. Publishing and funding organizations join Crossref in order to assign identifiers to their content and register the associated metadata. Funder promotes use of the grant ID when refererring to or citing the grant.\n\nResearcher registers for an ORCID iD. Researcher visits ORCID.org and signs up for an iD, and adds data to their record using free tools.\n\nFunder pulls in career and CV data from ORCID record. Researcher applies for funding. Funding application succeeds. Funder registers a DOI for the grant.\n\nPublisher collects author ORCID iDs during submission. Publisher creates automatic funding acknowledgement. Funding information collected and disseminated.\n\nResearcher authorises institution and funder to read/update record. Funders register DOIs for grants including creating a landing page displaying the grant metadata to which this will resolve.\n\nPublisher submission system pulls in grant information from Crossref and adds grant DOI to article metadata. Publisher matches the funder against their publication policy so that they can publish in line with it.\n\nArticle is published. Funder keeps grant metadata updated and promotes use of the DOI."
+        "sectionContent": "Publishers and funders join Crossref and promote the use of the DOI\nPublishing and funding organizations join Crossref in order to assign identifiers to their content and register the associated metadata. Funder promotes use of the grant ID when refererring to or citing the grant.\n\nResearcher registers for an ORCID iD\nResearcher visits ORCID.org and signs up for an iD, and adds data to their record using free tools.\n\nResearcher applies for funding\n\nFunder pulls in career and CV data from ORCID record\nResearcher authorises institution and funder to read/update record.\nInstitution adds employment data to ORCID record and the funder system pulls in this grantee information by entering their ORCID.\n\nFunding application succeeds\n\nFunder registers a DOI for the grant\nFunders register DOIs for grants including creating a landing page displaying the grant metadata to which this will resolve. Crossref will push this information to ORCID if an ORCID iD is included in the metadata.\n\nPublisher collects author ORCID iDs during submission\nEnsures researcher (and their co-authors) are correctly identified and information tied to ORCID records can be pulled into systems.\n\nPublisher creates automatic funding acknowledgement\nPublisher submission system pulls in grant information from Crossref and adds grant DOI to article metadata.\n\nFunding information collected and disseminated\nPublisher matches the funder against their publication policy so that they can publish in line with it.\n\nArtlcle is published\n\nFunder keeps grant metadata updated and promotes use of the DOI\nFunder complies with obligations to keep location of grant landing page and associated metadata up-to-date."
       },
       {
-        "sectionTitle": "Crossref, ORCID, and ROR",
-        "sectionContent": "Crossref\nCrossref lets organizations that publisher research register identifiers and metadata for their content. This metadata can contain ORCID iDs, funding and licence information and more. This information is made freely available so that it can be integrated into their research information systems to track research outputs.\n\nORCID\nORCID provides a persistent digital identifier that distinguishes each researcher from other researchers and, through integration in key workflows such as manuscript and grant submission, supports automated linkages between them and their professional activities ensuring that their work is recognised.\n\nHeard about ROR?\nResearch Organizations Registry (ROR) is a community-led project to develop an open, sustainable, usable, and unique identifier for every research organization in the world. https://ror.org"
+        "sectionTitle": "Crossref",
+        "sectionContent": "Crossref lets organizations that publisher research register identifiers and metadata for their content. This metadata can contain ORCID iDs, funding and licence information and more. This information is made freely available so that it can be integrated into their research information systems to track research outputs."
       },
       {
-        "sectionTitle": "Benefits",
+        "sectionTitle": "ORCID",
+        "sectionContent": "ORCID provides a persistent digital identifier that distinguishes each researcher from other researchers and, through integration in key workflows such as manuscript and grant submission, supports automated linkages between them and their professional activities ensuring that their work is recognised."
+      },
+      {
+        "sectionTitle": "Heard about ROR?",
+        "sectionContent": "Research Organizations Registry (ROR) is a community-led project to develop an open, sustainable, usable, and unique identifier for every research organization in the world.\nhttps://ror.org"
+      },
+      {
+        "sectionContent": "https://doi.org/10.35802/107769"
+      },
+      {
         "sectionContent": "Understand connections between projects and collaborators\nGrant IDs can be used to connect multiple research outputs to funding, including mapping linkages between collaborators and future projects.\n\nMaintain a healthier research environment.\nLess duplication of effort in overlapping grants or repeated projects, easier checks on conflicts of interest, and greater understanding of the impact of funding on career development.\n\nSimplified process of research reporting\nAutomates the process of matching of outputs to grants, makes search and discovery easier, and aids tracking the impact of funding shared infrastructures and facilities."
       },
       {
         "sectionTitle": "Give us your input!",
-        "sectionContent": "Grant ID Schema information at: https://github.com/CrossRef/grantID-schema/\n\nWebsite: crossref.org Email: feedback@crossref.org"
+        "sectionContent": "Grant ID Schema information at:\nhttps://github.com/CrossRef/grantID-schema/\n\nWebsite: crossref.org\nEmail: feedback@crossref.org"
       }
     ]
   },
@@ -46,17 +60,24 @@
   "publicationYear": 2019,
   "subjects": [
     {
-      "subject": "scientific poster"
-    }
-  ],
-  "descriptions": [
+      "subject": "grant identifiers"
+    },
     {
-      "description": "Scientific poster abstract.",
-      "descriptionType": "Abstract"
+      "subject": "persistent identifiers"
+    },
+    {
+      "subject": "research funding infrastructure"
+    },
+    {
+      "subject": "scholarly communication"
+    },
+    {
+      "subject": "ORCID"
     }
   ],
+  "descriptions": [],
   "conference": {
-    "conferenceName": "Unknown Conference",
+    "conferenceName": "PIDapalooza 2019",
     "conferenceYear": 2019
   },
   "rightsList": [

@@ -113,11 +113,11 @@
       },
       {
         "sectionTitle": "Results: characterization co-culture model",
-        "sectionContent": ""
+        "sectionContent": "CTRL monoculture (IECs or DCs)\nIEC / DC co-culture"
       },
       {
         "sectionTitle": "Results: exposure of iDCs to microplastics",
-        "sectionContent": ""
+        "sectionContent": "Progenitor cells\n-CTRL (iDC)\n+CTRL (mDC)\nPET_c000 (25, 50, 100 μg/ml)\nHDPE296 (25, 50, 100 μg/ml)\nPS394Eu (25, 50, 100 μg/ml)"
       },
       {
         "sectionTitle": "Conclusions",
@@ -128,7 +128,6 @@
         "sectionContent": "This research was supported by the Dutch Ministry of Agriculture, Nature and Food Quality (KB-37-001-019) and received funding from the European Union's Horizon2020 Research and Innovation programme (Grant Agreement number 965367; PlasticsFatE)."
       },
       {
-        "sectionTitle": "Contact",
         "sectionContent": "Wageningen University & Research\nP.O. Box 123, 6700 AB Wageningen\nContact: meike.vanderzande@wur.nl\nhttps://www.wur.nl/en/research-results/research-institutes/food-safety-research.htm"
       }
     ]
@@ -157,21 +156,37 @@
       "caption": "Table 1. Physicochemical data of the micro/nanoplastics for the cell exposure experiment."
     }
   ],
-  "publicationYear": 2025,
+  "publisher": {
+    "name": "Zenodo"
+  },
+  "publicationYear": 2024,
   "subjects": [
     {
-      "subject": "scientific poster"
+      "subject": "human induced pluripotent stem cells"
+    },
+    {
+      "subject": "intestinal epithelial cells"
+    },
+    {
+      "subject": "dendritic cells"
+    },
+    {
+      "subject": "immunocompetence"
+    },
+    {
+      "subject": "micro/nanoplastics"
     }
   ],
   "descriptions": [
     {
-      "description": "Scientific poster abstract.",
+      "description": "Human induced pluripotent stem cell (hiPSC)-derived intestinal epithelial cell (IEC) layers have the potential to provide an increasingly improved alternative to cell lines as they differentiate into multiple intestinal cell types that are also present in vivo. However, these models currently lack immunocompetence, as they do not contain immune cells like for instance dendritic cells (DCs) that play an important role in intestinal immune responses.",
       "descriptionType": "Abstract"
     }
   ],
   "conference": {
-    "conferenceName": "Unknown Conference",
-    "conferenceYear": 2025
+    "conferenceName": "63rd Annual Meeting and ToxExpo of the Society of Toxicology (SOT 2024)",
+    "conferenceYear": 2024,
+    "conferenceLocation": "Salt Lake City, Utah, USA"
   },
   "rightsList": [
     {

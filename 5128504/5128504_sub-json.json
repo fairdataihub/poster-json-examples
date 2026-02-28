@@ -1,6 +1,5 @@
 {
   "$schema": "https://posters.science/schema/v0.1/poster_schema.json",
-  "identifiers": [],
   "creators": [
     {
       "name": "Polack, Garrett E.",
@@ -93,7 +92,7 @@
     },
     {
       "id": "fig2",
-      "caption": "Figure 2: An HST color image of NGC 4051 with its [N II] BPT overlay. North is pointed toward 18° (Right): [N II] BPT diagrams for the high flux (large squares) and low flux (small squares) components as a function of distance from the nucleus along the APO DIS long-slit at PA = 98° (top), 233° (middle) and 188° (bottom). BPT for the fourth slit position angle 143° is not shown."
+      "caption": "Figure 2: An HST color image of NGC 4051 with its [N II] BPT overlay. North is pointed toward 18°. (Right): [N II] BPT diagrams for the high flux (large squares) and low flux (small squares) components as a function of distance from the nucleus along the APO DIS long-slit at PA = 98° (top), 233° (middle) and 188° (bottom). BPT for the fourth slit position angle 143° is not shown."
     },
     {
       "id": "fig3",
@@ -101,10 +100,22 @@
     }
   ],
   "tableCaptions": [],
-  "publicationYear": 2025,
+  "publicationYear": 2021,
   "subjects": [
     {
-      "subject": "scientific poster"
+      "subject": "Seyfert galaxies"
+    },
+    {
+      "subject": "AGN ionization"
+    },
+    {
+      "subject": "BPT diagrams"
+    },
+    {
+      "subject": "narrow line region"
+    },
+    {
+      "subject": "star formation"
     }
   ],
   "descriptions": [
@@ -114,8 +125,8 @@
     }
   ],
   "conference": {
-    "conferenceName": "Unknown Conference",
-    "conferenceYear": 2025
+    "conferenceName": "2021 APO Science Symposium",
+    "conferenceYear": 2021
   },
   "rightsList": [
     {

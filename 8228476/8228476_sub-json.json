@@ -1,6 +1,5 @@
 {
   "$schema": "https://posters.science/schema/v0.1/poster_schema.json",
-  "identifiers": [],
   "creators": [
     {
       "name": "Toker, Michael",
@@ -101,12 +100,11 @@
   "content": {
     "sections": [
       {
-        "sectionTitle": "Introduction",
         "sectionContent": "The corpus of late antique and medieval Hebrew is vast and represents a crucial linguistic and cultural bridge between Biblical and modern Hebrew. Poetry is prominent in texts from these time periods and one of its characteristics is the use of metaphor. Distinguishing figurative and literal words or phrases is a major task for scholars in the Humanities, especially in the fields of literature, linguistics, and hermeneutics. We present a new, challenging dataset of early medieval Hebrew poetry with expert annotations of metaphors with baseline results."
       },
       {
         "sectionTitle": "The Dataset",
-        "sectionContent": "• Early medieval Hebrew poems.\n• 180 labeled texts, 7,000 sentences, 45,000 words.\n• 15% of the words are metaphors."
+        "sectionContent": "• Early medieval Hebrew poems.\n• 180 labeled texts, 7,000 sentences, 45,000 words.\n• 15% of the words are metaphors.\n\nHebrew | English | Meaning\nטבענו בגזרות, כשטופי ים | We drowned in decrees, like sea washed | There are too many decrees\nהצית נשמה ויבער נר | Ignite a soul, fire a candle | Create a soul\nעד דור עשירי לא עשו פרי | Until the tenth generation they did not bear fruit | For ten generations, they did no good deeds"
       },
       {
         "sectionTitle": "Inter Annotator Agreement",
@@ -114,15 +112,15 @@
       },
       {
         "sectionTitle": "Methods",
-        "sectionContent": "Fine-tuning for metaphor detection\n\nLM adaptation\n\nLanguage models (pre-trained & adapted)\n\nTrained on additional prose and poetic medieval texts (Project Ben-Yehuda*) + Piyyut dataset\n\n*Project Ben-Yehuda is a volunteer-based online library of free Hebrew literature."
+        "sectionContent": "Fine-tuning for metaphor detection\n\nPre-trained/Adapted Language Model\nעיצבון במשלח ידינו\nעיצ_ _בון במשלח ידי_ _נו\nTokenizer\nMetaphor / Not a Metaphor\n\nLM adaptation\n\nPre-trained Language Model\nעיצ_ במשלח\n<mask> _בון <mask> ידי_ _נו\nעיצ_ _בון במשלח ידי_ _נו\nTokenizer\nעיצבון במשלח ידינו\n\nLanguage models (pre-trained & adapted)\n\nTrained on additional prose and poetic medieval texts (Project Ben-Yehuda*) + Piyyut dataset\n\nModel | Data Size (words) | Data Type\nBEREL | 220 Milion | Medieval\nAlephBERT | 2 Bilion | Modern\nAlephBERT Adapted | 2 Bilion + 10 Milion | Modern + Medieval\n\n*Project Ben-Yehuda is a volunteer-based online library of free Hebrew literature."
       },
       {
         "sectionTitle": "Results",
-        "sectionContent": "• AlephBERT is outperformed by AlephBERT Adapted.\n• BEREL, pre-trained on medieval texts, shows the best results.\n\nf1 Score on test set"
+        "sectionContent": "• AlephBERT is outperformed by AlephBERT Adapted.\n• BEREL, pre-trained on medieval texts, shows the best results.\n\nf1 Score on test set\nAlephBERT: 44.404\nBEREL: 48.3\nAlephBERT - adapted: 46.56"
       },
       {
         "sectionTitle": "Error Analysis",
-        "sectionContent": "ילד לניחוח חשקתיו\n\n(A child for a scent - I have desired)\n\nBerel\n\nExpert explanation: The child is a non-metaphorical epithet for Isaac. \"Scent\" is a metonymic term for \"sacrifice\"."
+        "sectionContent": "ילד לניחוח חשקתיו\n\n(A child for a scent - I have desired)\n\nBerel\n\nילד לניחוח חשקתיו\n\nExpert explanation: The child is a non-metaphorical epithet for Isaac. \"Scent\" is a metonymic term for \"sacrifice\"."
       }
     ]
   },
@@ -133,21 +131,37 @@
     }
   ],
   "tableCaptions": [],
-  "publicationYear": 2025,
+  "publicationYear": 2023,
   "subjects": [
     {
-      "subject": "scientific poster"
+      "subject": "metaphor detection"
+    },
+    {
+      "subject": "medieval Hebrew poetry"
+    },
+    {
+      "subject": "NLP"
+    },
+    {
+      "subject": "language models"
+    },
+    {
+      "subject": "digital humanities"
     }
   ],
+  "publisher": {
+    "name": "Zenodo"
+  },
   "descriptions": [
     {
-      "description": "Scientific poster abstract.",
+      "description": "The corpus of late antique and medieval Hebrew is vast and represents a crucial linguistic and cultural bridge between Biblical and modern Hebrew. Poetry is prominent in texts from these time periods and one of its characteristics is the use of metaphor. Distinguishing figurative and literal words or phrases is a major task for scholars in the Humanities, especially in the fields of literature, linguistics, and hermeneutics. We present a new, challenging dataset of early medieval Hebrew poetry with expert annotations of metaphors with baseline results.",
       "descriptionType": "Abstract"
     }
   ],
   "conference": {
-    "conferenceName": "Unknown Conference",
-    "conferenceYear": 2025
+    "conferenceName": "DH 2023",
+    "conferenceYear": 2023,
+    "conferenceLocation": "Graz, Austria"
   },
   "rightsList": [
     {

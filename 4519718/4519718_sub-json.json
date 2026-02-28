@@ -49,6 +49,9 @@
       "title": "A Workflow for Protein Function Discovery"
     }
   ],
+  "publisher": {
+    "name": "Zenodo"
+  },
   "content": {
     "sections": [
       {
@@ -65,11 +68,11 @@
       },
       {
         "sectionTitle": "Results",
-        "sectionContent": "An automated workflow was established to discover which of the identified proteins were associated with one of a number of terms related to cancer pain, or to pain more generally, as well as to identify those proteins for which there was no published literature regarding their function. The workflow was set up within the Matlab programming environment, through calls to the NCBI programming utilities, as follows:\n• Protein names used to retrieve protein unique identifiers (UIDs). • Protein UIDs used to retrieve linked papers from PubMed • Papers searched for each cancer and/or pain related term\n\nThe final output was an Excel table of size N x (2*M), where N was the number of proteins and M was the number of concepts for which the search was done. For each protein, the total number of papers containing the concept was output, as well as a column containing the PubMed IDs of those papers."
+        "sectionContent": "An automated workflow was established to discover which of the identified proteins were associated with one of a number of terms related to cancer pain, or to pain more generally, as well as to identify those proteins for which there was no published literature regarding their function. The workflow was set up within the Matlab programming environment, through calls to the NCBI programming utilities, as follows:\n• Protein names used to retrieve protein unique identifiers (UIDs).\n• Protein UIDs used to retrieve linked papers from PubMed\n• Papers searched for each cancer and/or pain related term\nThe final output was an Excel table of size N x (2*M), where N was the number of proteins and M was the number of concepts for which the search was done. For each protein, the total number of papers containing the concept was output, as well as a column containing the PubMed IDs of those papers."
       },
       {
-        "sectionTitle": "Key Findings",
-        "sectionContent": "Papers (PMIDs) that are identified as containing one of the search terms (S) would be binned according to the value of the impact factor (IF) of that journal.\nTwo further refinements are currently being implemented.\n• Filtering results by impact factor • Finding proteins with concepts joined through common peptide/protease"
+        "sectionTitle": "Next Steps",
+        "sectionContent": "Two further refinements are currently being implemented.\n• Filtering results by impact factor\n• Finding proteins with concepts joined through common peptide/protease\nThe first of these is to use impact factor as a proxy for reproducibility of results, to aid in decisions by the researchers as to which proteins to use for preclinical testing. The second is an expansion of the search to locate proteins that are not implicated in cancer pain, but that are implicated in both separate concepts where a common peptide or protease is also referenced."
       },
       {
         "sectionTitle": "Conclusions",
@@ -81,30 +84,55 @@
       },
       {
         "sectionTitle": "References",
-        "sectionContent": "Hardt, Markus, David K Lam, John C Dolan, and Brian L Schmidt. 2011. “Surveying Proteolytic Processes in Human Cancer Microenvironments by Microdialysis and Activity-based Mass Spectrometry.” Proteomics. Clinical Applications 5 (11-12) (December): 636–43. doi:10.1002/prca.201100015.\nNCBI. 2010. Entrez Programming Utilities Help [internet]. Bethesda (MD): National Center for Biotechnology Information (US). http://www.ncbi.nlm.nih.gov/books/NBK25501/."
+        "sectionContent": "Hardt, Markus, David K Lam, John C Dolan, and Brian L Schmidt. 2011. \"Surveying Proteolytic Processes in Human Cancer Microenvironments by Microdialysis and Activity-based Mass Spectrometry.\" Proteomics. Clinical Applications 5 (11-12) (December): 636–43. doi:10.1002/prca.201100015.\nNCBI. 2010. Entrez Programming Utilities Help [internet]. Bethesda (MD): National Center for Biotechnology Information (US). http://www.ncbi.nlm.nih.gov/books/NBK25501/."
       },
       {
         "sectionTitle": "Contact",
-        "sectionContent": "Alisa Surkis, PhD, MLS Translational Science Librarian NYU Health Sciences Libraries NYU School of Medicine Alisa.surkis@med.nyu.edu 212-263-2953"
+        "sectionContent": "Alisa Surkis, PhD, MLS\nTranslational Science Librarian\nNYU Health Sciences Libraries\nNYU School of Medicine\nAlisa.surkis@med.nyu.edu\n212-263-2953"
       }
     ]
   },
-  "imageCaptions": [],
+  "imageCaptions": [
+    {
+      "id": "fig1",
+      "caption": "Workflow from protein name (P_N) through protein identifier (P_UID) to relevant papers (PMID) that were then searched for each relevant search term (S) to establish a measure of known associations of the protein with the concept (∑S)."
+    },
+    {
+      "id": "fig2",
+      "caption": "Papers (PMIDs) that are identified as containing one of the search terms (S) would be binned according to the value of the impact factor (IF) of that journal."
+    },
+    {
+      "id": "fig3",
+      "caption": "Papers (PMIDs) linked to a given protein (P_UID) that return a match for search terms related to one concept (e.g. cancer) will be checked to see if they are associated with a peptide or protease that is also associated with papers related to a different concept (e.g. pain)."
+    }
+  ],
   "tableCaptions": [],
   "publicationYear": 2013,
   "subjects": [
     {
-      "subject": "scientific poster"
+      "subject": "protein function discovery"
+    },
+    {
+      "subject": "cancer pain"
+    },
+    {
+      "subject": "NCBI Entrez programming utilities"
+    },
+    {
+      "subject": "literature search automation"
+    },
+    {
+      "subject": "proteomics"
     }
   ],
   "descriptions": [
     {
-      "description": "Scientific poster abstract.",
+      "description": "A workflow is presented for identifying from within a large set of proteins, those that have been identified in the literature as being associated with one of a set of concepts related to cancer pain. The workflow uses the programming utilities available through NCBI for accessing their linked databases from within a Matlab programming environment to replace a formerly time-intensive manual process with a much more efficient automated process.",
       "descriptionType": "Abstract"
     }
   ],
   "conference": {
-    "conferenceName": "Unknown Conference",
+    "conferenceName": "AMIA Joint Summits on Translational Science 2013",
     "conferenceYear": 2013
   },
   "rightsList": [

@@ -35,37 +35,22 @@
     "publisherIdentifierScheme": "ROR",
     "schemeURI": "https://ror.org"
   },
-  "publicationYear": 2021,
+  "publicationYear": 2017,
   "subjects": [
     {
-      "subject": "Research Data Management"
+      "subject": "research data management"
     },
     {
-      "subject": "RDM"
+      "subject": "data management planning"
     },
     {
-      "subject": "Open Data"
+      "subject": "research data repository"
     },
     {
-      "subject": "FAIR Data"
+      "subject": "data stewardship"
     },
     {
-      "subject": "Data Repository"
-    },
-    {
-      "subject": "Canada"
-    },
-    {
-      "subject": "DMP"
-    },
-    {
-      "subject": "Federated Research Data Repository"
-    },
-    {
-      "subject": "Data Management Planning"
-    },
-    {
-      "subject": "Libraries"
+      "subject": "Canadian research libraries"
     }
   ],
   "dates": [
@@ -118,7 +103,7 @@
   ],
   "descriptions": [
     {
-      "description": "This poster presents Portage, Canada's national research data management (RDM) initiative managed by the Canadian Association of Research Libraries (CARL). Portage provides a library-based network of experts across Canada (97 volunteers in 4 regions, representing 40 organizations) and three shared platform services: (1) DMP Assistant — bilingual online tool for creating Data Management Plans; (2) Federated Research Data Repository (FRDR) — scalable national platform for data deposit, discovery, and preservation; (3) Dataverse North — community of practice for Dataverse repository users. Coverage spans the full research data lifecycle: Plan, Create, Process, Analyze, Disseminate, Preserve, Reuse.",
+      "description": "Portage is a national research data management (RDM) initiative to assist researchers and other stakeholders through a library-based network of expertise, and develop national platforms and services for planning, preserving, and discovering research data. Portage is managed by the Canadian Association of Research Libraries.",
       "descriptionType": "Abstract"
     }
   ],
@@ -136,51 +121,41 @@
     "sections": [
       {
         "sectionTitle": "What is Portage?",
-        "sectionContent": "Portage is a national research data management (RDM) initiative to assist researchers and other stakeholders through a library-based network of expertise, and develop national platforms and services for planning, preserving, and discovering research data. Managed by the Canadian Association of Research Libraries."
+        "sectionContent": "Portage is a national research data management (RDM) initiative to assist researchers and other stakeholders through a library-based network of expertise, and develop national platforms and services for planning, preserving, and discovering research data. Portage is managed by the Canadian Association of Research Libraries."
       },
       {
         "sectionTitle": "What is Research Data Management (RDM)?",
-        "sectionContent": "Practices applied throughout the lifecycle of a research project to guide the collection, documentation, storage, sharing, and preservation of research data. Processes integral to conducting responsible research and helping researchers adhere to institutional and funding agency guidelines."
+        "sectionContent": "Practices applied throughout the lifecycle of a research project to guide the collection, documentation, storage, sharing, and preservation of research data. These processes are integral to conducting responsible research and help researchers save resources and adhere to institutional and funding agency guidelines.\n\nThe Research Data Lifecycle\nPlan, Create, Process, Analyze, Disseminate, Preserve, Reuse"
       },
       {
         "sectionTitle": "Network of Experts",
-        "sectionContent": "Areas of Expertise: Data Management Planning, Data Discovery, Curation, Preservation, Training, Research Intelligence, Institutional Planning, RDM Ethics.\n\nPan-Canadian Representation: Atlantic (10), Quebec (11), Ontario (37), West (39) volunteers. Organizations: CARL University (24), Non-CARL University (7), Other Organization (9)."
+        "sectionContent": "The Portage Network of Experts develops resources, expert advice, and practical help to assist with the management of research data at any stage throughout the data lifecycle. This expertise is provided in both English and French to anyone working in a Canadian university or research institution wanting to plan, manage, store, protect, share, and preserve digital research data.\n\nAreas of Expertise\n• Data Management Planning\n• Data Discovery\n• Curation\n• Preservation\n• Training\n• Research Intelligence\n• Institutional Planning\n• RDM Ethics\n\nPan-Canadian Representation\nVolunteers by region: Atlantic (10), Quebec (11), Ontario (37), West (39)\nOrganizations represented: CARL University (24), Non-CARL University (7), Other Organization (9)"
       },
       {
         "sectionTitle": "DMP Assistant",
-        "sectionContent": "Online, bilingual data management planning tool (www.assistant.portagenetwork.ca) covering: Data Collection, Documentation and Metadata, Storage and Backup, Preservation, Sharing and Reuse, Responsibilities and Resources, Ethics and Legal Compliance."
+        "sectionContent": "The DMP Assistant is an online, bilingual, data management planning tool that will help you create your own data management plan by answering questions related to:\n• Data Collection\n• Documentation and Metadata\n• Storage and Backup\n• Preservation\n• Sharing and Reuse\n• Responsibilities and Resources\n• Ethics and Legal Compliance\nwww.assistant.portagenetwork.ca"
       },
       {
-        "sectionTitle": "Federated Research Data Repository (FRDR)",
-        "sectionContent": "A scalable, federated platform for digital RDM and discovery of Canadian research data (www.frdr.ca). Indexes Canadian data repositories from a single platform. Storage and preservation for large datasets. Curation and preservation processes to ensure long-term data usability."
+        "sectionTitle": "Federated Research Data Repository",
+        "sectionContent": "A scalable, federated platform for digital RDM and the discovery of Canadian research data.\n\nNational Data Discovery\n• Indexes Canadian data repositories making data discoverable from a single platform\n\nStorage and Preservation\n• A place for Canadian researchers to deposit large data sets\n• Curation and preservation processes to ensure long-term data usability\nwww.frdr.ca"
       },
       {
         "sectionTitle": "Dataverse North",
         "sectionContent": "A community of practice for libraries using or interested in using the Dataverse repository platform for research data in Canada."
       },
       {
-        "sectionTitle": "Training and Guidance",
-        "sectionContent": "On-demand training assistance available to those organizing RDM training on Canadian academic campuses. Online training modules in French and English in development."
+        "sectionTitle": "On-Demand Training",
+        "sectionContent": "On-demand assistance is available to those organizing RDM training on Canadian academic campuses, and who would like help developing and delivering training and guidance materials in all areas of RDM."
+      },
+      {
+        "sectionTitle": "Online Training Resources",
+        "sectionContent": "Portage is developing online training modules in French and English to instruct researchers and other stakeholders about RDM in the Canadian context. A growing library of external training resources is also available on the Portage website."
+      },
+      {
+        "sectionContent": "Sponsored by the Canadian Association of Research Libraries"
       }
     ]
   },
-  "imageCaptions": [
-    {
-      "id": "fig1",
-      "caption": "The Research Data Lifecycle diagram showing seven stages: Plan, Create, Process, Analyze, Disseminate, Preserve, Reuse."
-    },
-    {
-      "id": "fig2",
-      "caption": "Donut charts showing Pan-Canadian representation by region (volunteers) and organization type."
-    },
-    {
-      "id": "fig3",
-      "caption": "Screenshot of DMP Assistant online data management planning tool interface."
-    },
-    {
-      "id": "fig4",
-      "caption": "Screenshot of FRDR (Federated Research Data Repository) website interface."
-    }
-  ],
+  "imageCaptions": [],
   "tableCaptions": []
 }

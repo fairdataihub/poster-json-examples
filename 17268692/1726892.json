@@ -11,7 +11,7 @@
     },
     {
       "identifier": "USRSE25-Poster-Actionable-FAIR4RS-TF.pdf",
-      "identifierType": "Other"
+      "identifierType": "file"
     }
   ],
   "creators": [
@@ -202,20 +202,7 @@
       "schemeUri": "https://spdx.org/licenses/"
     }
   ],
-  "descriptions": [
-    {
-      "description": "This poster presents the Actionable Guidelines for FAIR Research Software Task Force, established in December 2024 under the Research Software Alliance (ReSA). The Task Force addresses the challenge that FAIR4RS principles, while providing a framework for making research software Findable, Accessible, Interoperable, and Reusable, lack concrete implementation steps. Through a comprehensive, community-driven methodology involving six subgroups conducting literature reviews and community outreach, the Task Force aims to create actionable and domain-agnostic guidelines for implementing the FAIR4RS principles. The poster outlines the background, problem statement, proposed solution, current progress including preliminary findings on metadata for software reuse, and next steps toward releasing draft guidelines in March 2026 and the first official version in Summer 2026. The Task Force brings together approximately 12 active members from diverse international locations (Germany, Spain, UK, USA, etc.) and research domains (Biomedical, Data Science, Knowledge Representation, etc.).",
-      "descriptionType": "Abstract"
-    },
-    {
-      "description": "The Task Force is conducting literature reviews and community outreach through six subgroups, each addressing key categories: C1 (Identifier), C2 (Metadata for software publication & discovery), C3 (Standards for inputs & outputs), C4 (Qualified references), C5 (Metadata for software reuse), and C6 (License). The methodology includes personal assessment, literature review, and external feedback to establish answers for outstanding questions related to the 17 FAIR4RS principles. The subgroup working on category C5 has identified preliminary findings suggesting that provenance metadata (authors info, funding details) and other metadata (software description, required dependencies) are essential for software reuse, with codemeta.json identified as a method to provide this metadata.",
-      "descriptionType": "Methods"
-    },
-    {
-      "description": "Presented at the 3rd Annual Conference of the US Research Software Engineer Associate (USRSE'25) in Philadelphia, PA, USA, October 6-8, 2025. Conference theme: Code, Practices, and People.",
-      "descriptionType": "Other"
-    }
-  ],
+  "descriptions": [],
   "fundingReferences": [
     {
       "funderName": "Research Software Alliance (ReSA)"
@@ -262,7 +249,7 @@
       },
       {
         "sectionTitle": "Join the Task Force!",
-        "sectionContent": "Email: bpatel@calmi2.org\n\nFind this poster and all related references here: bit.ly/a-FAIR4RS\n\nwww.researchsoft.org/tf-actionable-fair4rs"
+        "sectionContent": "Email: bpatel@calmi2.org\n\nFind this poster and all related references here\n\nbit.ly/a-FAIR4RS\n\nwww.researchsoft.org/tf-actionable-fair4rs"
       }
     ]
   },
@@ -270,15 +257,15 @@
   "imageCaptions": [
     {
       "id": "fig1",
-      "caption": "Figure 1. Overview of the Task Force Shows approximately 12 active members from various locations (Germany, Spain, UK, USA, etc.) and research domains (Biomedical, Data Science, Knowledge Representation, etc.). Home of the Task Force under the Research Software Alliance (ReSA)."
+      "caption": "Figure 1. Overview of the Task Force."
     },
     {
       "id": "fig2",
-      "caption": "Figure 2. Illustration of the outcomes of task 1 of the Task Force Understanding the requirements of each of the 17 FAIR4RS principles. We identified 6 categories where actionable guidelines are needed: C1 (Identifier), C2 (Metadata for software publication & discovery), C3 (Standards for inputs & outputs), C4 (Qualified references), C5 (Metadata for software reuse), C6 (License)."
+      "caption": "Figure 2. Illustration of the outcomes of task 1 of the Task Force, which consisted of understanding the requirements of each of the 17 FAIR4RS principles."
     },
     {
       "id": "fig3",
-      "caption": "Figure 3. Progress of the subgroup working on C5 - Metadata for software reuse Shows the flow from 2 FAIR4RS principles (R1: Software is described with a plurality of accurate and relevant attributes; R1.2: Software is associated with detailed provenance) to 2 main questions about provenance and metadata, through methods (literature review, personal assessment, external feedback) to preliminary findings including provenance metadata (authors info, funding details), other metadata (software description, required dependencies), and how to provide it via codemeta.json."
+      "caption": "Figure 3. Progress of the subgroup working on C5 - Metadata for software reuse."
     }
   ],
   "tableCaptions": []
