@@ -65,10 +65,7 @@
     }
   ],
   "publisher": {
-    "name": "Zenodo",
-    "publisherIdentifier": "https://ror.org/01zzys052",
-    "publisherIdentifierScheme": "ROR",
-    "schemeURI": "https://ror.org"
+    "name": "Zenodo"
   },
   "publicationYear": 2021,
   "subjects": [
@@ -125,10 +122,14 @@
       "schemeUri": "https://spdx.org/licenses/"
     }
   ],
-  "descriptions": [],
+  "descriptions": [
+    {
+      "description": "In the present study, a biochemical-genetic analysis was performed to determine the relationship between isoenzyme polymorphism and the zebra mussel Dreissena polymorpha body's response to the harmful effects of the pesticides Cypermethrin and Chlorpyrifos. The probable genetic control of four enzyme and protein groups - malate dehydrogenase, malate enzyme, superoxide dismutase and soluble proteins - was determined. Different intensity of expression of allelic products has been reported in individuals exposed to short- and long-term exposure to the pesticides Cypermethrin and Chlorpyrifos. The observed variability in the expression of superoxide dismutases, malate dehydrogenases and soluble proteins in control and experimental samples gives us reason to accept these enzyme and protein systems as markers for reporting the negative impact of the tested pesticides on the zebra mussel.",
+      "descriptionType": "Abstract"
+    }
+  ],
   "conference": {
-    "conferenceName": "5th Balkan Scientific Conference on Biology",
-    "conferenceYear": 2021
+    "conferenceName": "5th Balkan Scientific Conference on Biology"
   },
   "researchField": "Biology",
   "content": {
@@ -157,20 +158,24 @@
   },
   "imageCaptions": [
     {
-      "id": "fig1",
-      "caption": "Fig. 1. Spectrum of MDH in Dressena polymorpha."
+      "captions": [
+        "Fig. 1. Spectrum of MDH in Dressena polymorpha."
+      ]
     },
     {
-      "id": "fig2",
-      "caption": "Fig. 2. Spectrum of ME in Dressena polymorpha."
+      "captions": [
+        "Fig. 2. Spectrum of ME in Dressena polymorpha."
+      ]
     },
     {
-      "id": "fig3",
-      "caption": "Fig. 3. Spectrum of SOD in Dressena polymorpha."
+      "captions": [
+        "Fig. 3. Spectrum of SOD in Dressena polymorpha."
+      ]
     },
     {
-      "id": "fig4",
-      "caption": "Fig. 4. Spectrum of soluble proteins in Dressena polymorpha."
+      "captions": [
+        "Fig. 4. Spectrum of soluble proteins in Dressena polymorpha."
+      ]
     }
   ],
   "tableCaptions": []

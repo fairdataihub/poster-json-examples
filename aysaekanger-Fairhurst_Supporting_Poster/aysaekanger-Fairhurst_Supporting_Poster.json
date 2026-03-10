@@ -134,7 +134,12 @@
       "schemeUri": "https://spdx.org/licenses/"
     }
   ],
-  "descriptions": [],
+  "descriptions": [
+    {
+      "description": "This poster highlights the importance of supporting the connections between people and their research outputs through persistent identifiers (PIDs) including ORCID, Crossref, and DataCite. It discusses how these infrastructures work together to link researchers with their scholarly contributions.",
+      "descriptionType": "Abstract"
+    }
+  ],
   "fundingReferences": [
     {
       "funderName": "Crossref"
@@ -142,7 +147,6 @@
   ],
   "conference": {
     "conferenceName": "PIDapalooza 2019",
-    "conferenceYear": 2019,
     "conferenceAcronym": "PIDapalooza"
   },
   "researchField": "Library and Information Science",
@@ -183,5 +187,12 @@
     ]
   },
   "imageCaptions": [],
-  "tableCaptions": []
+  "tableCaptions": [],
+  "dates": [
+    {
+      "date": "2019-01-23/2019-01-24",
+      "dateType": "Presented",
+      "dateInformation": "Presented at PIDapalooza 2019, Dublin, Ireland"
+    }
+  ]
 }

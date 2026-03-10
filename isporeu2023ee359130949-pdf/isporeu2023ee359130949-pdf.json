@@ -268,8 +268,7 @@
     "conferenceStartDate": "2023-11-12",
     "conferenceEndDate": "2023-11-15",
     "conferenceAcronym": "ISPOR Europe 2023",
-    "conferenceSeries": "ISPOR Europe",
-    "conferenceYear": 2023
+    "conferenceSeries": "ISPOR Europe"
   },
   "researchField": "Health Economics and Outcomes Research",
   "content": {
@@ -317,26 +316,31 @@
   },
   "imageCaptions": [
     {
-      "id": "fig1",
-      "caption": "Figure 1: Cost-effectiveness model schematic"
+      "captions": [
+        "Figure 1: Cost-effectiveness model schematic"
+      ]
     },
     {
-      "id": "fig2",
-      "caption": "Figure 2: PSA scatterplots for base case analysis (P+CT versus EXTREME, left; and P+CT versus TPEx, right)"
+      "captions": [
+        "Figure 2: PSA scatterplots for base case analysis (P+CT versus EXTREME, left; and P+CT versus TPEx, right)"
+      ]
     }
   ],
   "tableCaptions": [
     {
-      "id": "tab1",
-      "caption": "Table 1: Base case cost-effectiveness results (P+CT versus EXTREME)"
+      "captions": [
+        "Table 1: Base case cost-effectiveness results (P+CT versus EXTREME)"
+      ]
     },
     {
-      "id": "tab2",
-      "caption": "Table 2: Base case cost-effectiveness results (P+CT versus TPEx)"
+      "captions": [
+        "Table 2: Base case cost-effectiveness results (P+CT versus TPEx)"
+      ]
     },
     {
-      "id": "tab3",
-      "caption": "Table 3: Scenario analysis results (P+CT versus EXTREME and TPEx)"
+      "captions": [
+        "Table 3: Scenario analysis results (P+CT versus EXTREME and TPEx)"
+      ]
     }
   ]
 }

@@ -58,10 +58,7 @@
     }
   ],
   "publisher": {
-    "name": "Zenodo",
-    "publisherIdentifier": "https://ror.org/01zzys052",
-    "publisherIdentifierScheme": "ROR",
-    "schemeURI": "https://ror.org"
+    "name": "Zenodo"
   },
   "publicationYear": 2018,
   "subjects": [
@@ -136,7 +133,12 @@
       "schemeUri": "https://spdx.org/licenses/"
     }
   ],
-  "descriptions": [],
+  "descriptions": [
+    {
+      "description": "Mass manufacturing and quality assurance solutions in SOFC value chain in FCH JU projects qSOFC and INNO-SOFC",
+      "descriptionType": "Abstract"
+    }
+  ],
   "fundingReferences": [
     {
       "funderName": "Fuel Cells and Hydrogen Joint Undertaking (FCH JU)",
@@ -144,10 +146,6 @@
       "funderIdentifierType": "ROR"
     }
   ],
-  "conference": {
-    "conferenceName": "Unknown Conference",
-    "conferenceYear": 2018
-  },
   "researchField": "Energy Engineering",
   "content": {
     "sections": [
@@ -174,36 +172,44 @@
   },
   "imageCaptions": [
     {
-      "id": "fig1",
-      "caption": "Example of a 3D defect detection and classification by the automated machine vision system in qSOFC"
+      "captions": [
+        "Example of a 3D defect detection and classification by the automated machine vision system in qSOFC"
+      ]
     },
     {
-      "id": "fig2",
-      "caption": "Machine vision rig developed by HaikuTech"
+      "captions": [
+        "Machine vision rig developed by HaikuTech"
+      ]
     },
     {
-      "id": "fig3",
-      "caption": "Example of stack assembly robot"
+      "captions": [
+        "Example of stack assembly robot"
+      ]
     },
     {
-      "id": "fig4",
-      "caption": "Example of fully automated assembly and testing line"
+      "captions": [
+        "Example of fully automated assembly and testing line"
+      ]
     },
     {
-      "id": "fig5",
-      "caption": "Manufacturing process at Elcogen"
+      "captions": [
+        "Manufacturing process at Elcogen"
+      ]
     },
     {
-      "id": "fig6",
-      "caption": "INNO-SOFC stack"
+      "captions": [
+        "INNO-SOFC stack"
+      ]
     },
     {
-      "id": "fig7",
-      "caption": "Convion system"
+      "captions": [
+        "Convion system"
+      ]
     },
     {
-      "id": "fig8",
-      "caption": "Use cases of Convion C50 SOFC"
+      "captions": [
+        "Use cases of Convion C50 SOFC"
+      ]
     }
   ],
   "tableCaptions": []

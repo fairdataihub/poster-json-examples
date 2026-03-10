@@ -95,10 +95,7 @@
     }
   ],
   "publisher": {
-    "name": "Zenodo",
-    "publisherIdentifier": "https://ror.org/01zzys052",
-    "publisherIdentifierScheme": "ROR",
-    "schemeURI": "https://ror.org"
+    "name": "Zenodo"
   },
   "publicationYear": 2021,
   "subjects": [
@@ -191,8 +188,7 @@
   ],
   "conference": {
     "conferenceName": "American Astronomical Society Meeting",
-    "conferenceAcronym": "AAS",
-    "conferenceYear": 2021
+    "conferenceAcronym": "AAS"
   },
   "researchField": "Astrophysics",
   "content": {
@@ -220,13 +216,40 @@
   },
   "imageCaptions": [
     {
-      "id": "fig1",
-      "caption": "Black points represent nightly means of observations. Gray shaded regions indicate the noise range of reference stars in the field — the exact value is given in gray in the upper right. Red lines show various fits to the variability trends, as described above. Cycle period estimates from the fits are given in the bottom left, and peak-to-peak amplitudes are given in the bottom right."
+      "captions": [
+        "Black points represent nightly means of observations. Gray shaded regions indicate the noise range of reference stars in the field — the exact value is given in gray in the upper right. Red lines show various fits to the variability trends, as described above. Cycle period estimates from the fits are given in the bottom left, and peak-to-peak amplitudes are given in the bottom right."
+      ]
     },
     {
-      "id": "fig2",
-      "caption": "These figures show observed magnetic activity differences in 4 of our twin binaries. (Top) — Hα line strength comparisons, showcasing significant differences. (Bottom Left) — Photometric activity differences for a twin pair, sustained over 7 years. (Bottom Right) — Chandra X-ray data supporting roughly a factor of 3 difference in X-ray flux for the pair. These “misbehaving” twins will offer excellent testing grounds to examine and constrain dynamo theory."
+      "captions": [
+        "These figures show observed magnetic activity differences in 4 of our twin binaries. (Top) — Hα line strength comparisons, showcasing significant differences. (Bottom Left) — Photometric activity differences for a twin pair, sustained over 7 years. (Bottom Right) — Chandra X-ray data supporting roughly a factor of 3 difference in X-ray flux for the pair. These “misbehaving” twins will offer excellent testing grounds to examine and constrain dynamo theory."
+      ]
     }
   ],
-  "tableCaptions": []
+  "tableCaptions": [],
+  "fundingReferences": [
+    {
+      "funderName": "National Science Foundation",
+      "awardNumber": "AST-0507711"
+    },
+    {
+      "funderName": "National Science Foundation",
+      "awardNumber": "AST-0908402"
+    },
+    {
+      "funderName": "National Science Foundation",
+      "awardNumber": "AST-1109445"
+    },
+    {
+      "funderName": "National Science Foundation",
+      "awardNumber": "AST-141206"
+    },
+    {
+      "funderName": "National Science Foundation",
+      "awardNumber": "AST-1715551"
+    },
+    {
+      "funderName": "SMARTS Consortium"
+    }
+  ]
 }

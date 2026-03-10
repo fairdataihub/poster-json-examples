@@ -144,10 +144,7 @@
     }
   ],
   "publisher": {
-    "name": "Zenodo",
-    "publisherIdentifier": "https://ror.org/04wxnsj81",
-    "publisherIdentifierScheme": "ROR",
-    "schemeURI": "https://ror.org"
+    "name": "Zenodo"
   },
   "publicationYear": 2023,
   "subjects": [
@@ -282,14 +279,12 @@
       "descriptionType": "TechnicalInfo"
     }
   ],
-  "fundingReferences": [],
   "conference": {
     "conferenceName": "Digital Humanities 2023: Collaboration as Opportunity",
     "conferenceLocation": "Graz, Austria",
     "conferenceStartDate": "2023-07-10",
     "conferenceEndDate": "2023-07-14",
-    "conferenceAcronym": "DH2023",
-    "conferenceYear": 2023
+    "conferenceAcronym": "DH2023"
   },
   "content": {
     "sections": [
@@ -321,8 +316,9 @@
   "researchField": "Digital Humanities",
   "imageCaptions": [
     {
-      "id": "fig1",
-      "caption": "A medieval Hebrew poem from the Worms Prayerbook, Germany, 13th Century, The National Library of Israel, \"Ktiv\" Project"
+      "captions": [
+        "A medieval Hebrew poem from the Worms Prayerbook, Germany, 13th Century, The National Library of Israel, \"Ktiv\" Project"
+      ]
     }
   ],
   "tableCaptions": []

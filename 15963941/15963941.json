@@ -106,10 +106,7 @@
     }
   ],
   "publisher": {
-    "name": "Zenodo",
-    "publisherIdentifier": "https://ror.org/04wxnsj81",
-    "publisherIdentifierScheme": "ROR",
-    "schemeURI": "https://ror.org"
+    "name": "Zenodo"
   },
   "publicationYear": 2025,
   "subjects": [
@@ -225,7 +222,12 @@
       "schemeUri": "https://spdx.org/licenses/"
     }
   ],
-  "descriptions": [],
+  "descriptions": [
+    {
+      "description": "SARS-CoV-2, the virus responsible for COVID-19, has one of the longest RNA genomes among RNA viruses. To correct replication errors, it uses a unique proofreading mechanism involving the nsp14 protein, which has 3'-5' exonuclease activity, assisted by the cofactor nsp10. Currently, there are no drugs targeting this function. To support antiviral research, nsp14 and nsp10 were expressed and purified in E. Coli cells, and a FRET-based biochemical assay was developed to study their exonuclease activity, as previously mentioned in the literature. This system lays the groundwork for identifying future inhibitors of the nsp14-nsp10 complex.",
+      "descriptionType": "Abstract"
+    }
+  ],
   "fundingReferences": [
     {
       "funderName": "European Commission",
@@ -248,8 +250,7 @@
     "conferenceUri": "https://congressosivisv.com/",
     "conferenceStartDate": "2025-06-22",
     "conferenceEndDate": "2025-06-24",
-    "conferenceAcronym": "SIV-ISV 2025",
-    "conferenceYear": 2025
+    "conferenceAcronym": "SIV-ISV 2025"
   },
   "content": {
     "sections": [
