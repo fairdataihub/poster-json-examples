@@ -78,28 +78,7 @@
       }
     ]
   },
-  "imageCaptions": [
-    {
-      "id": "fig1",
-      "caption": "Distribution of word lengths (occurrence histograms) for EurekAlert! and IDW-Online press releases."
-    },
-    {
-      "id": "fig2",
-      "caption": "Subject/discipline word clouds for EurekAlert! (Scopus-based) and IDW-Online (assigned categories)."
-    },
-    {
-      "id": "fig3",
-      "caption": "Topic word clouds showing the 50 most frequent word stems in press release titles (Porter Stemming Algorithm) for EurekAlert! and IDW-Online."
-    },
-    {
-      "id": "fig4",
-      "caption": "Content analysis bar chart: occurrences of Methods, Limitations, Implications, References, and No Research mentions across EurekAlert! and IDW-Online samples."
-    },
-    {
-      "id": "fig5",
-      "caption": "Pie charts showing releasing institution types for EurekAlert! and IDW-Online (University public/private, Non-University Research Institute, Publisher/Journal, Company, Government Agency, Hospital/Medical Center, Other)."
-    }
-  ],
+  "imageCaptions": [],
   "tableCaptions": [],
   "publicationYear": 2020,
   "subjects": [

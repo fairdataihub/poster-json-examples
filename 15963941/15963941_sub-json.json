@@ -79,7 +79,7 @@
       },
       {
         "sectionTitle": "RESULTS",
-        "sectionContent": "1. Size-exclusion chromatography (SEC)\nnsp14\nnsp10\n\n2. pH dose-dependent\nRFU vs pH (range 6-10)\npH 7.5\n\n3. MgCl₂ dose-dependent\nRFU vs [MgCl2] (range 0-10 mM)\nMgCl₂ 4 mM\n\n4. Enzymatic activity curve\nnsp14 250 nM + nsp10 750 nM\n[Nsp14] concentrations: 2000 nM, 1000 nM, 500 nM, 250 nM, 125 nM, 62.5 nM, 31.2 nM, 15.6 nM\nRFU vs Time of course (min) (range 0-80)\n\n5. Substrate concentration curve\nSubstrate concentration 1 µM\n[S] concentrations: 2000 nM, 1000 nM, 500 nM, 250 nM, 125 nM, 62.5 nM, 31.2 nM, 15.6 nM\nRFU vs Time of course (min) (range 0-90)\n\n6. Inhibition Dynasore NO-Cat curve\nDynasore NO-Cat\n% of residual enzymatic activity vs [µM] (range 0.01-100)\nIC₅₀ = 3.3 µM ± 0.4"
+        "sectionContent": "1. Size-exclusion chromatography (SEC)\nnsp14\nnsp10\n\n2. pH dose-dependent\nRFU vs pH\n\n3. MgCl₂ dose-dependent\nRFU vs [MgCl2]\n\n4. Enzymatic activity curve\nnsp14 250 nM + nsp10 750 nM\nRFU vs Time of course (min)\n\n5. Substrate concentration curve\nSubstrate concentration 1 µM\nRFU vs Time of course (min)\n\n6. Inhibition Dynasore NO-Cat curve\nDynasore NO-Cat\n% of residual enzymatic activity vs [µM]\nIC₅₀ = 3.3 µM ± 0.4"
       },
       {
         "sectionTitle": "CONCLUSIONS",
