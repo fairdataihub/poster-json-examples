@@ -47,7 +47,7 @@
       },
       {
         "sectionTitle": "Systems",
-        "sectionContent": "Targets\n• System electrical efficiency 60%\n• System total efficiency 85%\n• High emphasis on cost reduction, 4000 € / kW system cost\nMethods\n• Effective collaboration throughout the value chain enables optimization of the whole system and its components. Key components are specifically designed and optimized for this system.\nResults\n• System conceptual design ready, exceeds project targets\n• System design enables significant reduction in parts count and assembly time"
+        "sectionContent": "Targets\n• System electrical efficiency 60%\n• System total efficiency 85%\n• High emphasis on cost reduction, 4000 € / kW system cost\nMethods\n• Effective collaboration throughout the value chain enables optimization of the whole system and its components. Key components are specifically designed and optimized for this system.\nResults\n• System conceptual design ready, exceeds project targets\n• System design enables significant reduction in parts count and assembly time\n\nUse cases of Convion C50 SOFC"
       },
       {
         "sectionContent": "www.qSOFC.eu\nwww.innosofc.eu\nMarkus Rautanen +358 40 538 7552 Markus.Rautanen@vtt.fi\nOlli Himanen +358 40 352 6298 Olli.Himanen@vtt.fi"
@@ -56,36 +56,28 @@
   },
   "imageCaptions": [
     {
-      "id": "fig1",
+      "id": "",
       "caption": "Example of a 3D defect detection and classification by the automated machine vision system in qSOFC"
     },
     {
-      "id": "fig2",
+      "id": "",
       "caption": "Machine vision rig developed by HaikuTech"
     },
     {
-      "id": "fig3",
+      "id": "",
       "caption": "Example of stack assembly robot"
     },
     {
-      "id": "fig4",
+      "id": "",
       "caption": "Example of fully automated assembly and testing line"
     },
     {
-      "id": "fig5",
-      "caption": "Manufacturing process at Elcogen"
+      "id": "",
+      "caption": "Manufacturing process at Elcogen INNO-SOFC stack"
     },
     {
-      "id": "fig6",
-      "caption": "INNO-SOFC stack"
-    },
-    {
-      "id": "fig7",
+      "id": "",
       "caption": "Convion system"
-    },
-    {
-      "id": "fig8",
-      "caption": "Use cases of Convion C50 SOFC"
     }
   ],
   "tableCaptions": [],

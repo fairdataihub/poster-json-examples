@@ -100,11 +100,12 @@
   "content": {
     "sections": [
       {
+        "sectionTitle": "Introduction",
         "sectionContent": "The corpus of late antique and medieval Hebrew is vast and represents a crucial linguistic and cultural bridge between Biblical and modern Hebrew. Poetry is prominent in texts from these time periods and one of its characteristics is the use of metaphor. Distinguishing figurative and literal words or phrases is a major task for scholars in the Humanities, especially in the fields of literature, linguistics, and hermeneutics. We present a new, challenging dataset of early medieval Hebrew poetry with expert annotations of metaphors with baseline results."
       },
       {
         "sectionTitle": "The Dataset",
-        "sectionContent": "• Early medieval Hebrew poems.\n• 180 labeled texts, 7,000 sentences, 45,000 words.\n• 15% of the words are metaphors.\n\nWe drowned in decrees, like sea washed There are too many decrees\nIgnite a soul, fire a candle Create a soul\nUntil the tenth generation they did not bear fruit For ten generations, they did no good deeds"
+        "sectionContent": "• Early medieval Hebrew poems.\n• 180 labeled texts, 7,000 sentences, 45,000 words.\n• 15% of the words are metaphors."
       },
       {
         "sectionTitle": "Inter Annotator Agreement",
@@ -124,12 +125,7 @@
       }
     ]
   },
-  "imageCaptions": [
-    {
-      "id": "fig1",
-      "caption": "A medieval Hebrew poem from the Worms Prayerbook, Germany, 13th Century, The National Library of Israel, \"Ktiv\" Project"
-    }
-  ],
+  "imageCaptions": [],
   "tableCaptions": [],
   "publicationYear": 2023,
   "subjects": [
