@@ -64,7 +64,10 @@
     }
   ],
   "publisher": {
-    "name": "Zenodo"
+    "name": "California Medical Innovations Institute",
+    "publisherIdentifier": "https://ror.org/0156zyn36",
+    "publisherIdentifierScheme": "ROR",
+    "schemeURI": "https://ror.org"
   },
   "publicationYear": 2025,
   "subjects": [
@@ -199,12 +202,7 @@
       "schemeUri": "https://spdx.org/licenses/"
     }
   ],
-  "descriptions": [
-    {
-      "description": "The Research Software Alliance (ReSA) has established a Task Force dedicated to translating the FAIR Principles for Research Software (FAIR4RS Principles) into practical, actionable guidelines. Existing field-specific actionable guidelines, such as the FAIR Biomedical Research Software (FAIR-BioRS) guidelines, lack cross-discipline community input. The Actionable Guidelines for FAIR Research Software Task Force, formed in December 2024, brings together a diverse team of researchers and research software developers to address this gap. The Task Force began by analyzing the FAIR4RS Principles, where it identified six key requirement categories: Identifiers, Metadata for software publication and discovery, Standards for inputs/outputs, Qualified references, Metadata for software reuse, and License. To address these requirements, six sub-groups are conducting literature reviews and community outreach to define actionable practices for each category. Some of the challenges include identifying suitable identifiers, archival repositories, metadata standards, and best practices across research domains. This poster provides an overview of the Task Force, presents its current progress, and outlines opportunities for community involvement.",
-      "descriptionType": "Abstract"
-    }
-  ],
+  "descriptions": [],
   "fundingReferences": [
     {
       "funderName": "Research Software Alliance (ReSA)"
@@ -220,7 +218,8 @@
     "conferenceStartDate": "2025-10-06",
     "conferenceEndDate": "2025-10-08",
     "conferenceAcronym": "USRSE'25",
-    "conferenceSeries": "US-RSE Annual Conference"
+    "conferenceSeries": "US-RSE Annual Conference",
+    "conferenceYear": 2025
   },
   "content": {
     "sections": [
@@ -257,19 +256,16 @@
   "researchField": "Computer Science",
   "imageCaptions": [
     {
-      "captions": [
-        "Figure 1. Overview of the Task Force."
-      ]
+      "id": "fig1",
+      "caption": "Figure 1. Overview of the Task Force."
     },
     {
-      "captions": [
-        "Figure 2. Illustration of the outcomes of task 1 of the Task Force, which consisted of understanding the requirements of each of the 17 FAIR4RS principles."
-      ]
+      "id": "fig2",
+      "caption": "Figure 2. Illustration of the outcomes of task 1 of the Task Force, which consisted of understanding the requirements of each of the 17 FAIR4RS principles."
     },
     {
-      "captions": [
-        "Figure 3. Progress of the subgroup working on C5 - Metadata for software reuse."
-      ]
+      "id": "fig3",
+      "caption": "Figure 3. Progress of the subgroup working on C5 - Metadata for software reuse."
     }
   ],
   "tableCaptions": []

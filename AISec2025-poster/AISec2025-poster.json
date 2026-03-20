@@ -180,6 +180,7 @@
   "conference": {
     "conferenceName": "ACM Workshop on Artificial Intelligence and Security 2025",
     "conferenceAcronym": "AISec 2025",
+    "conferenceYear": 2025,
     "conferenceSeries": "AISec Workshop"
   },
   "researchField": "Computer Science",
@@ -212,58 +213,38 @@
   },
   "imageCaptions": [
     {
-      "captions": [
-        "Figure 1: Security categories in CyberLLMInstruct dataset"
-      ]
+      "id": "fig1",
+      "caption": "Figure 1: Security categories in CyberLLMInstruct dataset"
     },
     {
-      "captions": [
-        "Figure 2: A high-level overview of the dataset creation process"
-      ]
+      "id": "fig2",
+      "caption": "Figure 2: A high-level overview of the dataset creation process"
     },
     {
-      "captions": [
-        "Figure 3: Abstraction of dual impacts of LLMs in cyber security"
-      ]
+      "id": "fig3",
+      "caption": "Figure 3: Abstraction of dual impacts of LLMs in cyber security"
     },
     {
-      "captions": [
-        "Figure 4: Performance of base (green) and fine-tuned (red) LLMs against OWASP Top 10 vulnerabilities"
-      ]
+      "id": "fig4",
+      "caption": "Figure 4: Performance of base (green) and fine-tuned (red) LLMs against OWASP Top 10 vulnerabilities"
     },
     {
-      "captions": [
-        "Figure 5: Execution times for base and fine-tuned LLMs"
-      ]
+      "id": "fig5",
+      "caption": "Figure 5: Execution times for base and fine-tuned LLMs"
     },
     {
-      "captions": [
-        "Figure 6: Absolute difference before and after fine-tuning"
-      ]
+      "id": "fig6",
+      "caption": "Figure 6: Absolute difference before and after fine-tuning"
     }
   ],
   "tableCaptions": [
     {
-      "captions": [
-        "Table 1: Comparison of CyberLLMInstruct with other cyber security datasets"
-      ]
+      "id": "table1",
+      "caption": "Table 1: Comparison of CyberLLMInstruct with other cyber security datasets"
     },
     {
-      "captions": [
-        "Table 2: Accuracy results (%) for different base (before arrow) and fine-tuned (after arrow) LLMs on the CyberMetric benchmark"
-      ]
-    }
-  ],
-  "dates": [
-    {
-      "date": "2025-03-12",
-      "dateType": "Submitted",
-      "dateInformation": "arXiv preprint v1 submitted (arXiv:2503.09334)"
-    },
-    {
-      "date": "2025",
-      "dateType": "Presented",
-      "dateInformation": "Presented at ACM Workshop on Artificial Intelligence and Security (AISec) 2025"
+      "id": "table2",
+      "caption": "Table 2: Accuracy results (%) for different base (before arrow) and fine-tuned (after arrow) LLMs on the CyberMetric benchmark"
     }
   ]
 }

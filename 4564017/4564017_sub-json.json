@@ -123,7 +123,7 @@
     }
   ],
   "conference": {
-    "conferenceName": "Cool Stars 20.5",
+    "conferenceName": "Unknown Conference",
     "conferenceYear": 2021
   },
   "rightsList": [
@@ -133,8 +133,5 @@
   ],
   "formats": [
     "PDF"
-  ],
-  "publisher": {
-    "name": "Zenodo"
-  }
+  ]
 }

@@ -108,7 +108,10 @@
     }
   ],
   "publisher": {
-    "name": "Zenodo"
+    "name": "Zenodo",
+    "publisherIdentifier": "https://ror.org/04wxnsj81",
+    "publisherIdentifierScheme": "ROR",
+    "schemeURI": "https://ror.org"
   },
   "publicationYear": 2021,
   "subjects": [
@@ -227,7 +230,8 @@
     "conferenceLocation": "Virtual",
     "conferenceStartDate": "2021-07-26",
     "conferenceEndDate": "2021-07-28",
-    "conferenceAcronym": "APOSS21"
+    "conferenceAcronym": "APOSS21",
+    "conferenceYear": 2021
   },
   "content": {
     "sections": [
@@ -260,19 +264,16 @@
   "researchField": "Astronomy",
   "imageCaptions": [
     {
-      "captions": [
-        "Figure 1: An HST color image of NGC 1667 with a distance-based [N II] BPT overlaid on the nucleus. Displays primary regional ionization mechanisms: star formation (blue), AGN ionization (red) and composite (green). (Left): [N II] BPT diagrams for the high flux (large squares) and low flux (small squares) components as a function of distance from the nucleus along the APO DIS long-slit at PA = 55° (top), 108° (middle) and 160° (bottom). Photo courtesy of the Carnegie-Irvine Galaxy Survey."
-      ]
+      "id": "fig1",
+      "caption": "Figure 1: An HST color image of NGC 1667 with a distance-based [N II] BPT overlaid on the nucleus. Displays primary regional ionization mechanisms: star formation (blue), AGN ionization (red) and composite (green). (Left): [N II] BPT diagrams for the high flux (large squares) and low flux (small squares) components as a function of distance from the nucleus along the APO DIS long-slit at PA = 55° (top), 108° (middle) and 160° (bottom). Photo courtesy of the Carnegie-Irvine Galaxy Survey."
     },
     {
-      "captions": [
-        "Figure 2: An HST color image of NGC 4051 with its [N II] BPT overlay. North is pointed toward 18°. (Right): [N II] BPT diagrams for the high flux (large squares) and low flux (small squares) components as a function of distance from the nucleus along the APO DIS long-slit at PA = 98° (top), 233° (middle) and 188° (bottom). BPT for the fourth slit position angle 143° is not shown."
-      ]
+      "id": "fig2",
+      "caption": "Figure 2: An HST color image of NGC 4051 with its [N II] BPT overlay. North is pointed toward 18°. (Right): [N II] BPT diagrams for the high flux (large squares) and low flux (small squares) components as a function of distance from the nucleus along the APO DIS long-slit at PA = 98° (top), 233° (middle) and 188° (bottom). BPT for the fourth slit position angle 143° is not shown."
     },
     {
-      "captions": [
-        "Figure 3: Example of a two component Gaussian fit to [O III] emission line with high flux component (blue), low flux component (red), and total fit (magenta)"
-      ]
+      "id": "fig3",
+      "caption": "Figure 3: Example of a two component Gaussian fit to [O III] emission line with high flux component (blue), low flux component (red), and total fit (magenta)"
     }
   ],
   "tableCaptions": []

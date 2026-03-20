@@ -128,8 +128,5 @@
   ],
   "formats": [
     "PDF"
-  ],
-  "publisher": {
-    "name": "Zenodo"
-  }
+  ]
 }

@@ -71,7 +71,10 @@
     }
   ],
   "publisher": {
-    "name": "Zenodo"
+    "name": "Zenodo",
+    "publisherIdentifier": "https://ror.org/01zzys052",
+    "publisherIdentifierScheme": "ROR",
+    "schemeURI": "https://ror.org"
   },
   "publicationYear": 2013,
   "subjects": [
@@ -161,6 +164,7 @@
   ],
   "conference": {
     "conferenceName": "AMIA Joint Summits on Translational Science 2013",
+    "conferenceYear": 2013,
     "conferenceAcronym": "AMIA 2013"
   },
   "researchField": "Biomedical Informatics",
@@ -206,19 +210,16 @@
   },
   "imageCaptions": [
     {
-      "captions": [
-        "Workflow from protein name (P_N) through protein identifier (P_UID) to relevant papers (PMID) that were then searched for each relevant search term (S) to establish a measure of known associations of the protein with the concept (∑S)."
-      ]
+      "id": "fig1",
+      "caption": "Workflow from protein name (P_N) through protein identifier (P_UID) to relevant papers (PMID) that were then searched for each relevant search term (S) to establish a measure of known associations of the protein with the concept (∑S)."
     },
     {
-      "captions": [
-        "Papers (PMIDs) that are identified as containing one of the search terms (S) would be binned according to the value of the impact factor (IF) of that journal."
-      ]
+      "id": "fig2",
+      "caption": "Papers (PMIDs) that are identified as containing one of the search terms (S) would be binned according to the value of the impact factor (IF) of that journal."
     },
     {
-      "captions": [
-        "Papers (PMIDs) linked to a given protein (P_UID) that return a match for search terms related to one concept (e.g. cancer) will be checked to see if they are associated with a peptide or protease that is also associated with papers related to a different concept (e.g. pain)."
-      ]
+      "id": "fig3",
+      "caption": "Papers (PMIDs) linked to a given protein (P_UID) that return a match for search terms related to one concept (e.g. cancer) will be checked to see if they are associated with a peptide or protease that is also associated with papers related to a different concept (e.g. pain)."
     }
   ],
   "tableCaptions": []

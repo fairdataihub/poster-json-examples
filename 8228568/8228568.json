@@ -41,7 +41,10 @@
     }
   ],
   "publisher": {
-    "name": "Zenodo"
+    "name": "Zenodo",
+    "publisherIdentifier": "https://ror.org/04j0x0h93",
+    "publisherIdentifierScheme": "ROR",
+    "schemeURI": "https://ror.org"
   },
   "publicationYear": 2023,
   "subjects": [
@@ -181,7 +184,8 @@
     "conferenceStartDate": "2023-07-10",
     "conferenceEndDate": "2023-07-14",
     "conferenceAcronym": "DH2023",
-    "conferenceSeries": "ADHO Digital Humanities Conference"
+    "conferenceSeries": "ADHO Digital Humanities Conference",
+    "conferenceYear": 2023
   },
   "content": {
     "sections": [
@@ -219,14 +223,12 @@
   "imageCaptions": [],
   "tableCaptions": [
     {
-      "captions": [
-        "Table 1. Why do researchers self-identify as digital humanists?"
-      ]
+      "id": "table1",
+      "caption": "Table 1. Why do researchers self-identify as digital humanists?"
     },
     {
-      "captions": [
-        "Table 2. Why do researchers NOT self-identify as digital humanists?"
-      ]
+      "id": "table2",
+      "caption": "Table 2. Why do researchers NOT self-identify as digital humanists?"
     }
   ]
 }

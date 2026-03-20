@@ -83,7 +83,10 @@
     }
   ],
   "publisher": {
-    "name": "Zenodo"
+    "name": "Zenodo",
+    "publisherIdentifier": "https://ror.org/01zzys052",
+    "publisherIdentifierScheme": "ROR",
+    "schemeURI": "https://ror.org"
   },
   "publicationYear": 2021,
   "subjects": [
@@ -173,7 +176,8 @@
     }
   ],
   "conference": {
-    "conferenceName": "Cool Stars 20.5"
+    "conferenceName": "Unknown Conference",
+    "conferenceYear": 2021
   },
   "researchField": "Astrophysics",
   "content": {

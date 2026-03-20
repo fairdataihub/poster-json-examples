@@ -30,7 +30,10 @@
     }
   ],
   "publisher": {
-    "name": "Zenodo"
+    "name": "Zenodo",
+    "publisherIdentifier": "https://ror.org/01zzys052",
+    "publisherIdentifierScheme": "ROR",
+    "schemeURI": "https://ror.org"
   },
   "publicationYear": 2017,
   "subjects": [
@@ -110,7 +113,8 @@
     }
   ],
   "conference": {
-    "conferenceName": "Canadian Association of Graduate Studies Annual Conference"
+    "conferenceName": "Unknown Conference",
+    "conferenceYear": 2017
   },
   "researchField": "Library and Information Science",
   "content": {
