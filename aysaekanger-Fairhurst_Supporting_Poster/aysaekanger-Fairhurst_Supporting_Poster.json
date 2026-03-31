@@ -1,5 +1,5 @@
 {
-  "$schema": "https://posters.science/schema/v0.1/poster_schema.json",
+  "$schema": "https://posters.science/schema/v0.2/poster_schema.json",
   "identifiers": [
     {
       "identifier": "aysaekanger-Fairhurst_Supporting_Poster.pdf",
@@ -78,7 +78,7 @@
   "language": "en",
   "types": {
     "resourceType": "Conference Poster",
-    "resourceTypeGeneral": "Image"
+    "resourceTypeGeneral": "Poster"
   },
   "relatedIdentifiers": [
     {

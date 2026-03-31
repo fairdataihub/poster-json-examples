@@ -1,5 +1,5 @@
 {
-  "$schema": "https://posters.science/schema/v0.1/poster_schema.json",
+  "$schema": "https://posters.science/schema/v0.2/poster_schema.json",
   "identifiers": [
     {
       "identifier": "10.5281/zenodo.4560930",
@@ -72,11 +72,11 @@
     "sections": [
       {
         "sectionTitle": "The RECONS Program",
-        "sectionContent": "M dwarfs comprise three-quarters of all stars (Henry et al. 2006; 2018), and host a plethora of exoplanets that are presently being revealed. In order to inform the overall solar neighborhood, and to explore the viability of these common targets as habitable exoplanet hosts, the REsearch Consortium On Nearby Stars (RECONS: www.recons.org) has spent over two decades studying nearby red dwarfs.\nThe RECONS work presented here focuses on the poorly studied long-term M Dwarf spot activity cycles (SURVEY) \u2014 analogous to the 11-year solar cycle \u2014 as well as the magnetic activity behavior of 36 M dwarf \u201ctwin\u201d binaries hosting nearly identical component stars (TWINS). Both aspects of this work provide critically valuable results to expand our understanding of M dwarf magnetic dynamos, particularly in fully convective stars."
+        "sectionContent": "M dwarfs comprise three-quarters of all stars (Henry et al. 2006; 2018), and host a plethora of exoplanets that are presently being revealed. In order to inform the overall solar neighborhood, and to explore the viability of these common targets as habitable exoplanet hosts, the REsearch Consortium On Nearby Stars (RECONS: www.recons.org) has spent over two decades studying nearby red dwarfs.\nThe RECONS work presented here focuses on the poorly studied long-term M Dwarf spot activity cycles (SURVEY) — analogous to the 11-year solar cycle — as well as the magnetic activity behavior of 36 M dwarf “twin” binaries hosting nearly identical component stars (TWINS). Both aspects of this work provide critically valuable results to expand our understanding of M dwarf magnetic dynamos, particularly in fully convective stars."
       },
       {
         "sectionTitle": "A Tale of Two Samples",
-        "sectionContent": "SURVEY \u2014 Our stellar cycle efforts study an effectively volume-complete \u201cSurvey\u201d sample of 463 stars all within 16.7 parsecs and south of 0\u00b0 declination on the sky. This comprises a robust and statistically representative set of stars, adding significant value and reliability to our results."
+        "sectionContent": "SURVEY — Our stellar cycle efforts study an effectively volume-complete “Survey” sample of 463 stars all within 16.7 parsecs and south of 0° declination on the sky. This comprises a robust and statistically representative set of stars, adding significant value and reliability to our results."
       },
       {
         "sectionTitle": "M Dwarf Stellar Cycles - SURVEY",
@@ -84,26 +84,26 @@
       },
       {
         "sectionTitle": "M Dwarf Twin Binaries - TWINS",
-        "sectionContent": "Our twin binary components have similar estimated masses and photometry, and are presumably of the same age and metallicity. Evolutionary models and conventional thinking might suggest that such twin stars should evolve similarly, resulting in similar overall magnetic properties. We are testing this assumption of magnetic predictability by examining magnetically relevant tracers in each of our twin pairs to determine if they show similar or rather different behaviors.\nWe are targeting our twin systems for long-term variability and rotation rates at the CTIO/SMARTS 0.9m, checking H\u03b1 activity with CHIRON at the CTIO/SMARTS 1.5m, obtaining speckle imaging at the SOAR 4.1m to check for unresolved companions, and awaiting Chandra X-ray observations scheduled for 4 pairs."
+        "sectionContent": "Our twin binary components have similar estimated masses and photometry, and are presumably of the same age and metallicity. Evolutionary models and conventional thinking might suggest that such twin stars should evolve similarly, resulting in similar overall magnetic properties. We are testing this assumption of magnetic predictability by examining magnetically relevant tracers in each of our twin pairs to determine if they show similar or rather different behaviors.\nWe are targeting our twin systems for long-term variability and rotation rates at the CTIO/SMARTS 0.9m, checking Hα activity with CHIRON at the CTIO/SMARTS 1.5m, obtaining speckle imaging at the SOAR 4.1m to check for unresolved companions, and awaiting Chandra X-ray observations scheduled for 4 pairs."
       },
       {
         "sectionTitle": "TWINS",
-        "sectionContent": "Our second sample consists of 36 common proper motion M dwarf twin wide binaries \u2014 72 total stars \u2014 compiled from Gaia DR2. Components in each pair have BP, RP, J, H, and K\u209b all differing by less than 0.1mag. Estimated masses differ by <3% in all cases. Red lines connect each binary pair, and grey points show the Gaia background."
+        "sectionContent": "Our second sample consists of 36 common proper motion M dwarf twin wide binaries — 72 total stars — compiled from Gaia DR2. Components in each pair have BP, RP, J, H, and Kₛ all differing by less than 0.1mag. Estimated masses differ by <3% in all cases. Red lines connect each binary pair, and grey points show the Gaia background."
       },
       {
         "sectionTitle": "The RECONS Program",
-        "sectionContent": "SMARTS time is available on the 0.9m for $600/night.\nThe RECONS program obtains differential VRI photometry and astrometry observations using the SMARTS 0.9m at the Cerro Tololo Inter-American Observatory. We routinely acquire new data 4\u20136 times per year and typically reach a photometric precision limit of about 7 millimagnitudes (mmag). Our ongoing coverage currently spans more than 20 years, offering a unique and growing long-term dataset for examining red dwarfs."
+        "sectionContent": "SMARTS time is available on the 0.9m for $600/night.\nThe RECONS program obtains differential VRI photometry and astrometry observations using the SMARTS 0.9m at the Cerro Tololo Inter-American Observatory. We routinely acquire new data 4–6 times per year and typically reach a photometric precision limit of about 7 millimagnitudes (mmag). Our ongoing coverage currently spans more than 20 years, offering a unique and growing long-term dataset for examining red dwarfs."
       }
     ]
   },
   "imageCaptions": [
     {
       "id": "fig1",
-      "caption": "Black points represent nightly means of observations. Gray shaded regions indicate the noise range of reference stars in the field \u2014 the exact value is given in gray in the upper right. Red lines show various fits to the variability trends, as described above. Cycle period estimates from the fits are given in the bottom left, and peak-to-peak amplitudes are given in the bottom right."
+      "caption": "Black points represent nightly means of observations. Gray shaded regions indicate the noise range of reference stars in the field — the exact value is given in gray in the upper right. Red lines show various fits to the variability trends, as described above. Cycle period estimates from the fits are given in the bottom left, and peak-to-peak amplitudes are given in the bottom right."
     },
     {
       "id": "fig2",
-      "caption": "These figures show observed magnetic activity differences in 4 of our twin binaries. (Top) \u2014 H\u03b1 line strength comparisons, showcasing significant differences. (Bottom Left) \u2014 Photometric activity differences for a twin pair, sustained over 7 years. (Bottom Right) \u2014 Chandra X-ray data supporting roughly a factor of 3 difference in X-ray flux for the pair. These \u201cmisbehaving\u201d twins will offer excellent testing grounds to examine and constrain dynamo theory."
+      "caption": "These figures show observed magnetic activity differences in 4 of our twin binaries. (Top) — Hα line strength comparisons, showcasing significant differences. (Bottom Left) — Photometric activity differences for a twin pair, sustained over 7 years. (Bottom Right) — Chandra X-ray data supporting roughly a factor of 3 difference in X-ray flux for the pair. These “misbehaving” twins will offer excellent testing grounds to examine and constrain dynamo theory."
     }
   ],
   "tableCaptions": [],

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://posters.science/schema/v0.1/poster_schema.json",
+  "$schema": "https://posters.science/schema/v0.2/poster_schema.json",
   "creators": [
     {
       "name": "Toker, Michael",
