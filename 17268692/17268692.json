@@ -202,7 +202,12 @@
       "schemeUri": "https://spdx.org/licenses/"
     }
   ],
-  "descriptions": [],
+  "descriptions": [
+    {
+      "description": "To address that, we established the Actionable Guidelines for the FAIR Research Software (Actionable FAIR4RS) Task Force in December 2024 under the Research Software Alliance (ReSA). The Task Force is run by a diverse international team of researchers and research software developers from various fields. Goal: Create actionable and domain-agnostic guidelines for implementing the FAIR4RS principles, through a comprehensive, community-driven methodology.",
+      "descriptionType": "Other"
+    }
+  ],
   "fundingReferences": [
     {
       "funderName": "Research Software Alliance (ReSA)"

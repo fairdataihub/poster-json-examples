@@ -1,11 +1,5 @@
 {
   "$schema": "https://posters.science/schema/v0.2/poster_schema.json",
-  "identifiers": [
-    {
-      "identifier": "10.5281/zenodo.4564017",
-      "identifierType": "DOI"
-    }
-  ],
   "creators": [
     {
       "name": "Perdomo García, Andrea",
@@ -61,6 +55,9 @@
       "title": "Modeling of 3D Atmospheres of Cool Stars with the MANCHA Code"
     }
   ],
+  "publisher": {
+    "name": "Instituto de Astrofísica de Canarias"
+  },
   "content": {
     "sections": [
       {
@@ -77,7 +74,7 @@
       },
       {
         "sectionTitle": "MANCHA Code",
-        "sectionContent": "MANCHA is a numerical code originally written for 3D “box-in-a-star” simulations of the solar atmosphere and near-surface convection (Khomenko et al., 2017). It simultaneously solves, on a regular Cartesian grid, the system of MHD equations, including the non-ideal terms (Ohmic, ambipolar, Biermann's battery), realistic radiative transfer equation and equation of state accounting for partial ionization. The code is highly modular so it has been used in various other setups (propagation of waves, prominences, 2-fluid experiments)."
+        "sectionContent": "MANCHA is a numerical code originally written for 3D \"box-in-a-star\" simulations of the solar atmosphere and near-surface convection (Khomenko et al., 2017). It simultaneously solves, on a regular Cartesian grid, the system of MHD equations, including the non-ideal terms (Ohmic, ambipolar, Biermann's battery), realistic radiative transfer equation and equation of state accounting for partial ionization. The code is highly modular so it has been used in various other setups (propagation of waves, prominences, 2-fluid experiments)."
       },
       {
         "sectionTitle": "Developed Convection",
@@ -126,11 +123,6 @@
     "conferenceName": "Unknown Conference",
     "conferenceYear": 2021
   },
-  "rightsList": [
-    {
-      "rights": "CC-BY-4.0"
-    }
-  ],
   "formats": [
     "PDF"
   ]

@@ -6,34 +6,6 @@
       "identifierType": "file"
     },
     {
-      "identifier": "10.3390/s25092825",
-      "identifierType": "DOI"
-    },
-    {
-      "identifier": "10.48550/arXiv.2505.09974",
-      "identifierType": "DOI"
-    },
-    {
-      "identifier": "10.48550/arXiv.2509.13514",
-      "identifierType": "DOI"
-    },
-    {
-      "identifier": "10.48550/arXiv.2505.23397",
-      "identifierType": "DOI"
-    },
-    {
-      "identifier": "arXiv:2505.09974",
-      "identifierType": "arXiv"
-    },
-    {
-      "identifier": "arXiv:2509.13514",
-      "identifierType": "arXiv"
-    },
-    {
-      "identifier": "arXiv:2505.23397",
-      "identifierType": "arXiv"
-    },
-    {
       "identifier": "arXiv:2503.09334",
       "identifierType": "arXiv"
     }
@@ -94,7 +66,7 @@
     }
   ],
   "publisher": {
-    "name": "ACM"
+    "name": "University of Kent"
   },
   "content": {
     "sections": [

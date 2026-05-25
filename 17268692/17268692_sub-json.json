@@ -1,11 +1,5 @@
 {
   "$schema": "https://posters.science/schema/v0.2/poster_schema.json",
-  "identifiers": [
-    {
-      "identifier": "10.5281/zenodo.17268692",
-      "identifierType": "DOI"
-    }
-  ],
   "creators": [
     {
       "name": "Patel, Bhavesh",
@@ -31,6 +25,9 @@
       "title": "Presenting the Actionable Guidelines for FAIR Research Software Task Force"
     }
   ],
+  "publisher": {
+    "name": "California Medical Innovations Institute"
+  },
   "content": {
     "sections": [
       {
@@ -96,16 +93,16 @@
       "subject": "reproducibility"
     }
   ],
-  "descriptions": [],
+  "descriptions": [
+    {
+      "description": "To address that, we established the Actionable Guidelines for the FAIR Research Software (Actionable FAIR4RS) Task Force in December 2024 under the Research Software Alliance (ReSA). The Task Force is run by a diverse international team of researchers and research software developers from various fields. Goal: Create actionable and domain-agnostic guidelines for implementing the FAIR4RS principles, through a comprehensive, community-driven methodology.",
+      "descriptionType": "Other"
+    }
+  ],
   "conference": {
     "conferenceName": "USRSE'25",
     "conferenceYear": 2025
   },
-  "rightsList": [
-    {
-      "rights": "CC-BY-4.0"
-    }
-  ],
   "formats": [
     "PDF"
   ]

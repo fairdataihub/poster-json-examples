@@ -4,12 +4,6 @@
     {
       "name": "Toker, Michael",
       "nameType": "Personal",
-      "nameIdentifiers": [
-        {
-          "nameIdentifier": "tok@cs.technion.ac.il",
-          "nameIdentifierScheme": "contact"
-        }
-      ],
       "affiliation": [
         {
           "name": "Technion − Israel Institute of Technology"
@@ -19,12 +13,6 @@
     {
       "name": "Mishali, Oren",
       "nameType": "Personal",
-      "nameIdentifiers": [
-        {
-          "nameIdentifier": "omishali@cs.technion.ac.il",
-          "nameIdentifierScheme": "contact"
-        }
-      ],
       "affiliation": [
         {
           "name": "Technion − Israel Institute of Technology"
@@ -34,12 +22,6 @@
     {
       "name": "Cohen, Adir",
       "nameType": "Personal",
-      "nameIdentifiers": [
-        {
-          "nameIdentifier": "adircohen@campus.technion.ac.il",
-          "nameIdentifierScheme": "contact"
-        }
-      ],
       "affiliation": [
         {
           "name": "Technion − Israel Institute of Technology"
@@ -49,12 +31,6 @@
     {
       "name": "Münz-Manor, Ophir",
       "nameType": "Personal",
-      "nameIdentifiers": [
-        {
-          "nameIdentifier": "ophirmm@openu.ac.il",
-          "nameIdentifierScheme": "contact"
-        }
-      ],
       "affiliation": [
         {
           "name": "The Open University of Israel"
@@ -64,12 +40,6 @@
     {
       "name": "Kimelfeld, Benny",
       "nameType": "Personal",
-      "nameIdentifiers": [
-        {
-          "nameIdentifier": "bennyk@cs.technion.ac.il",
-          "nameIdentifierScheme": "contact"
-        }
-      ],
       "affiliation": [
         {
           "name": "Technion − Israel Institute of Technology"
@@ -79,12 +49,6 @@
     {
       "name": "Belinkov, Yonatan",
       "nameType": "Personal",
-      "nameIdentifiers": [
-        {
-          "nameIdentifier": "belinkov@technion.ac.il",
-          "nameIdentifierScheme": "contact"
-        }
-      ],
       "affiliation": [
         {
           "name": "Technion − Israel Institute of Technology"
@@ -97,10 +61,12 @@
       "title": "A Dataset for Metaphor Detection in Early Medieval Hebrew Poetry"
     }
   ],
+  "publisher": {
+    "name": "Technion − Israel Institute of Technology"
+  },
   "content": {
     "sections": [
       {
-        "sectionTitle": "Introduction",
         "sectionContent": "The corpus of late antique and medieval Hebrew is vast and represents a crucial linguistic and cultural bridge between Biblical and modern Hebrew. Poetry is prominent in texts from these time periods and one of its characteristics is the use of metaphor. Distinguishing figurative and literal words or phrases is a major task for scholars in the Humanities, especially in the fields of literature, linguistics, and hermeneutics. We present a new, challenging dataset of early medieval Hebrew poetry with expert annotations of metaphors with baseline results."
       },
       {
@@ -145,9 +111,6 @@
       "subject": "digital humanities"
     }
   ],
-  "publisher": {
-    "name": "Zenodo"
-  },
   "descriptions": [
     {
       "description": "The corpus of late antique and medieval Hebrew is vast and represents a crucial linguistic and cultural bridge between Biblical and modern Hebrew. Poetry is prominent in texts from these time periods and one of its characteristics is the use of metaphor. Distinguishing figurative and literal words or phrases is a major task for scholars in the Humanities, especially in the fields of literature, linguistics, and hermeneutics. We present a new, challenging dataset of early medieval Hebrew poetry with expert annotations of metaphors with baseline results.",
@@ -159,11 +122,6 @@
     "conferenceYear": 2023,
     "conferenceLocation": "Graz, Austria"
   },
-  "rightsList": [
-    {
-      "rights": "CC-BY-4.0"
-    }
-  ],
   "formats": [
     "PDF"
   ]
