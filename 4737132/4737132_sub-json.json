@@ -1,11 +1,5 @@
 {
   "$schema": "https://posters.science/schema/v0.2/poster_schema.json",
-  "identifiers": [
-    {
-      "identifier": "10.5281/zenodo.4737132",
-      "identifierType": "DOI"
-    }
-  ],
   "creators": [
     {
       "name": "Arnold, Frederik",
@@ -20,6 +14,23 @@
   "titles": [
     {
       "title": "Verfahren zur Entdeckung und Charakterisierung von Schlüsselstellen in der Literatur"
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "Literatur"
+    },
+    {
+      "subject": "Schlusselstellen"
+    },
+    {
+      "subject": "Textanalyse"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "Das Poster beschreibt ein Verfahren zur Entdeckung und Charakterisierung von Schlusselstellen in der Literatur. Es wird ein Algorithmus vorgestellt, der die Positionen von Schlusselstellen in Texten identifiziert und diese dann in einem anderen Text wiederfindet. Das Verfahren wird anhand von zwei Beispieltexten demonstriert.",
+      "descriptionType": "Other"
     }
   ],
   "content": {
@@ -68,35 +79,11 @@
   },
   "imageCaptions": [],
   "tableCaptions": [],
-  "publicationYear": 2021,
-  "subjects": [
-    {
-      "subject": "Schlüsselstellen"
-    },
-    {
-      "subject": "Zitaterkennung"
-    },
-    {
-      "subject": "Computational Literary Studies"
-    },
-    {
-      "subject": "Text Reuse"
-    },
-    {
-      "subject": "Digital Humanities"
-    }
-  ],
-  "descriptions": [],
-  "conference": {
-    "conferenceName": "SPP CLS General Meeting",
-    "conferenceYear": 2021
-  },
-  "rightsList": [
-    {
-      "rights": "CC-BY-4.0"
-    }
-  ],
+  "researchField": "Social Sciences",
+  "language": "de",
+  "publisher": null,
+  "publicationYear": null,
   "formats": [
-    "JPEG"
+    "image/jpeg"
   ]
 }

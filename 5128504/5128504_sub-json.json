@@ -61,6 +61,23 @@
       "title": "Isolating Sources of Ionization in Nearby Seyfert Galaxies"
     }
   ],
+  "subjects": [
+    {
+      "subject": "Seyfert galaxies"
+    },
+    {
+      "subject": "ionization sources"
+    },
+    {
+      "subject": "active galactic nuclei"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "We present an ongoing research effort to identify ionization sources in nearby AGN using Apache Point Observatory (APO) and the Hubble Space Telescope (HST). We measure emission line ratios along the spatial extents of the narrow line region (NLR) using spectra from APO's Dual Imaging Spectrograph (DIS) and HST's Space Telescope Imaging Spectrograph (STIS). The spectra reveal prominent emission lines of ionized gas that can be primarily attributed to star formation or AGN ionization. We construct BPT diagrams and compare with HST color images to isolate these regions and determine their connection to the kinematics of the outflowing gasses. When combined with our ongoing study of mass outflow rates, these efforts will help further our overall goal of determining the effectiveness of AGN feedback on their host galaxies.",
+      "descriptionType": "Other"
+    }
+  ],
   "content": {
     "sections": [
       {
@@ -100,40 +117,11 @@
     }
   ],
   "tableCaptions": [],
-  "publicationYear": 2021,
-  "subjects": [
-    {
-      "subject": "Seyfert galaxies"
-    },
-    {
-      "subject": "AGN ionization"
-    },
-    {
-      "subject": "BPT diagrams"
-    },
-    {
-      "subject": "narrow line region"
-    },
-    {
-      "subject": "star formation"
-    }
-  ],
-  "descriptions": [
-    {
-      "description": "We present an ongoing research effort to identify ionization sources in nearby AGN using Apache Point Observatory (APO) and the Hubble Space Telescope (HST). We measure emission line ratios along the spatial extents of the narrow line region (NLR) using spectra from APO's Dual Imaging Spectrograph (DIS) and HST's Space Telescope Imaging Spectrograph (STIS). The spectra reveal prominent emission lines of ionized gas that can be primarily attributed to star formation or AGN ionization. We construct BPT diagrams and compare with HST color images to isolate these regions and determine their connection to the kinematics of the outflowing gasses. When combined with our ongoing study of mass outflow rates, these efforts will help further our overall goal of determining the effectiveness of AGN feedback on their host galaxies.",
-      "descriptionType": "Abstract"
-    }
-  ],
-  "conference": {
-    "conferenceName": "2021 APO Science Symposium",
-    "conferenceYear": 2021
-  },
-  "rightsList": [
-    {
-      "rights": "CC-BY-4.0"
-    }
-  ],
+  "researchField": "Physical Sciences",
+  "language": "en",
+  "publisher": null,
+  "publicationYear": null,
   "formats": [
-    "PDF"
+    "application/pdf"
   ]
 }

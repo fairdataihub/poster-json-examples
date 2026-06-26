@@ -1,11 +1,5 @@
 {
   "$schema": "https://posters.science/schema/v0.2/poster_schema.json",
-  "identifiers": [
-    {
-      "identifier": "EE359",
-      "identifierType": "Other"
-    }
-  ],
   "creators": [
     {
       "name": "Ivanyi, Pal",
@@ -13,6 +7,11 @@
       "affiliation": [
         {
           "name": "Hannover Medical School, Hannover, Germany"
+        }
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0002-2862-7302"
         }
       ]
     },
@@ -23,6 +22,11 @@
         {
           "name": "Delta Hat Ltd, Nottingham, UK"
         }
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0001-7091-0972"
+        }
       ]
     },
     {
@@ -31,6 +35,11 @@
       "affiliation": [
         {
           "name": "Studi Analisi Valutazioni Economiche S.r.l., Milan, Italy"
+        }
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0001-8372-2903"
         }
       ]
     },
@@ -41,6 +50,11 @@
         {
           "name": "Global Biostatistics, Merck Healthcare KGaA, Darmstadt, Germany"
         }
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0002-1649-5867"
+        }
       ]
     },
     {
@@ -49,6 +63,11 @@
       "affiliation": [
         {
           "name": "Delta Hat Ltd, Nottingham, UK"
+        }
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0002-6581-350X"
         }
       ]
     },
@@ -71,6 +90,11 @@
         {
           "name": "Global Value Demonstration, Market Access and Pricing, Merck Healthcare KGaA, Darmstadt, Germany"
         }
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0003-4854-6718"
+        }
       ]
     },
     {
@@ -80,6 +104,11 @@
         {
           "name": "Global Value Demonstration, Market Access and Pricing, Merck Healthcare KGaA, Darmstadt, Germany"
         }
+      ],
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0002-7763-9326"
+        }
       ]
     }
   ],
@@ -88,9 +117,26 @@
       "title": "Cost-effectiveness of pembrolizumab + chemotherapy versus cetuximab-containing regimens EXTREME and TPEx, for R/M SCCHN patients with a CPS between 1 and 19, in Italy"
     }
   ],
-  "publisher": {
-    "name": "ISPOR - The Professional Society for Health Economics and Outcomes Research"
-  },
+  "subjects": [
+    {
+      "subject": "cost-effectiveness"
+    },
+    {
+      "subject": "pembrolizumab"
+    },
+    {
+      "subject": "cetuximab"
+    },
+    {
+      "subject": "squamous cell carcinoma of the head and neck"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "This analysis estimated the cost-effectiveness of pembrolizumab + chemotherapy versus cetuximab-containing regimens (EXTREME and TPEx) for patients with recurrent/metastatic squamous cell carcinoma of the head and neck (R/M SCCHN) and a combined positive score (CPS) between 1 and 19 in Italy. The analysis was conducted from an Italian National Health Service perspective, using external trial data to increase external validity of results.",
+      "descriptionType": "Other"
+    }
+  ],
   "content": {
     "sections": [
       {
@@ -158,33 +204,11 @@
       "caption": "Table 3: Scenario analysis results (P+CT versus EXTREME and TPEx)"
     }
   ],
-  "publicationYear": 2023,
-  "subjects": [
-    {
-      "subject": "cost-effectiveness"
-    },
-    {
-      "subject": "pembrolizumab"
-    },
-    {
-      "subject": "cetuximab"
-    },
-    {
-      "subject": "squamous cell carcinoma of the head and neck"
-    }
-  ],
-  "descriptions": [
-    {
-      "description": "For recurrent/metastatic squamous cell carcinoma of the head and neck (R/M SCCHN) patients with combined positive score (CPS) 1–19, our analyses demonstrate that cetuximab-containing regimens (CCRs) can represent more effective treatment options, which are likely cost-effective in Italy as opposed to pembrolizumab + chemotherapy (P+CT). Across all scenarios, CCRs demonstrated cost savings, and in some scenarios CCRs yielded more quality-adjusted life years (QALYs)\n\nFurther research could establish a more accurate estimate of the relative effectiveness of the aforementioned treatment regimens for R/M SCCHN patients with CPS 1–19, while the robustness of the current analyses indicate that the overall cost-effectiveness (CE) results would not change",
-      "descriptionType": "Abstract"
-    }
-  ],
-  "conference": {
-    "conferenceName": "ISPOR Europe 2023",
-    "conferenceYear": 2023,
-    "conferenceLocation": "Copenhagen, Denmark"
-  },
+  "researchField": "Health Sciences",
+  "language": "en",
+  "publisher": null,
+  "publicationYear": null,
   "formats": [
-    "PDF"
+    "application/pdf"
   ]
 }

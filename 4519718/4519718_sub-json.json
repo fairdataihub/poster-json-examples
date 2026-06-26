@@ -1,47 +1,41 @@
 {
   "$schema": "https://posters.science/schema/v0.2/poster_schema.json",
-  "identifiers": [
-    {
-      "identifier": "10.5281/zenodo.4519718",
-      "identifierType": "DOI"
-    }
-  ],
   "creators": [
     {
       "name": "Surkis, Alisa",
-      "nameType": "Personal",
+      "givenName": "Alisa",
+      "familyName": "Surkis",
       "affiliation": [
-        {
-          "name": "NYU Health Sciences Libraries, New York University School of Medicine, New York, NY"
-        }
-      ]
+        "NYU Health Sciences Libraries, New York University School of Medicine, New York, NY"
+      ],
+      "nameType": "Personal"
     },
     {
       "name": "McCrillis, Aileen M.",
-      "nameType": "Personal",
+      "givenName": "Aileen M.",
+      "familyName": "McCrillis",
       "affiliation": [
-        {
-          "name": "NYU Health Sciences Libraries, New York University School of Medicine, New York, NY"
-        }
-      ]
+        "NYU Health Sciences Libraries, New York University School of Medicine, New York, NY"
+      ],
+      "nameType": "Personal"
     },
     {
       "name": "McGowan, Richard",
-      "nameType": "Personal",
+      "givenName": "Richard",
+      "familyName": "McGowan",
       "affiliation": [
-        {
-          "name": "NYU Health Sciences Libraries, New York University School of Medicine, New York, NY"
-        }
-      ]
+        "NYU Health Sciences Libraries, New York University School of Medicine, New York, NY"
+      ],
+      "nameType": "Personal"
     },
     {
       "name": "Schmidt, Brian L.",
-      "nameType": "Personal",
+      "givenName": "Brian L.",
+      "familyName": "Schmidt",
       "affiliation": [
-        {
-          "name": "Bluestone Center for Clinical Research, New York University College of Dentistry, New York, NY"
-        }
-      ]
+        "Bluestone Center for Clinical Research, New York University College of Dentistry, New York, NY"
+      ],
+      "nameType": "Personal"
     }
   ],
   "titles": [
@@ -49,9 +43,23 @@
       "title": "A Workflow for Protein Function Discovery"
     }
   ],
-  "publisher": {
-    "name": "Zenodo"
-  },
+  "subjects": [
+    {
+      "subject": "protein function discovery"
+    },
+    {
+      "subject": "cancer pain"
+    },
+    {
+      "subject": "proteomics"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "A workflow is presented for identifying from within a large set of proteins, those that have been identified in the literature as being associated with one of a set of concepts related to cancer pain. The workflow uses the programming utilities available through NCBI for accessing their linked databases from within a Matlab programming environment to replace a formerly time-intensive manual process with a much more efficient automated process.",
+      "descriptionType": "Abstract"
+    }
+  ],
   "content": {
     "sections": [
       {
@@ -107,40 +115,10 @@
     }
   ],
   "tableCaptions": [],
-  "publicationYear": 2013,
-  "subjects": [
-    {
-      "subject": "protein function discovery"
-    },
-    {
-      "subject": "cancer pain"
-    },
-    {
-      "subject": "NCBI Entrez programming utilities"
-    },
-    {
-      "subject": "literature search automation"
-    },
-    {
-      "subject": "proteomics"
-    }
-  ],
-  "descriptions": [
-    {
-      "description": "A workflow is presented for identifying from within a large set of proteins, those that have been identified in the literature as being associated with one of a set of concepts related to cancer pain. The workflow uses the programming utilities available through NCBI for accessing their linked databases from within a Matlab programming environment to replace a formerly time-intensive manual process with a much more efficient automated process.",
-      "descriptionType": "Abstract"
-    }
-  ],
-  "conference": {
-    "conferenceName": "AMIA Joint Summits on Translational Science 2013",
-    "conferenceYear": 2013
-  },
-  "rightsList": [
-    {
-      "rights": "CC-BY-4.0"
-    }
-  ],
+  "language": "en",
+  "publisher": null,
+  "publicationYear": null,
   "formats": [
-    "PDF"
+    "application/pdf"
   ]
 }

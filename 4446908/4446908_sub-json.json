@@ -1,34 +1,45 @@
 {
   "$schema": "https://posters.science/schema/v0.2/poster_schema.json",
-  "identifiers": [
-    {
-      "identifier": "10.5281/zenodo.4446908",
-      "identifierType": "DOI"
-    }
-  ],
   "creators": [
     {
       "name": "Hahn, Oliver",
-      "nameType": "Personal",
+      "givenName": "Oliver",
+      "familyName": "Hahn",
       "affiliation": [
-        {
-          "name": "ZBW — Leibniz Information Centre for Economics, Kiel, Germany"
-        }
-      ]
+        "ZBW Leibniz Information Centre for Economics"
+      ],
+      "nameType": "Personal"
     },
     {
       "name": "Lemke, Steffen",
-      "nameType": "Personal",
+      "givenName": "Steffen",
+      "familyName": "Lemke",
       "affiliation": [
-        {
-          "name": "ZBW — Leibniz Information Centre for Economics, Kiel, Germany"
-        }
-      ]
+        "ZBW Leibniz Information Centre for Economics"
+      ],
+      "nameType": "Personal"
     }
   ],
   "titles": [
     {
       "title": "An Exploration of Scientific Press Releases in the Context of Altmetrics"
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "altmetrics"
+    },
+    {
+      "subject": "press releases"
+    },
+    {
+      "subject": "science communication"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "This poster explores two large samples of science press releases to gain further insights on their contents, creators, and role in the communication of research. The analysis reveals that press releases are dominated by life sciences, followed by physical sciences, and that they frequently describe featured studies' methodologies and often also practical implications. The study also suggests substantial differences between the two platforms, EurekAlert! and IDW-Online, in terms of the institutions submitting press releases.",
+      "descriptionType": "Other"
     }
   ],
   "content": {
@@ -80,43 +91,11 @@
   },
   "imageCaptions": [],
   "tableCaptions": [],
-  "publicationYear": 2020,
-  "subjects": [
-    {
-      "subject": "altmetrics"
-    },
-    {
-      "subject": "press releases"
-    },
-    {
-      "subject": "science communication"
-    },
-    {
-      "subject": "EurekAlert!"
-    },
-    {
-      "subject": "IDW-Online"
-    }
-  ],
-  "publisher": {
-    "name": "Zenodo"
-  },
-  "descriptions": [
-    {
-      "description": "Press releases are published by organizations to bring attention to achievements they have reached. In the scientific domain, for example research institutions, funders, and academic publishers make use of press releases to advertise newly published papers and particularly promising scientific results. For altmetrics research, which analyzes the presence of scientific objects in various public domains like for instance social media, news, or policy documents, so far press releases have been an almost unregarded albeit promising source of data (Bowman & Hassan, 2019). Also, previous studies have shown a strong association between a journal article receiving promotion in a press release and its later citations and altmetrics (Lemke, 2020), further warranting a precise look at this communication format's characteristics. We set out to explore two large samples of science press releases to gain further insights on their contents, creators, and role in the communication of research.",
-      "descriptionType": "Abstract"
-    }
-  ],
-  "conference": {
-    "conferenceName": "altmetrics20 – The 2020 Altmetrics Workshop",
-    "conferenceYear": 2020
-  },
-  "rightsList": [
-    {
-      "rights": "CC-BY-4.0"
-    }
-  ],
+  "researchField": "Social Sciences",
+  "language": "en",
+  "publisher": null,
+  "publicationYear": null,
   "formats": [
-    "PDF"
+    "application/pdf"
   ]
 }

@@ -1,20 +1,44 @@
 {
   "$schema": "https://posters.science/schema/v0.2/poster_schema.json",
-  "identifiers": [],
   "creators": [
     {
       "name": "Ma, Rongqian",
-      "nameType": "Personal",
+      "givenName": "Rongqian",
+      "familyName": "Ma",
       "affiliation": [
         {
-          "name": "Indiana University Bloomington"
+          "name": "Indiana University Bloomington",
+          "affiliationIdentifier": "https://ror.org/02k40bc56",
+          "affiliationIdentifierScheme": "ROR",
+          "schemeURI": "https://ror.org/"
         }
-      ]
+      ],
+      "nameType": "Personal"
     }
   ],
   "titles": [
     {
       "title": "Revisiting Connotations of Digital Humanists: Exploratory Interviews"
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "digital humanists"
+    },
+    {
+      "subject": "research identity"
+    },
+    {
+      "subject": "digital humanities"
+    },
+    {
+      "subject": "research community"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "This ongoing study revisits the connotations of 'digital humanists' and explores the reasons why a researcher does or does not self-identify as a digital humanist. Building on semi-structured interview data collected from fourteen researchers and practitioners engaging in digital humanities (DH) projects, this poster illustrates researchers' various understandings of 'digital humanist' as a term and highlights the complexity of 'digital humanists' as a research community. This study provides insights into the collective imaginations of 'digital humanist' as a research community.",
+      "descriptionType": "Other"
     }
   ],
   "content": {
@@ -60,35 +84,11 @@
       "caption": "Table 2. Why do researchers NOT self-identify as digital humanists?"
     }
   ],
-  "publicationYear": 2023,
-  "subjects": [
-    {
-      "subject": "digital humanists"
-    },
-    {
-      "subject": "research identity"
-    },
-    {
-      "subject": "digital humanities"
-    }
-  ],
-  "descriptions": [
-    {
-      "description": "This ongoing study revisits the connotations of \"digital humanists\" and explores the reasons why a researcher does or does not self-identify as a digital humanist. Building on semi-structured interview data collected from fourteen researchers and practitioners engaging in digital humanities (DH) projects, this poster illustrates researchers' various understandings of \"digital humanist\" as a term and highlights the complexity of \"digital humanists\" as a research community. This study provides insights into the collective imaginations of \"digital humanist\" as a research community.",
-      "descriptionType": "Abstract"
-    }
-  ],
-  "conference": {
-    "conferenceName": "DH 2023",
-    "conferenceYear": 2023,
-    "conferenceLocation": "Graz, Austria"
-  },
-  "rightsList": [
-    {
-      "rights": "CC-BY-4.0"
-    }
-  ],
+  "researchField": "Social Sciences",
+  "language": "en",
+  "publisher": null,
+  "publicationYear": null,
   "formats": [
-    "PDF"
+    "application/pdf"
   ]
 }

@@ -3,59 +3,78 @@
   "creators": [
     {
       "name": "Gul, Merve",
-      "nameType": "Personal",
+      "givenName": "Merve",
+      "familyName": "Gul",
       "affiliation": [
-        {
-          "name": "Department of Drug Sciences, University of Pavia"
-        },
-        {
-          "name": "Department of Chemical Engineering, Universitat Politècnica de Catalunya (UPC-EEBE)"
-        }
-      ]
+        "Department of Drug Sciences, University of Pavia",
+        "Department of Chemical Engineering, Universitat Politecnica de Catalunya (UPC-EEBE)"
+      ],
+      "nameType": "Personal"
     },
     {
       "name": "Genta, Ida",
-      "nameType": "Personal",
+      "givenName": "Ida",
+      "familyName": "Genta",
       "affiliation": [
-        {
-          "name": "Department of Drug Sciences, University of Pavia"
-        }
-      ]
+        "Department of Drug Sciences, University of Pavia"
+      ],
+      "nameType": "Personal"
     },
     {
       "name": "Perez Madrigal, Maria M.",
-      "nameType": "Personal",
+      "givenName": "Maria M.",
+      "familyName": "Perez Madrigal",
       "affiliation": [
-        {
-          "name": "Department of Chemical Engineering, Universitat Politècnica de Catalunya (UPC-EEBE)"
-        }
-      ]
+        "Department of Chemical Engineering, Universitat Politecnica de Catalunya (UPC-EEBE)"
+      ],
+      "nameType": "Personal"
     },
     {
       "name": "Aleman, Carlos",
-      "nameType": "Personal",
+      "givenName": "Carlos",
+      "familyName": "Aleman",
       "affiliation": [
-        {
-          "name": "Department of Chemical Engineering, Universitat Politècnica de Catalunya (UPC-EEBE)"
-        },
-        {
-          "name": "Barcelona Research Center for Multiscale Science and Engineering, EEBE, Universitat Politècnica de Catalunya"
-        }
-      ]
+        "Department of Chemical Engineering, Universitat Politecnica de Catalunya (UPC-EEBE)",
+        "Barcelona Research Center for Multiscale Science and Engineering, EEBE, Universitat Politecnica de Catalunya"
+      ],
+      "nameType": "Personal"
     },
     {
       "name": "Chiesa, Enrica",
-      "nameType": "Personal",
+      "givenName": "Enrica",
+      "familyName": "Chiesa",
       "affiliation": [
-        {
-          "name": "Department of Drug Sciences, University of Pavia"
-        }
-      ]
+        "Department of Drug Sciences, University of Pavia"
+      ],
+      "nameType": "Personal"
     }
   ],
   "titles": [
     {
-      "title": "INFLUENCE OF DRUG-POLYMER INTERACTIONS ON RELEASE KINETICS OF PLGA AND PLA/PEG NPS"
+      "title": "Influence of drug-polymer interactions on release kinetics of PLGA and PLA/PEG NPS"
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "drug-polymer interactions"
+    },
+    {
+      "subject": "release kinetics"
+    },
+    {
+      "subject": "PLGA"
+    },
+    {
+      "subject": "PLA/PEG"
+    },
+    {
+      "subject": "NPs"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "Antimicrobial resistance is a growing global health threat, requiring novel drug delivery strategies. Microfluidic-based synthesis of nano-sized carriers for drug delivery systems offers precise control over nanocarrier characteristics and improves encapsulation efficiency.",
+      "descriptionType": "Other"
     }
   ],
   "content": {
@@ -126,53 +145,11 @@
       "caption": "Table 2: Drug loading into NPs and micelles."
     }
   ],
-  "publicationYear": 2025,
-  "subjects": [
-    {
-      "subject": "drug delivery systems"
-    },
-    {
-      "subject": "PLGA nanoparticles"
-    },
-    {
-      "subject": "PLA/PEG micelles"
-    },
-    {
-      "subject": "microfluidics"
-    },
-    {
-      "subject": "curcumin"
-    },
-    {
-      "subject": "antimicrobial resistance"
-    },
-    {
-      "subject": "release kinetics"
-    },
-    {
-      "subject": "drug-polymer interactions"
-    }
-  ],
-  "publisher": {
-    "name": "Zenodo"
-  },
-  "descriptions": [
-    {
-      "description": "Antimicrobial resistance (AMR) is a growing global health threat, requiring novel drug delivery strategies (1). Microfluidic-based synthesis of nano-sized carriers for drug delivery systems (NDDS) offers precise control over nanocarrier characteristics and improves encapsulation efficiency (2,3).",
-      "descriptionType": "Abstract"
-    }
-  ],
-  "conference": {
-    "conferenceName": "CRS Italy Local Chapter Workshop",
-    "conferenceYear": 2025,
-    "conferenceLocation": "Bari, Italy"
-  },
-  "rightsList": [
-    {
-      "rights": "CC-BY-4.0"
-    }
-  ],
+  "researchField": "Health Sciences",
+  "language": "en",
+  "publisher": null,
+  "publicationYear": null,
   "formats": [
-    "PDF"
+    "application/pdf"
   ]
 }

@@ -1,11 +1,5 @@
 {
   "$schema": "https://posters.science/schema/v0.2/poster_schema.json",
-  "identifiers": [
-    {
-      "identifier": "10.5281/zenodo.4560930",
-      "identifierType": "DOI"
-    }
-  ],
   "creators": [
     {
       "name": "Couperus, Andrew A.",
@@ -68,6 +62,26 @@
       "title": "Twinkle Twinkle Little Star: ET Wonders How You Are"
     }
   ],
+  "subjects": [
+    {
+      "subject": "M dwarfs"
+    },
+    {
+      "subject": "exoplanets"
+    },
+    {
+      "subject": "stellar cycles"
+    },
+    {
+      "subject": "magnetic activity"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "The RECONS program studies nearby red dwarfs to inform the overall solar neighborhood and explore the viability of these common targets as habitable exoplanet hosts. The program focuses on the poorly studied long-term M Dwarf spot activity cycles and the magnetic activity behavior of 36 M dwarf 'twin' binaries hosting nearly identical component stars. The results provide critically valuable insights into M dwarf magnetic dynamos, particularly in fully convective stars.",
+      "descriptionType": "Other"
+    }
+  ],
   "content": {
     "sections": [
       {
@@ -107,35 +121,11 @@
     }
   ],
   "tableCaptions": [],
-  "publicationYear": 2021,
-  "subjects": [
-    {
-      "subject": "M dwarf stars"
-    },
-    {
-      "subject": "stellar activity cycles"
-    },
-    {
-      "subject": "binary stars"
-    },
-    {
-      "subject": "magnetic dynamos"
-    },
-    {
-      "subject": "photometry"
-    }
-  ],
-  "descriptions": [],
-  "conference": {
-    "conferenceName": "American Astronomical Society Meeting",
-    "conferenceYear": 2021
-  },
-  "rightsList": [
-    {
-      "rights": "CC-BY"
-    }
-  ],
+  "researchField": "Physical Sciences",
+  "language": "en",
+  "publisher": null,
+  "publicationYear": null,
   "formats": [
-    "PDF"
+    "application/pdf"
   ]
 }

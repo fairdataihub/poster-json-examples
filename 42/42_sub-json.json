@@ -1,57 +1,63 @@
 {
   "$schema": "https://posters.science/schema/v0.2/poster_schema.json",
-  "identifiers": [
-    {
-      "identifier": "LB108",
-      "identifierType": "Other"
-    }
-  ],
   "creators": [
     {
       "name": "O'Neill, Jamey",
-      "nameType": "Personal",
-      "nameIdentifiers": [
-        {
-          "nameIdentifier": "joneilliii@sdsu.edu",
-          "nameIdentifierScheme": "contact"
-        }
-      ],
+      "givenName": "Jamey",
+      "familyName": "O'Neill",
       "affiliation": [
-        {
-          "name": "Mechanical Engineering Department, San Diego State University"
-        },
-        {
-          "name": "Department of Bioengineering, University of California San Diego"
-        }
-      ]
+        "Mechanical Engineering Department, San Diego State University",
+        "Department of Bioengineering, University of California San Diego"
+      ],
+      "nameType": "Personal"
     },
     {
       "name": "Alexandrov, Ludmil",
-      "nameType": "Personal",
+      "givenName": "Ludmil",
+      "familyName": "Alexandrov",
       "affiliation": [
-        {
-          "name": "Department of Bioengineering, University of California San Diego"
-        }
-      ]
+        "Department of Bioengineering, University of California San Diego"
+      ],
+      "nameType": "Personal"
     },
     {
       "name": "Katira, Parag",
-      "nameType": "Personal",
+      "givenName": "Parag",
+      "familyName": "Katira",
       "affiliation": [
-        {
-          "name": "Mechanical Engineering Department, San Diego State University"
-        }
-      ]
+        "Mechanical Engineering Department, San Diego State University"
+      ],
+      "nameType": "Personal"
     }
   ],
   "titles": [
     {
-      "title": "CarD-T: LLM Automated Literature Review for the Nomination & Analysis of Potential Human Carcinogens"
+      "title": "CarD-T: LLM Automated Literature Review for the Nomination"
     }
   ],
-  "publisher": {
-    "name": "American Association for Cancer Research"
-  },
+  "subjects": [
+    {
+      "subject": "Carcinogenic Determination via Transformers"
+    },
+    {
+      "subject": "Automated Literature Review"
+    },
+    {
+      "subject": "Probabilistic Analysis"
+    },
+    {
+      "subject": "Carcinogen Curation"
+    },
+    {
+      "subject": "Named Entity Recognition"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "Carcinogenic Determination via Transformers (or CarD-T) is an automated pipeline that combines transformer-based machine learning with probabilistic analysis to identify potential carcinogens from biomedical literature. The framework processes accumulating scientific publications (left), applies a trained Named Entity Recognition (NER) model to extract potential carcinogenic entities (center), and Probabilistic Carcinogen Denomination (or PCarD) to analyze temporal trends in evidence shifts (right). This approach enables classification of candidates through Bayesian temporal analysis, overcoming limitations of traditional manual literature review methods.",
+      "descriptionType": "Other"
+    }
+  ],
   "content": {
     "sections": [
       {
@@ -107,35 +113,11 @@
     }
   ],
   "tableCaptions": [],
-  "publicationYear": 2025,
-  "subjects": [
-    {
-      "subject": "carcinogen identification"
-    },
-    {
-      "subject": "named entity recognition"
-    },
-    {
-      "subject": "transformer models"
-    },
-    {
-      "subject": "Bayesian temporal analysis"
-    },
-    {
-      "subject": "literature mining"
-    }
-  ],
-  "descriptions": [
-    {
-      "description": "Carcinogenic Determination via Transformers (or CarD-T) is an automated pipeline that combines transformer-based machine learning with probabilistic analysis to identify potential carcinogens from biomedical literature. The framework processes accumulating scientific publications (left), applies a trained Named Entity Recognition (NER) model to extract potential carcinogenic entities (center), and Probabilistic Carcinogen Denomination (or PCarD) to analyze temporal trends in evidence shifts (right). This approach enables classification of candidates through Bayesian temporal analysis, overcoming limitations of traditional manual literature review methods.",
-      "descriptionType": "Abstract"
-    }
-  ],
-  "conference": {
-    "conferenceName": "AACR Annual Meeting 2025",
-    "conferenceYear": 2025
-  },
+  "researchField": "Health Sciences",
+  "language": "en",
+  "publisher": null,
+  "publicationYear": null,
   "formats": [
-    "PDF"
+    "application/pdf"
   ]
 }

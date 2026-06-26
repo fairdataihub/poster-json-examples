@@ -1,11 +1,5 @@
 {
   "$schema": "https://posters.science/schema/v0.2/poster_schema.json",
-  "identifiers": [
-    {
-      "identifier": "10.5281/zenodo.4552067",
-      "identifierType": "DOI"
-    }
-  ],
   "creators": [
     {
       "name": "Portage Network",
@@ -20,6 +14,23 @@
   "titles": [
     {
       "title": "Portage: Shared Stewardship of Research Data"
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "Research Data Management"
+    },
+    {
+      "subject": "Data Lifecycle"
+    },
+    {
+      "subject": "Research Infrastructure"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "Portage is a national research data management (RDM) initiative to assist researchers and other stakeholders through a library-based network of expertise, and develop national platforms and services for planning, preserving, and discovering research data. Portage is managed by the Canadian Association of Research Libraries.",
+      "descriptionType": "Abstract"
     }
   ],
   "content": {
@@ -63,43 +74,10 @@
   },
   "imageCaptions": [],
   "tableCaptions": [],
-  "publicationYear": 2017,
-  "subjects": [
-    {
-      "subject": "research data management"
-    },
-    {
-      "subject": "data management planning"
-    },
-    {
-      "subject": "research data repository"
-    },
-    {
-      "subject": "data stewardship"
-    },
-    {
-      "subject": "Canadian research libraries"
-    }
-  ],
-  "descriptions": [
-    {
-      "description": "Portage is a national research data management (RDM) initiative to assist researchers and other stakeholders through a library-based network of expertise, and develop national platforms and services for planning, preserving, and discovering research data. Portage is managed by the Canadian Association of Research Libraries.",
-      "descriptionType": "Abstract"
-    }
-  ],
-  "publisher": {
-    "name": "Zenodo"
-  },
-  "conference": {
-    "conferenceName": "Unknown Conference",
-    "conferenceYear": 2017
-  },
-  "rightsList": [
-    {
-      "rights": "CC-BY-4.0"
-    }
-  ],
+  "language": "en",
+  "publisher": null,
+  "publicationYear": null,
   "formats": [
-    "PDF"
+    "application/pdf"
   ]
 }

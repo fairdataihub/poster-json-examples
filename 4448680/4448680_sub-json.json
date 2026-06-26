@@ -1,34 +1,50 @@
 {
   "$schema": "https://posters.science/schema/v0.2/poster_schema.json",
-  "identifiers": [
-    {
-      "identifier": "10.5281/zenodo.4448680",
-      "identifierType": "DOI"
-    }
-  ],
   "creators": [
     {
       "name": "Rautanen, Markus",
-      "nameType": "Personal",
+      "givenName": "Markus",
+      "familyName": "Rautanen",
       "affiliation": [
+        "VTT"
+      ],
+      "nameType": "Personal",
+      "nameIdentifiers": [
         {
-          "name": "VTT Technical Research Centre of Finland Ltd"
+          "nameIdentifier": "https://orcid.org/0000-0003-2372-3765"
         }
       ]
     },
     {
       "name": "Himanen, Olli",
-      "nameType": "Personal",
+      "givenName": "Olli",
+      "familyName": "Himanen",
       "affiliation": [
-        {
-          "name": "VTT Technical Research Centre of Finland Ltd"
-        }
-      ]
+        "VTT"
+      ],
+      "nameType": "Personal"
     }
   ],
   "titles": [
     {
-      "title": "Mass-manufacturing and quality assurance solutions in SOFC value chain in FCH JU projects qSOFC and INNO-SOFC"
+      "title": "Mass-Manufacturing and Quality Assurance Solutions in SOFC Value Chain in FCH JU Projects qSOFC and INNO-SOFC"
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "Fuel Cells"
+    },
+    {
+      "subject": "Manufacturing"
+    },
+    {
+      "subject": "Quality Assurance"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "The poster presents mass-manufacturing and quality assurance solutions in the SOFC value chain for FCH JU projects qSOFC and INNO-SOFC. The targets include reducing cell manufacturing cost to 400 €/kW at a production volume of 10 MW/year and increasing production yield in all parts of the stack manufacturing value chain to above 95% by automation and quality assurance. The methods employed include automated machine vision inspection systems, optimization of cell manufacturing for high-speed manufacturing, and development and validation of relevant quality assurance procedures in the interconnect manufacturing process. The results achieved include higher and more homogeneous cell quality, higher yield, and lower scrap rate throughout production.",
+      "descriptionType": "Other"
     }
   ],
   "content": {
@@ -81,38 +97,11 @@
     }
   ],
   "tableCaptions": [],
-  "publicationYear": 2018,
-  "subjects": [
-    {
-      "subject": "solid oxide fuel cells"
-    },
-    {
-      "subject": "SOFC"
-    },
-    {
-      "subject": "mass-manufacturing"
-    },
-    {
-      "subject": "quality assurance"
-    },
-    {
-      "subject": "fuel cell value chain"
-    }
-  ],
-  "descriptions": [],
-  "publisher": {
-    "name": "Zenodo"
-  },
-  "conference": {
-    "conferenceName": "Unknown Conference",
-    "conferenceYear": 2018
-  },
-  "rightsList": [
-    {
-      "rights": "CC-BY-4.0"
-    }
-  ],
+  "researchField": "Physical Sciences",
+  "language": "en",
+  "publisher": null,
+  "publicationYear": null,
   "formats": [
-    "PDF"
+    "application/pdf"
   ]
 }

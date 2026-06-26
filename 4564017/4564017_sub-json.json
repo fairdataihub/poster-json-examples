@@ -52,12 +52,26 @@
   ],
   "titles": [
     {
-      "title": "Modeling of 3D Atmospheres of Cool Stars with the MANCHA Code"
+      "title": "Modeling of 3D Atmospheres of Cool Stars with the Mancha Code"
     }
   ],
-  "publisher": {
-    "name": "Instituto de Astrofísica de Canarias"
-  },
+  "subjects": [
+    {
+      "subject": "stellar atmospheres"
+    },
+    {
+      "subject": "hydrodynamical simulations"
+    },
+    {
+      "subject": "magnetic fields"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "The first results of the application of the MANCHA code to the case of stars beyond the solar case are presented: hydrodynamical simulations of stars of spectral type K0V and M0V compared with the solar case. Hydrodinamical models of the photosphere in 3D are the first step towards more realistic models including magnetic fields and non-ideal effects, and extending to the higher atmosphere.",
+      "descriptionType": "Other"
+    }
+  ],
   "content": {
     "sections": [
       {
@@ -95,35 +109,11 @@
   },
   "imageCaptions": [],
   "tableCaptions": [],
-  "publicationYear": 2021,
-  "subjects": [
-    {
-      "subject": "stellar atmospheres"
-    },
-    {
-      "subject": "3D hydrodynamical simulations"
-    },
-    {
-      "subject": "cool stars"
-    },
-    {
-      "subject": "MANCHA code"
-    },
-    {
-      "subject": "convection"
-    }
-  ],
-  "descriptions": [
-    {
-      "description": "The first results of the application of the MANCHA code to the case of stars beyond the solar case are presented: hydrodynamical simulations of stars of spectral type K0V and M0V compared with the solar case. Hydrodinamical models of the photosphere in 3D are the first step towards more realistic models including magnetic fields and non-ideal effects, and extending to the higher atmosphere.",
-      "descriptionType": "Abstract"
-    }
-  ],
-  "conference": {
-    "conferenceName": "Unknown Conference",
-    "conferenceYear": 2021
-  },
+  "researchField": "Physical Sciences",
+  "language": "en",
+  "publisher": null,
+  "publicationYear": null,
   "formats": [
-    "PDF"
+    "application/pdf"
   ]
 }

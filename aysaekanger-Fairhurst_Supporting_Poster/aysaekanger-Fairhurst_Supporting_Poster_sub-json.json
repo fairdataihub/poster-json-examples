@@ -3,10 +3,20 @@
   "creators": [
     {
       "name": "Fairhurst, Vanessa",
-      "nameType": "Personal",
+      "givenName": "Vanessa",
+      "familyName": "Fairhurst",
       "affiliation": [
         {
-          "name": "Crossref"
+          "name": "Crossref",
+          "affiliationIdentifier": "https://ror.org/02twcfp32",
+          "affiliationIdentifierScheme": "ROR",
+          "schemeURI": "https://ror.org/"
+        }
+      ],
+      "nameType": "Personal",
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0001-8511-8689"
         }
       ]
     }
@@ -16,9 +26,23 @@
       "title": "Your funding infrastructure wishes Grant-ID"
     }
   ],
-  "publisher": {
-    "name": "Crossref"
-  },
+  "subjects": [
+    {
+      "subject": "funding infrastructure"
+    },
+    {
+      "subject": "grant IDs"
+    },
+    {
+      "subject": "research reporting"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "The poster discusses the importance of connecting grants to subsequent research activities and outputs. It highlights the benefits of using grant IDs, including automating the process of matching outputs to grants, making search and discovery easier, and aiding tracking the impact of funding shared infrastructures and facilities. The poster also introduces the Research Organizations Registry (ROR) and the Grant ID Schema.",
+      "descriptionType": "Other"
+    }
+  ],
   "content": {
     "sections": [
       {
@@ -44,47 +68,13 @@
       }
     ]
   },
-  "identifiers": [
-    {
-      "identifier": "10.23640/07243.9149240.v1",
-      "identifierType": "DOI"
-    },
-    {
-      "identifier": "10.35802/107769",
-      "identifierType": "DOI"
-    }
-  ],
   "imageCaptions": [],
   "tableCaptions": [],
-  "publicationYear": 2019,
-  "subjects": [
-    {
-      "subject": "grant identifiers"
-    },
-    {
-      "subject": "persistent identifiers"
-    },
-    {
-      "subject": "research funding infrastructure"
-    },
-    {
-      "subject": "scholarly communication"
-    },
-    {
-      "subject": "ORCID"
-    }
-  ],
-  "descriptions": [],
-  "conference": {
-    "conferenceName": "PIDapalooza 2019",
-    "conferenceYear": 2019
-  },
-  "rightsList": [
-    {
-      "rights": "CC-BY-4.0"
-    }
-  ],
+  "researchField": "Social Sciences",
+  "language": "en",
+  "publisher": null,
+  "publicationYear": null,
   "formats": [
-    "PDF"
+    "application/pdf"
   ]
 }

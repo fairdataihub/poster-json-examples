@@ -1,11 +1,5 @@
 {
   "$schema": "https://posters.science/schema/v0.2/poster_schema.json",
-  "identifiers": [
-    {
-      "identifier": "10.5281/zenodo.6724771",
-      "identifierType": "DOI"
-    }
-  ],
   "creators": [
     {
       "name": "Timmermans, Michaël",
@@ -157,12 +151,26 @@
   ],
   "titles": [
     {
-      "title": "LIN-RES project: Genomic analysis of linezolid resistance in strains isolated from healthy animals and human patients."
+      "title": "Genomic analysis of linezolid resistance in strains isolated from healthy animals and human patients"
     }
   ],
-  "publisher": {
-    "name": "Zenodo"
-  },
+  "subjects": [
+    {
+      "subject": "linezolid resistance"
+    },
+    {
+      "subject": "genomic analysis"
+    },
+    {
+      "subject": "antimicrobial resistance"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "The project aims to assess the occurrence of linezolid resistance in enterococci and staphylococci in 2019 in Belgium with a selective culture method. Another endpoint of the project is to investigate the genetic environment associated with the LZD-R phenotype and the relatedness of the isolates. Linezolid resistance is not so rare in animal isolates, revealing a reservoir of plasmid-borne LZD-R genes in the agricultural sector. The majority of the isolates carried also phenicol resistance genes. Several different organisations and sequence types were observed in the isolates collection.",
+      "descriptionType": "Other"
+    }
+  ],
   "content": {
     "sections": [
       {
@@ -192,38 +200,11 @@
     }
   ],
   "tableCaptions": [],
-  "publicationYear": 2021,
-  "subjects": [
-    {
-      "subject": "linezolid resistance"
-    },
-    {
-      "subject": "antimicrobial resistance"
-    },
-    {
-      "subject": "whole genome sequencing"
-    },
-    {
-      "subject": "enterococci"
-    },
-    {
-      "subject": "staphylococci"
-    },
-    {
-      "subject": "One Health"
-    }
-  ],
-  "descriptions": [],
-  "conference": {
-    "conferenceName": "One Health EJP Annual Scientific Meeting 2021",
-    "conferenceYear": 2021
-  },
-  "rightsList": [
-    {
-      "rights": "CC-BY-4.0"
-    }
-  ],
+  "researchField": "Health Sciences",
+  "language": "en",
+  "publisher": null,
+  "publicationYear": null,
   "formats": [
-    "PDF"
+    "application/pdf"
   ]
 }

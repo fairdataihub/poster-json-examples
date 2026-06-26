@@ -1,52 +1,66 @@
 {
   "$schema": "https://posters.science/schema/v0.2/poster_schema.json",
-  "identifiers": [
-    {
-      "identifier": "10.5281/zenodo.4607450",
-      "identifierType": "DOI"
-    }
-  ],
   "creators": [
     {
       "name": "Stoyanov, Ivan Y.",
-      "nameType": "Personal",
+      "givenName": "Ivan Y.",
+      "familyName": "Stoyanov",
       "affiliation": [
-        {
-          "name": "Section of Genetics, Department of Developmental Biology, Plovdiv University \"Paisii Hilendarski\", 24 Tzar Assen Street, 4000 Plovdiv, Bulgaria"
-        }
-      ]
+        "Section of Genetics, Department of Developmental Biology, Plovdiv University „Paisii Hilendarski'"
+      ],
+      "nameType": "Personal"
     },
     {
       "name": "Staykova, Teodora A.",
-      "nameType": "Personal",
+      "givenName": "Teodora A.",
+      "familyName": "Staykova",
       "affiliation": [
-        {
-          "name": "Section of Genetics, Department of Developmental Biology, Plovdiv University \"Paisii Hilendarski\", 24 Tzar Assen Street, 4000 Plovdiv, Bulgaria"
-        }
-      ]
+        "Section of Genetics, Department of Developmental Biology, Plovdiv University „Paisii Hilendarski'"
+      ],
+      "nameType": "Personal"
     },
     {
       "name": "Vasileva, Penka L.",
-      "nameType": "Personal",
+      "givenName": "Penka L.",
+      "familyName": "Vasileva",
       "affiliation": [
-        {
-          "name": "Section of Genetics, Department of Developmental Biology, Plovdiv University \"Paisii Hilendarski\", 24 Tzar Assen Street, 4000 Plovdiv, Bulgaria"
-        }
-      ]
+        "Section of Genetics, Department of Developmental Biology, Plovdiv University „Paisii Hilendarski'"
+      ],
+      "nameType": "Personal"
     },
     {
       "name": "Ivanova, Evgeniya N.",
-      "nameType": "Personal",
+      "givenName": "Evgeniya N.",
+      "familyName": "Ivanova",
       "affiliation": [
-        {
-          "name": "Section of Genetics, Department of Developmental Biology, Plovdiv University \"Paisii Hilendarski\", 24 Tzar Assen Street, 4000 Plovdiv, Bulgaria"
-        }
-      ]
+        "Section of Genetics, Department of Developmental Biology, Plovdiv University „Paisii Hilendarski'"
+      ],
+      "nameType": "Personal"
     }
   ],
   "titles": [
     {
       "title": "Biochemical-genetic analysis of the effects of Chlorpyrifos and Cypermethrin insecticides on zebra mussels (Dressena polymorpha Pallas, 1771)"
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "Biochemical-genetic analysis"
+    },
+    {
+      "subject": "Chlorpyrifos"
+    },
+    {
+      "subject": "Cypermethrin"
+    },
+    {
+      "subject": "Zebra mussels"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "Electrophoretic studies of genetically determined biochemical polymorphism of proteins are used to study the relationship between the level of protein variability and the peculiarities of habitat conditions. Isoenzymes are indicators of gene expression and reveal the characteristic features of gene regulation. The study of isoenzyme variability allows the study of genome regulation and contributes to determining the genetic basis of adaptation. In the present study, a biochemical-genetic analysis was performed to determine the relationship between isoenzyme polymorphism and the zebra mussel Dressena polymorpha body's response to the harmful effects of the pesticides Cypermethrin and Chlopyrifos.",
+      "descriptionType": "Other"
     }
   ],
   "content": {
@@ -92,35 +106,11 @@
     }
   ],
   "tableCaptions": [],
-  "publicationYear": 2021,
-  "subjects": [
-    {
-      "subject": "zebra mussel"
-    },
-    {
-      "subject": "Dressena polymorpha"
-    },
-    {
-      "subject": "isoenzyme polymorphism"
-    },
-    {
-      "subject": "Chlorpyrifos"
-    },
-    {
-      "subject": "Cypermethrin"
-    }
-  ],
-  "descriptions": [],
-  "conference": {
-    "conferenceName": "5th Balkan Scientific Conference on Biology",
-    "conferenceYear": 2021
-  },
-  "rightsList": [
-    {
-      "rights": "CC-BY-4.0"
-    }
-  ],
+  "researchField": "Life Sciences",
+  "language": "en",
+  "publisher": null,
+  "publicationYear": null,
   "formats": [
-    "PDF"
+    "application/pdf"
   ]
 }

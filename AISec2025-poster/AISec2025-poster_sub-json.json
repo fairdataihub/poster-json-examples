@@ -1,15 +1,5 @@
 {
   "$schema": "https://posters.science/schema/v0.2/poster_schema.json",
-  "identifiers": [
-    {
-      "identifier": "AISec2025-poster.pdf",
-      "identifierType": "file"
-    },
-    {
-      "identifier": "arXiv:2503.09334",
-      "identifierType": "arXiv"
-    }
-  ],
   "creators": [
     {
       "name": "ElZemity, Adel",
@@ -65,9 +55,23 @@
       "title": "CyberLLMInstruct: A Pseudo-malicious Dataset Revealing Safety-performance Trade-offs in Cyber Security LLM Fine-tuning"
     }
   ],
-  "publisher": {
-    "name": "University of Kent"
-  },
+  "subjects": [
+    {
+      "subject": "cyber security"
+    },
+    {
+      "subject": "large language models"
+    },
+    {
+      "subject": "fine-tuning"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "Our research introduces CyberLLMInstruct, a dataset of 54,928 pseudo-malicious instruction-response pairs. We found that fine-tuning Large Language Models (LLMs) on this dataset dramatically improves cyber security task performance but severely compromises their safety resilience against attacks like prompt injection.",
+      "descriptionType": "Abstract"
+    }
+  ],
   "content": {
     "sections": [
       {
@@ -131,36 +135,11 @@
       "caption": "Table 2: Accuracy results (%) for different base (before arrow) and fine-tuned (after arrow) LLMs on the CyberMetric benchmark"
     }
   ],
-  "publicationYear": 2025,
-  "subjects": [
-    {
-      "subject": "Large Language Models"
-    },
-    {
-      "subject": "Cyber Security"
-    },
-    {
-      "subject": "LLM Fine-tuning"
-    },
-    {
-      "subject": "Safety Alignment"
-    },
-    {
-      "subject": "Prompt Injection"
-    }
-  ],
-  "descriptions": [
-    {
-      "description": "Our research introduces CyberLLMInstruct, a dataset of 54,928 pseudo-malicious instruction-response pairs. We found that fine-tuning Large Language Models (LLMs) on this dataset dramatically improves cyber security task performance but severely compromises their safety resilience against attacks like prompt injection.",
-      "descriptionType": "Abstract"
-    }
-  ],
-  "conference": {
-    "conferenceName": "ACM Workshop on Artificial Intelligence and Security 2025",
-    "conferenceAcronym": "AISec 2025",
-    "conferenceYear": 2025
-  },
+  "researchField": "Computer Science",
+  "language": "en",
+  "publisher": null,
+  "publicationYear": null,
   "formats": [
-    "PDF"
+    "application/pdf"
   ]
 }

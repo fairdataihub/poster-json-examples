@@ -61,9 +61,23 @@
       "title": "A Dataset for Metaphor Detection in Early Medieval Hebrew Poetry"
     }
   ],
-  "publisher": {
-    "name": "Technion − Israel Institute of Technology"
-  },
+  "subjects": [
+    {
+      "subject": "metaphor detection"
+    },
+    {
+      "subject": "early medieval Hebrew poetry"
+    },
+    {
+      "subject": "natural language processing"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "This poster presents a new dataset of early medieval Hebrew poetry with expert annotations of metaphors. The dataset consists of 180 labeled texts, 7,000 sentences, and 45,000 words, with 15% of the words being metaphors. The inter-annotator agreement is 0.618, considered substantial. The results show that AlephBERT, a pre-trained language model, outperforms AlephBERT Adapted, and BEREL, pre-trained on medieval texts, shows the best results with an f1 score of 48.3 on the test set.",
+      "descriptionType": "Other"
+    }
+  ],
   "content": {
     "sections": [
       {
@@ -93,36 +107,11 @@
   },
   "imageCaptions": [],
   "tableCaptions": [],
-  "publicationYear": 2023,
-  "subjects": [
-    {
-      "subject": "metaphor detection"
-    },
-    {
-      "subject": "medieval Hebrew poetry"
-    },
-    {
-      "subject": "NLP"
-    },
-    {
-      "subject": "language models"
-    },
-    {
-      "subject": "digital humanities"
-    }
-  ],
-  "descriptions": [
-    {
-      "description": "The corpus of late antique and medieval Hebrew is vast and represents a crucial linguistic and cultural bridge between Biblical and modern Hebrew. Poetry is prominent in texts from these time periods and one of its characteristics is the use of metaphor. Distinguishing figurative and literal words or phrases is a major task for scholars in the Humanities, especially in the fields of literature, linguistics, and hermeneutics. We present a new, challenging dataset of early medieval Hebrew poetry with expert annotations of metaphors with baseline results.",
-      "descriptionType": "Abstract"
-    }
-  ],
-  "conference": {
-    "conferenceName": "DH 2023",
-    "conferenceYear": 2023,
-    "conferenceLocation": "Graz, Austria"
-  },
+  "researchField": "Humanities",
+  "language": "en",
+  "publisher": null,
+  "publicationYear": null,
   "formats": [
-    "PDF"
+    "application/pdf"
   ]
 }

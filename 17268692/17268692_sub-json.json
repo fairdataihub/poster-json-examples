@@ -3,21 +3,26 @@
   "creators": [
     {
       "name": "Patel, Bhavesh",
-      "nameType": "Personal",
+      "givenName": "Bhavesh",
+      "familyName": "Patel",
       "affiliation": [
-        {
-          "name": "FAIR Data Innovations Hub, California Medical Innovations Institute, San Diego, CA, USA"
-        }
-      ]
+        "FAIR Data Innovations Hub, California Medical Innovations Institute, San Diego, CA, USA"
+      ],
+      "nameType": "Personal"
     },
     {
       "name": "Garijo, Daniel",
-      "nameType": "Personal",
+      "givenName": "Daniel",
+      "familyName": "Garijo",
       "affiliation": [
         {
-          "name": "Universidad Politécnica de Madrid, Spain"
+          "name": "Universidad Politecnica de Madrid, Spain",
+          "affiliationIdentifier": "https://ror.org/03n6nwv02",
+          "affiliationIdentifierScheme": "ROR",
+          "schemeURI": "https://ror.org/"
         }
-      ]
+      ],
+      "nameType": "Personal"
     }
   ],
   "titles": [
@@ -25,9 +30,23 @@
       "title": "Presenting the Actionable Guidelines for FAIR Research Software Task Force"
     }
   ],
-  "publisher": {
-    "name": "California Medical Innovations Institute"
-  },
+  "subjects": [
+    {
+      "subject": "FAIR Research Software"
+    },
+    {
+      "subject": "Research Software"
+    },
+    {
+      "subject": "Guidelines"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "The Actionable FAIR4RS Task Force was established to create actionable and domain-agnostic guidelines for implementing the FAIR4RS principles through a comprehensive, community-driven methodology. The task force is run by a diverse international team of researchers and research software developers from various fields. The goal is to create guidelines that address the need for generalized, cross-disciplinary input and provide concrete implementation steps for developers to apply the FAIR4RS principles.",
+      "descriptionType": "Other"
+    }
+  ],
   "content": {
     "sections": [
       {
@@ -75,35 +94,11 @@
     }
   ],
   "tableCaptions": [],
-  "publicationYear": 2025,
-  "subjects": [
-    {
-      "subject": "FAIR principles"
-    },
-    {
-      "subject": "research software"
-    },
-    {
-      "subject": "FAIR4RS"
-    },
-    {
-      "subject": "software metadata"
-    },
-    {
-      "subject": "reproducibility"
-    }
-  ],
-  "descriptions": [
-    {
-      "description": "To address that, we established the Actionable Guidelines for the FAIR Research Software (Actionable FAIR4RS) Task Force in December 2024 under the Research Software Alliance (ReSA). The Task Force is run by a diverse international team of researchers and research software developers from various fields. Goal: Create actionable and domain-agnostic guidelines for implementing the FAIR4RS principles, through a comprehensive, community-driven methodology.",
-      "descriptionType": "Other"
-    }
-  ],
-  "conference": {
-    "conferenceName": "USRSE'25",
-    "conferenceYear": 2025
-  },
+  "researchField": "Life Sciences",
+  "language": "en",
+  "publisher": null,
+  "publicationYear": null,
   "formats": [
-    "PDF"
+    "application/pdf"
   ]
 }
