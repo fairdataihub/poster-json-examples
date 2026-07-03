@@ -134,7 +134,12 @@
       "schemeUri": "https://spdx.org/licenses/"
     }
   ],
-  "descriptions": [],
+  "descriptions": [
+    {
+      "description": "The poster discusses the importance of connecting grants to subsequent research activities and outputs. It highlights the benefits of using grant IDs, including automating the process of matching outputs to grants, making search and discovery easier, and aiding tracking the impact of funding shared infrastructures and facilities. The poster also introduces the Research Organizations Registry (ROR) and the Grant ID Schema.",
+      "descriptionType": "Other"
+    }
+  ],
   "fundingReferences": [
     {
       "funderName": "Crossref"

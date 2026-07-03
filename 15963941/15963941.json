@@ -225,7 +225,12 @@
       "schemeUri": "https://spdx.org/licenses/"
     }
   ],
-  "descriptions": [],
+  "descriptions": [
+    {
+      "description": "SARS-CoV-2, the virus responsible for COVID-19, uses a unique proofreading mechanism involving the nsp14 protein, which has 3'-5' exonuclease activity, assisted by the cofactor nsp10. A biochemical assay was developed to study their exonuclease activity, laying the groundwork for identifying future inhibitors of the nsp14-nsp10 complex. This system was optimized and validated, allowing the development of a sensitive, reproducible, and effective method to study the activity of this enzyme complex.",
+      "descriptionType": "Other"
+    }
+  ],
   "fundingReferences": [
     {
       "funderName": "European Commission",

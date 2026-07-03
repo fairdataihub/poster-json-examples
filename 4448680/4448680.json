@@ -136,7 +136,12 @@
       "schemeUri": "https://spdx.org/licenses/"
     }
   ],
-  "descriptions": [],
+  "descriptions": [
+    {
+      "description": "The poster presents mass-manufacturing and quality assurance solutions in the SOFC value chain for FCH JU projects qSOFC and INNO-SOFC. The targets include reducing cell manufacturing cost to 400 €/kW at a production volume of 10 MW/year and increasing production yield in all parts of the stack manufacturing value chain to above 95% by automation and quality assurance. The methods employed include automated machine vision inspection systems, optimization of cell manufacturing for high-speed manufacturing, and development and validation of relevant quality assurance procedures in the interconnect manufacturing process. The results achieved include higher and more homogeneous cell quality, higher yield, and lower scrap rate throughout production.",
+      "descriptionType": "Other"
+    }
+  ],
   "fundingReferences": [
     {
       "funderName": "Fuel Cells and Hydrogen Joint Undertaking (FCH JU)",

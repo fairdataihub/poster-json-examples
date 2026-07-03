@@ -125,7 +125,12 @@
       "schemeUri": "https://spdx.org/licenses/"
     }
   ],
-  "descriptions": [],
+  "descriptions": [
+    {
+      "description": "Electrophoretic studies of genetically determined biochemical polymorphism of proteins are used to study the relationship between the level of protein variability and the peculiarities of habitat conditions. Isoenzymes are indicators of gene expression and reveal the characteristic features of gene regulation. The study of isoenzyme variability allows the study of genome regulation and contributes to determining the genetic basis of adaptation. In the present study, a biochemical-genetic analysis was performed to determine the relationship between isoenzyme polymorphism and the zebra mussel Dressena polymorpha body's response to the harmful effects of the pesticides Cypermethrin and Chlopyrifos.",
+      "descriptionType": "Other"
+    }
+  ],
   "conference": {
     "conferenceName": "5th Balkan Scientific Conference on Biology",
     "conferenceYear": 2021
